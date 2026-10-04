@@ -1,0 +1,53 @@
+{
+  "dataset_name": "Indian Agricultural Crop Suitability Dataset",
+  "version": "v1.0",
+  "sample_count": 10091,
+  "features_count": 26,
+  "crops_count": 16,
+  "crops": [
+    "Chickpea",
+    "Cotton",
+    "Finger Millet",
+    "Groundnut",
+    "Maize",
+    "Moong",
+    "Mustard",
+    "Pearl Millet",
+    "Pigeonpea",
+    "Rice",
+    "Sesamum",
+    "Sorghum",
+    "Soybean",
+    "Sugarcane",
+    "Urad",
+    "Wheat"
+  ],
+  "temporal_range": {
+    "min_year": 1997,
+    "max_year": 2020
+  },
+  "spatial_coverage": {
+    "states_count": 30,
+    "min_latitude": 8.5959,
+    "max_latitude": 36.0512,
+    "min_longitude": 68.8239,
+    "max_longitude": 97.1108
+  },
+  "data_quality_summary": {
+    "missing_values_total": 0,
+    "exact_duplicates": 0,
+    "impossible_values_detected": 31
+  },
+  "baseline_performance": {
+    "model_version": "v1.0",
+    "test_samples": 2019,
+    "accuracy_top1": 0.1872,
+    "top3_accuracy": 0.418,
+    "top5_accuracy": 0.5889,
+    "macro_precision": 0.1593,
+    "macro_recall": 0.1779,
+    "macro_f1": 0.1632,
+    "weighted_f1": 0.1685,
+    "log_loss": 2.3914
+  }
+}

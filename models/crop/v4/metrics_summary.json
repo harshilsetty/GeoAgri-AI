@@ -1,0 +1,23 @@
+{
+  "model_version": "v4.0",
+  "model_type": "Crop Intelligence V4 (Spatiotemporal Ranking & Crop-Conditional Yield)",
+  "release_status": "PROMOTED",
+  "benchmark_metrics": {
+    "top_1_accuracy": 0.1905,
+    "top_3_accuracy": 0.4048,
+    "top_5_accuracy": 0.5934,
+    "ndcg_5": 0.3873,
+    "mrr": 0.3672,
+    "macro_f1": 0.1643,
+    "geographic_top5": 0.5928,
+    "temporal_top5": 0.5641,
+    "spatiotemporal_holdout_top5": 0.4082,
+    "yield_r2": 0.9538645971329492,
+    "yield_rmse_tha": 6.377,
+    "inference_latency_ms": 0.038
+  },
+  "promotion_decision": {
+    "verdict": "PROMOTED",
+    "justification": "V4 improves Top-5 ranking to 59.34% and establishes the first rigorously certified Spatiotemporal Holdout Top-5 of 40.82% across unseen geographic regions in future years."
+  }
+}

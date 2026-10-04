@@ -1,0 +1,16 @@
+GPU TRAINING VERIFICATION
+-------------------------
+GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+CUDA Available: YES
+CUDA Version: 13.0
+Driver: 581.86
+Framework: XGBoost 3.2.0 / Python 3.13.3
+GPU Memory: 6144 MiB
+
+Training Device: CUDA
+GPU Utilization: Active for Hist Gradient Boosting & Yield Regressor
+Peak VRAM: 285.0 MiB
+CPU Training Time (Benchmark): 0.2507 s
+GPU Training Time (Benchmark): 0.3352 s
+Speedup: 0.75x
+CPU Fallback: NO

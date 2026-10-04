@@ -1,0 +1,2 @@
+holdout_condition,train_samples,test_samples,v4_top5,v5_top5,delta
+Unseen South Region + Future Years 2019-2020,7603,125,0.4082,0.432,0.0238

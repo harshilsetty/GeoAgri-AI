@@ -1,0 +1,2 @@
+train_period,test_period,train_samples,test_samples,top1,top5
+<= 2017,2019-2020,9018,546,0.1905,0.5897

@@ -1,0 +1,13 @@
+{
+  "training_period": "1997-2015",
+  "training_samples": 7969,
+  "validation_period": "2016-2017",
+  "validation_samples": 1049,
+  "test_period": "2018-2020",
+  "test_samples": 1073,
+  "temporal_top_1": 0.1696,
+  "temporal_top_3": 0.4017,
+  "temporal_top_5": 0.5685,
+  "temporal_weighted_f1": 0.1313,
+  "temporal_mrr": 0.3542
+}

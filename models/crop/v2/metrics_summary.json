@@ -1,0 +1,22 @@
+{
+  "model_version": "v2.0",
+  "release_status": "PROMOTED",
+  "promotion_date": "2026-10-01",
+  "benchmark_metrics": {
+    "top_1_accuracy": 0.1852,
+    "top_3_accuracy": 0.4339,
+    "top_5_accuracy": 0.6107,
+    "weighted_f1": 0.147,
+    "macro_f1": 0.1415,
+    "mrr": 0.3767,
+    "ndcg_5": 0.4612,
+    "brier_score": 0.8676,
+    "ece": 0.0223,
+    "inference_latency_ms": 0.009,
+    "model_size_mb": 2.4
+  },
+  "generalization": {
+    "geographic_cross_state_top5": "52.54% \u00b1 7.94%",
+    "temporal_future_top5": 0.5685
+  }
+}

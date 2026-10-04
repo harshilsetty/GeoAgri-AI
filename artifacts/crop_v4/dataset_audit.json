@@ -1,0 +1,505 @@
+{
+  "audit_version": "v4.0",
+  "dataset_path": "data/agriculture/v1.0/processed/crop_suitability_dataset.csv",
+  "total_records": 10091,
+  "total_columns": 31,
+  "columns": [
+    "latitude",
+    "longitude",
+    "state",
+    "year",
+    "season",
+    "crop",
+    "soil_ph",
+    "nitrogen",
+    "phosphorus",
+    "potassium",
+    "organic_carbon",
+    "electrical_conductivity",
+    "clay",
+    "sand",
+    "silt",
+    "soil_texture_class",
+    "temperature_mean",
+    "temperature_min",
+    "temperature_max",
+    "humidity_mean",
+    "rainfall_annual",
+    "rainfall_season",
+    "rainfall_7d",
+    "rainfall_30d",
+    "rainfall_90d",
+    "soil_moisture",
+    "et0",
+    "elevation",
+    "slope",
+    "erosion_risk_score",
+    "yield"
+  ],
+  "missing_values": {
+    "total_missing": 0,
+    "columns_with_missing": []
+  },
+  "duplicates": {
+    "exact_duplicate_rows": 0,
+    "unique_coordinates": 10091,
+    "coordinate_repeat_ratio": 1.0
+  },
+  "target_variable": {
+    "name": "crop",
+    "classes_count": 16,
+    "class_distribution": {
+      "Rice": 1197,
+      "Maize": 975,
+      "Moong": 740,
+      "Urad": 733,
+      "Groundnut": 725,
+      "Sesamum": 685,
+      "Sugarcane": 605,
+      "Wheat": 545,
+      "Mustard": 528,
+      "Pearl Millet": 524,
+      "Sorghum": 513,
+      "Pigeonpea": 508,
+      "Finger Millet": 498,
+      "Chickpea": 490,
+      "Cotton": 476,
+      "Soybean": 349
+    },
+    "imbalance_ratio": 3.43
+  },
+  "yield_variable": {
+    "name": "yield",
+    "units": "tonnes/hectare",
+    "crop_specific_statistics": {
+      "Chickpea": {
+        "mean_yield_t_ha": 0.88,
+        "median_yield_t_ha": 0.82,
+        "std_yield_t_ha": 0.54,
+        "p90_yield_t_ha": 1.3,
+        "max_yield_t_ha": 9.38,
+        "count": 490
+      },
+      "Cotton": {
+        "mean_yield_t_ha": 1.8,
+        "median_yield_t_ha": 1.43,
+        "std_yield_t_ha": 4.46,
+        "p90_yield_t_ha": 3.1,
+        "max_yield_t_ha": 95.99,
+        "count": 476
+      },
+      "Finger Millet": {
+        "mean_yield_t_ha": 1.22,
+        "median_yield_t_ha": 1.04,
+        "std_yield_t_ha": 0.69,
+        "p90_yield_t_ha": 2.01,
+        "max_yield_t_ha": 4.34,
+        "count": 498
+      },
+      "Groundnut": {
+        "mean_yield_t_ha": 1.36,
+        "median_yield_t_ha": 1.2,
+        "std_yield_t_ha": 0.62,
+        "p90_yield_t_ha": 2.28,
+        "max_yield_t_ha": 3.67,
+        "count": 725
+      },
+      "Maize": {
+        "mean_yield_t_ha": 3.43,
+        "median_yield_t_ha": 1.96,
+        "std_yield_t_ha": 31.69,
+        "p90_yield_t_ha": 3.89,
+        "max_yield_t_ha": 989.87,
+        "count": 975
+      },
+      "Moong": {
+        "mean_yield_t_ha": 0.54,
+        "median_yield_t_ha": 0.52,
+        "std_yield_t_ha": 0.25,
+        "p90_yield_t_ha": 0.88,
+        "max_yield_t_ha": 1.77,
+        "count": 740
+      },
+      "Mustard": {
+        "mean_yield_t_ha": 0.79,
+        "median_yield_t_ha": 0.74,
+        "std_yield_t_ha": 0.58,
+        "p90_yield_t_ha": 1.28,
+        "max_yield_t_ha": 6.34,
+        "count": 528
+      },
+      "Pearl Millet": {
+        "mean_yield_t_ha": 2.43,
+        "median_yield_t_ha": 1.04,
+        "std_yield_t_ha": 6.6,
+        "p90_yield_t_ha": 2.54,
+        "max_yield_t_ha": 74.3,
+        "count": 524
+      },
+      "Pigeonpea": {
+        "mean_yield_t_ha": 0.97,
+        "median_yield_t_ha": 0.78,
+        "std_yield_t_ha": 3.01,
+        "p90_yield_t_ha": 1.28,
+        "max_yield_t_ha": 68.23,
+        "count": 508
+      },
+      "Rice": {
+        "mean_yield_t_ha": 2.22,
+        "median_yield_t_ha": 2.2,
+        "std_yield_t_ha": 0.8,
+        "p90_yield_t_ha": 3.2,
+        "max_yield_t_ha": 8.78,
+        "count": 1197
+      },
+      "Sesamum": {
+        "mean_yield_t_ha": 0.61,
+        "median_yield_t_ha": 0.44,
+        "std_yield_t_ha": 2.91,
+        "p90_yield_t_ha": 0.81,
+        "max_yield_t_ha": 69.37,
+        "count": 685
+      },
+      "Sorghum": {
+        "mean_yield_t_ha": 1.07,
+        "median_yield_t_ha": 0.98,
+        "std_yield_t_ha": 0.52,
+        "p90_yield_t_ha": 1.73,
+        "max_yield_t_ha": 3.58,
+        "count": 513
+      },
+      "Soybean": {
+        "mean_yield_t_ha": 1.09,
+        "median_yield_t_ha": 1.01,
+        "std_yield_t_ha": 0.4,
+        "p90_yield_t_ha": 1.6,
+        "max_yield_t_ha": 2.85,
+        "count": 349
+      },
+      "Sugarcane": {
+        "mean_yield_t_ha": 51.73,
+        "median_yield_t_ha": 53.16,
+        "std_yield_t_ha": 30.61,
+        "p90_yield_t_ha": 86.54,
+        "max_yield_t_ha": 165.0,
+        "count": 605
+      },
+      "Urad": {
+        "mean_yield_t_ha": 0.59,
+        "median_yield_t_ha": 0.57,
+        "std_yield_t_ha": 0.3,
+        "p90_yield_t_ha": 0.91,
+        "max_yield_t_ha": 4.19,
+        "count": 733
+      },
+      "Wheat": {
+        "mean_yield_t_ha": 2.01,
+        "median_yield_t_ha": 1.67,
+        "std_yield_t_ha": 1.08,
+        "p90_yield_t_ha": 3.99,
+        "max_yield_t_ha": 5.07,
+        "count": 545
+      }
+    }
+  },
+  "temporal_coverage": {
+    "min_year": 1997,
+    "max_year": 2020,
+    "years_count": 24,
+    "records_by_year": {
+      "1997": 251,
+      "1998": 349,
+      "1999": 355,
+      "2000": 391,
+      "2001": 392,
+      "2002": 408,
+      "2003": 401,
+      "2004": 408,
+      "2005": 422,
+      "2006": 415,
+      "2007": 429,
+      "2008": 438,
+      "2009": 447,
+      "2010": 451,
+      "2011": 463,
+      "2012": 462,
+      "2013": 496,
+      "2014": 490,
+      "2015": 501,
+      "2016": 514,
+      "2017": 535,
+      "2018": 527,
+      "2019": 529,
+      "2020": 17
+    },
+    "seasons_count": 4,
+    "records_by_season": {
+      "Kharif": 5311,
+      "Rabi": 3111,
+      "Summer": 926,
+      "Whole Year": 743
+    }
+  },
+  "geographic_coverage": {
+    "states_count": 30,
+    "records_by_state": {
+      "Karnataka": 673,
+      "Andhra Pradesh": 611,
+      "West Bengal": 576,
+      "Odisha": 523,
+      "Maharashtra": 501,
+      "Gujarat": 494,
+      "Uttar Pradesh": 435,
+      "Bihar": 429,
+      "Madhya Pradesh": 390,
+      "Chhattisgarh": 383,
+      "Tamil Nadu": 374,
+      "Uttarakhand": 368,
+      "Puducherry": 366,
+      "Nagaland": 357,
+      "Haryana": 318,
+      "Tripura": 317,
+      "Himachal Pradesh": 297,
+      "Punjab": 296,
+      "Assam": 290,
+      "Meghalaya": 259,
+      "Mizoram": 249,
+      "Jammu and Kashmir": 234,
+      "Kerala": 223,
+      "Manipur": 210,
+      "Telangana": 186,
+      "Jharkhand": 177,
+      "Delhi": 158,
+      "Sikkim": 141,
+      "Arunachal Pradesh": 132,
+      "Goa": 124
+    },
+    "regions_count": 6,
+    "records_by_region": {
+      "South": 2433,
+      "North": 2106,
+      "Northeast": 1955,
+      "East": 1705,
+      "West": 1119,
+      "Central": 773
+    },
+    "latitude_range": [
+      8.5959,
+      36.0512
+    ],
+    "longitude_range": [
+      68.8239,
+      97.1108
+    ]
+  },
+  "impossible_values_detected": {},
+  "column_statistics": {
+    "latitude": {
+      "min": 8.5959,
+      "max": 36.0512,
+      "mean": 22.6037,
+      "std": 5.4765,
+      "zeros": 0
+    },
+    "longitude": {
+      "min": 68.8239,
+      "max": 97.1108,
+      "mean": 81.8389,
+      "std": 6.7087,
+      "zeros": 0
+    },
+    "year": {
+      "min": 1997.0,
+      "max": 2020.0,
+      "mean": 2008.9717,
+      "std": 6.5254,
+      "zeros": 0
+    },
+    "soil_ph": {
+      "min": 4.55,
+      "max": 8.64,
+      "mean": 6.8662,
+      "std": 0.8251,
+      "zeros": 0
+    },
+    "nitrogen": {
+      "min": 73.0,
+      "max": 350.5,
+      "mean": 203.3558,
+      "std": 39.4449,
+      "zeros": 0
+    },
+    "phosphorus": {
+      "min": 5.0,
+      "max": 33.7,
+      "mean": 16.5094,
+      "std": 4.7927,
+      "zeros": 0
+    },
+    "potassium": {
+      "min": 71.4,
+      "max": 410.4,
+      "mean": 229.6179,
+      "std": 55.9331,
+      "zeros": 0
+    },
+    "organic_carbon": {
+      "min": 0.1,
+      "max": 1.71,
+      "mean": 0.6687,
+      "std": 0.3262,
+      "zeros": 0
+    },
+    "electrical_conductivity": {
+      "min": 0.05,
+      "max": 0.67,
+      "mean": 0.2381,
+      "std": 0.1035,
+      "zeros": 0
+    },
+    "clay": {
+      "min": 5.0,
+      "max": 60.9,
+      "mean": 27.3174,
+      "std": 11.8784,
+      "zeros": 0
+    },
+    "sand": {
+      "min": 5.0,
+      "max": 85.0,
+      "mean": 45.5439,
+      "std": 15.3127,
+      "zeros": 0
+    },
+    "silt": {
+      "min": 5.0,
+      "max": 56.1,
+      "mean": 27.1473,
+      "std": 8.7238,
+      "zeros": 0
+    },
+    "temperature_mean": {
+      "min": 12.3,
+      "max": 40.3,
+      "mean": 26.579,
+      "std": 4.8065,
+      "zeros": 0
+    },
+    "temperature_min": {
+      "min": 4.8,
+      "max": 32.3,
+      "mean": 19.7858,
+      "std": 5.092,
+      "zeros": 0
+    },
+    "temperature_max": {
+      "min": 19.3,
+      "max": 49.3,
+      "mean": 33.6467,
+      "std": 5.1425,
+      "zeros": 0
+    },
+    "humidity_mean": {
+      "min": 20.0,
+      "max": 95.0,
+      "mean": 62.2821,
+      "std": 13.3656,
+      "zeros": 0
+    },
+    "rainfall_annual": {
+      "min": 301.3,
+      "max": 6552.7,
+      "mean": 1409.1201,
+      "std": 785.8277,
+      "zeros": 0
+    },
+    "rainfall_season": {
+      "min": 15.1,
+      "max": 4956.9,
+      "mean": 631.864,
+      "std": 603.9445,
+      "zeros": 0
+    },
+    "rainfall_7d": {
+      "min": 0.0,
+      "max": 324.8,
+      "mean": 39.8415,
+      "std": 38.3615,
+      "zeros": 535
+    },
+    "rainfall_30d": {
+      "min": 0.0,
+      "max": 1258.2,
+      "mean": 158.0342,
+      "std": 151.8768,
+      "zeros": 238
+    },
+    "rainfall_90d": {
+      "min": 0.0,
+      "max": 4254.0,
+      "mean": 537.209,
+      "std": 515.022,
+      "zeros": 59
+    },
+    "soil_moisture": {
+      "min": 0.05,
+      "max": 0.449,
+      "mean": 0.2295,
+      "std": 0.0722,
+      "zeros": 0
+    },
+    "et0": {
+      "min": 2.5,
+      "max": 8.16,
+      "mean": 4.7299,
+      "std": 0.9383,
+      "zeros": 0
+    },
+    "elevation": {
+      "min": 10.0,
+      "max": 867.3,
+      "mean": 434.516,
+      "std": 116.0597,
+      "zeros": 0
+    },
+    "slope": {
+      "min": 5.0,
+      "max": 39.97,
+      "mean": 9.0672,
+      "std": 4.047,
+      "zeros": 0
+    },
+    "erosion_risk_score": {
+      "min": 0.0727,
+      "max": 0.682,
+      "mean": 0.1715,
+      "std": 0.0628,
+      "zeros": 0
+    },
+    "yield": {
+      "min": 0.004,
+      "max": 989.87,
+      "mean": 4.5221,
+      "std": 17.3312,
+      "zeros": 0
+    }
+  },
+  "leakage_assessment": {
+    "target_leakage": {
+      "status": "PASS - NO LEAKAGE IN CLASSIFICATION",
+      "findings": "Realized post-harvest 'yield' is NOT included in the 26 predictor features for crop classification. Yield is exclusively treated as the regression target for Phase 7 (conditional on crop identity)."
+    },
+    "post_harvest_features": {
+      "status": "PASS - CLEAN",
+      "findings": "No post-harvest production or total harvest mass features are present as predictors. Features are strictly pedo-climatic conditions knowable at sowing time."
+    },
+    "spatial_leakage": {
+      "status": "CAUTION IDENTIFIED",
+      "findings": "There are 10091 unique coordinate locations across 10091 observations (average 1.0 seasons/years per coordinates). In standard random K-fold splits, the exact same geographic coordinates can appear in both training and test sets. V4 addresses this explicitly via Leave-State-Out, Leave-Region-Out, and Spatiotemporal Holdout."
+    },
+    "temporal_leakage": {
+      "status": "CAUTION IDENTIFIED",
+      "findings": "Standard random splitting allows 2020 records into training while evaluating on 2018 records. V4 addresses this via forward temporal validation (Train: <= 2017, Val: 2018, Test: 2019-2020) and strict Unseen Region + Future Year spatiotemporal holdout."
+    }
+  }
+}

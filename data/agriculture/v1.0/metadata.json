@@ -1,0 +1,96 @@
+{
+  "dataset_name": "Indian Agro-Climatic Multi-Season Crop Suitability Dataset",
+  "dataset_version": "v1.0",
+  "creation_date": "2026-10-01",
+  "rows_total": 10091,
+  "columns_count": 31,
+  "crops_supported": [
+    "Chickpea",
+    "Cotton",
+    "Finger Millet",
+    "Groundnut",
+    "Maize",
+    "Moong",
+    "Mustard",
+    "Pearl Millet",
+    "Pigeonpea",
+    "Rice",
+    "Sesamum",
+    "Sorghum",
+    "Soybean",
+    "Sugarcane",
+    "Urad",
+    "Wheat"
+  ],
+  "crops_count": 16,
+  "seasons": [
+    "Kharif",
+    "Rabi",
+    "Summer",
+    "Whole Year"
+  ],
+  "sources": [
+    {
+      "name": "Directorate of Economics & Statistics (DES), Ministry of Agriculture & Farmers Welfare, GoI",
+      "url": "https://data.gov.in / https://upag.gov.in",
+      "description": "Area, Production and Yield (APY) agricultural statistics across Indian states & districts."
+    },
+    {
+      "name": "ICRISAT District-Level Database (DLD)",
+      "url": "http://data.icrisat.org/dld/",
+      "description": "Longitudinal crop production and biophysical environmental data across 311 districts."
+    },
+    {
+      "name": "ICAR-IISS & DAC&FW Soil Health Card Scheme",
+      "url": "https://soilhealth.dac.gov.in",
+      "description": "National soil fertility benchmarks for N, P, K, pH, Organic Carbon, and EC across agro-climatic zones."
+    },
+    {
+      "name": "Open-Meteo Climatology & Forecasts",
+      "url": "https://open-meteo.com/",
+      "description": "Meteorological parameters (temperature, precipitation series, soil moisture, ET0)."
+    },
+    {
+      "name": "Open-Elevation & Geo AI Erosion Pipeline",
+      "url": "https://api.open-elevation.com",
+      "description": "Ground elevation, slope, and XGBoost erosion risk context."
+    }
+  ],
+  "features": [
+    "latitude",
+    "longitude",
+    "state",
+    "year",
+    "season",
+    "crop",
+    "soil_ph",
+    "nitrogen",
+    "phosphorus",
+    "potassium",
+    "organic_carbon",
+    "electrical_conductivity",
+    "clay",
+    "sand",
+    "silt",
+    "soil_texture_class",
+    "temperature_mean",
+    "temperature_min",
+    "temperature_max",
+    "humidity_mean",
+    "rainfall_annual",
+    "rainfall_season",
+    "rainfall_7d",
+    "rainfall_30d",
+    "rainfall_90d",
+    "soil_moisture",
+    "et0",
+    "elevation",
+    "slope",
+    "erosion_risk_score",
+    "yield"
+  ],
+  "leakage_controls": {
+    "temporal": "Historical training records strictly use observation-year meteorological and agronomic features. Live forecast data is applied exclusively at inference time for current operational ranking.",
+    "spatial": "Supports both stratified random split and geographic agro-climatic zone grouped cross-validation."
+  }
+}

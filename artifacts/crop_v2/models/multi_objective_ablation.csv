@@ -1,0 +1,7 @@
+configuration,weights,top_1,top_3,top_5,mrr,ndcg_5
+Exp_A_Raw_ML_Only,"M=1.0, So=0.0, Se=0.0, Cl=0.0, Er=0.0",0.1852,0.4339,0.6107,0.3767,0.3996
+Exp_B_ML_Plus_Soil,"M=0.75, So=0.25, Se=0.0, Cl=0.0, Er=0.0",0.1852,0.4339,0.6107,0.3767,0.3996
+Exp_C_ML_Soil_Season,"M=0.6, So=0.2, Se=0.2, Cl=0.0, Er=0.0",0.1852,0.4368,0.6043,0.3751,0.3969
+Exp_D_ML_Soil_Season_Climate,"M=0.5, So=0.2, Se=0.15, Cl=0.15, Er=0.0",0.1852,0.4368,0.6043,0.3751,0.3969
+Exp_E_Full_V1_Weights,"M=0.45, So=0.2, Se=0.15, Cl=0.1, Er=0.1",0.1852,0.4368,0.6043,0.3751,0.3969
+Exp_F_High_Model_Confidence,"M=0.65, So=0.15, Se=0.1, Cl=0.05, Er=0.05",0.1852,0.4368,0.6043,0.3751,0.3969

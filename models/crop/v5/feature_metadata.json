@@ -1,0 +1,217 @@
+{
+  "features": [
+    "soil_ph",
+    "nitrogen",
+    "phosphorus",
+    "potassium",
+    "organic_carbon",
+    "electrical_conductivity",
+    "clay",
+    "sand",
+    "silt",
+    "temperature_mean",
+    "temperature_range",
+    "humidity_mean",
+    "rainfall_season",
+    "rainfall_30d",
+    "rainfall_90d",
+    "soil_moisture",
+    "et0",
+    "elevation",
+    "slope",
+    "erosion_risk_score",
+    "soil_fertility_index",
+    "water_stress_index",
+    "rainfall_deviation",
+    "soil_moisture_index",
+    "season_code",
+    "texture_code"
+  ],
+  "n_features": 26,
+  "target": "crop",
+  "classes": [
+    "Chickpea",
+    "Cotton",
+    "Finger Millet",
+    "Groundnut",
+    "Maize",
+    "Moong",
+    "Mustard",
+    "Pearl Millet",
+    "Pigeonpea",
+    "Rice",
+    "Sesamum",
+    "Sorghum",
+    "Soybean",
+    "Sugarcane",
+    "Urad",
+    "Wheat"
+  ],
+  "n_classes": 16,
+  "season_map": {
+    "kharif": 0,
+    "rabi": 1,
+    "summer": 2,
+    "whole year": 3
+  },
+  "texture_map": {
+    "clay": 0,
+    "clay loam": 1,
+    "loam": 2,
+    "sandy loam": 3,
+    "sand": 4,
+    "silt loam": 5,
+    "sandy clay loam": 6
+  },
+  "training_device": "CUDA (NVIDIA GeForce RTX 3050 Laptop GPU)",
+  "version": "v5.0",
+  "fusion_weights": {
+    "weight_ml": 0.85,
+    "weight_kb": 0.15,
+    "weight_yield": 0.0
+  },
+  "crop_p90_yield": {
+    "Chickpea": 1.295,
+    "Cotton": 3.104,
+    "Finger Millet": 2.01,
+    "Groundnut": 2.28,
+    "Maize": 3.894,
+    "Moong": 0.883,
+    "Mustard": 1.278,
+    "Pearl Millet": 2.538,
+    "Pigeonpea": 1.276,
+    "Rice": 3.196,
+    "Sesamum": 0.806,
+    "Sorghum": 1.725,
+    "Soybean": 1.597,
+    "Sugarcane": 86.537,
+    "Urad": 0.913,
+    "Wheat": 3.986
+  },
+  "crop_residual_std": {
+    "Chickpea": 0.421,
+    "Cotton": 0.969,
+    "Finger Millet": 0.625,
+    "Groundnut": 0.574,
+    "Maize": 1.97,
+    "Moong": 0.327,
+    "Mustard": 0.452,
+    "Pearl Millet": 2.563,
+    "Pigeonpea": 1.199,
+    "Rice": 0.66,
+    "Sesamum": 0.731,
+    "Sorghum": 0.523,
+    "Soybean": 0.411,
+    "Sugarcane": 11.992,
+    "Urad": 0.355,
+    "Wheat": 0.793
+  },
+  "crop_calibrated_intervals": {
+    "Chickpea": {
+      "std": 0.421,
+      "interval_80": 0.538,
+      "interval_90": 0.692,
+      "interval_95": 0.824
+    },
+    "Cotton": {
+      "std": 0.969,
+      "interval_80": 1.24,
+      "interval_90": 1.594,
+      "interval_95": 1.899
+    },
+    "Finger Millet": {
+      "std": 0.625,
+      "interval_80": 0.8,
+      "interval_90": 1.028,
+      "interval_95": 1.225
+    },
+    "Groundnut": {
+      "std": 0.574,
+      "interval_80": 0.734,
+      "interval_90": 0.944,
+      "interval_95": 1.124
+    },
+    "Maize": {
+      "std": 1.97,
+      "interval_80": 2.522,
+      "interval_90": 3.241,
+      "interval_95": 3.861
+    },
+    "Moong": {
+      "std": 0.327,
+      "interval_80": 0.419,
+      "interval_90": 0.538,
+      "interval_95": 0.641
+    },
+    "Mustard": {
+      "std": 0.452,
+      "interval_80": 0.579,
+      "interval_90": 0.744,
+      "interval_95": 0.886
+    },
+    "Pearl Millet": {
+      "std": 2.563,
+      "interval_80": 3.28,
+      "interval_90": 4.216,
+      "interval_95": 5.023
+    },
+    "Pigeonpea": {
+      "std": 1.199,
+      "interval_80": 1.534,
+      "interval_90": 1.972,
+      "interval_95": 2.35
+    },
+    "Rice": {
+      "std": 0.66,
+      "interval_80": 0.845,
+      "interval_90": 1.086,
+      "interval_95": 1.293
+    },
+    "Sesamum": {
+      "std": 0.731,
+      "interval_80": 0.936,
+      "interval_90": 1.203,
+      "interval_95": 1.433
+    },
+    "Sorghum": {
+      "std": 0.523,
+      "interval_80": 0.67,
+      "interval_90": 0.861,
+      "interval_95": 1.026
+    },
+    "Soybean": {
+      "std": 0.411,
+      "interval_80": 0.526,
+      "interval_90": 0.676,
+      "interval_95": 0.806
+    },
+    "Sugarcane": {
+      "std": 11.992,
+      "interval_80": 15.35,
+      "interval_90": 19.727,
+      "interval_95": 23.504
+    },
+    "Urad": {
+      "std": 0.355,
+      "interval_80": 0.454,
+      "interval_90": 0.584,
+      "interval_95": 0.695
+    },
+    "Wheat": {
+      "std": 0.793,
+      "interval_80": 1.015,
+      "interval_90": 1.305,
+      "interval_95": 1.554
+    }
+  },
+  "yield_r2": 0.954,
+  "yield_rmse": 6.377,
+  "ranking_objective": "rank:ndcg LambdaMART & Multi-Objective Decision Engine",
+  "supported_decision_profiles": [
+    "Suitability-focused",
+    "Yield-focused",
+    "Water-constrained",
+    "Risk-averse",
+    "Balanced"
+  ]
+}

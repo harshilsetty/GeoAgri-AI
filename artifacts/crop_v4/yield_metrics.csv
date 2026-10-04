@@ -1,0 +1,5 @@
+model,r2_score,rmse_tha,mae_tha,medae_tha,mape_percent
+Model_A_Global,0.3106,12.1035,3.9844,0.927,290.64
+Model_B_Crop_Specific,0.8054,6.4296,1.6502,0.2853,65.49
+Model_C_Shared_OneHot,0.8086,6.3769,1.7109,0.3645,76.73
+Model_D_Target_Encoded,0.8107,6.3423,1.7457,0.3619,77.17

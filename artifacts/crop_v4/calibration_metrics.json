@@ -1,0 +1,15 @@
+{
+  "uncalibrated": {
+    "brier_score": 0.8851,
+    "ece": 0.0386
+  },
+  "temperature_scaling_T1.35": {
+    "brier_score": 0.9311,
+    "ece": 0.1207
+  },
+  "platt_scaling": {
+    "brier_score": 0.8851,
+    "ece": 0.2902
+  },
+  "selected_calibration_method": "temperature_scaling"
+}

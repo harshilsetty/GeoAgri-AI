@@ -1,0 +1,130 @@
+{
+  "dataset_path": "data/agriculture/v1.0/processed/crop_suitability_dataset.csv",
+  "rows_total": 10091,
+  "columns_total": 31,
+  "columns": [
+    "latitude",
+    "longitude",
+    "state",
+    "year",
+    "season",
+    "crop",
+    "soil_ph",
+    "nitrogen",
+    "phosphorus",
+    "potassium",
+    "organic_carbon",
+    "electrical_conductivity",
+    "clay",
+    "sand",
+    "silt",
+    "soil_texture_class",
+    "temperature_mean",
+    "temperature_min",
+    "temperature_max",
+    "humidity_mean",
+    "rainfall_annual",
+    "rainfall_season",
+    "rainfall_7d",
+    "rainfall_30d",
+    "rainfall_90d",
+    "soil_moisture",
+    "et0",
+    "elevation",
+    "slope",
+    "erosion_risk_score",
+    "yield"
+  ],
+  "checks": {
+    "missing_values": {
+      "status": "PASS",
+      "missing_counts": {}
+    },
+    "duplicates": {
+      "status": "PASS",
+      "duplicate_rows": 0
+    },
+    "coordinates": {
+      "status": "PASS",
+      "invalid_latitude_count": 0,
+      "invalid_longitude_count": 0,
+      "latitude_range": [
+        8.5959,
+        36.0512
+      ],
+      "longitude_range": [
+        68.8239,
+        97.1108
+      ]
+    },
+    "soil_ranges": {
+      "status": "FAIL",
+      "ph_range": [
+        4.55,
+        8.64
+      ],
+      "nitrogen_range": [
+        73.0,
+        350.5
+      ],
+      "phosphorus_range": [
+        5.0,
+        33.7
+      ],
+      "potassium_range": [
+        71.4,
+        410.4
+      ],
+      "organic_carbon_range": [
+        0.1,
+        1.71
+      ],
+      "texture_sum_violations": 4
+    },
+    "weather_ranges": {
+      "status": "PASS",
+      "temperature_mean_range": [
+        12.3,
+        40.3
+      ],
+      "humidity_mean_range": [
+        20.0,
+        95.0
+      ],
+      "rainfall_annual_range": [
+        301.3,
+        6552.7
+      ],
+      "soil_moisture_range": [
+        0.05,
+        0.449
+      ]
+    },
+    "target_distribution": {
+      "unique_crops": 16,
+      "class_frequencies": {
+        "Rice": 1197,
+        "Maize": 975,
+        "Moong": 740,
+        "Urad": 733,
+        "Groundnut": 725,
+        "Sesamum": 685,
+        "Sugarcane": 605,
+        "Wheat": 545,
+        "Mustard": 528,
+        "Pearl Millet": 524,
+        "Sorghum": 513,
+        "Pigeonpea": 508,
+        "Finger Millet": 498,
+        "Chickpea": 490,
+        "Cotton": 476,
+        "Soybean": 349
+      },
+      "min_samples_per_class": 349,
+      "status": "PASS"
+    }
+  },
+  "status": "PASS",
+  "errors": [],
+  "warnings": []
+}

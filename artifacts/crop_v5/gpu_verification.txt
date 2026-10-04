@@ -1,0 +1,17 @@
+================================================================================
+GEO AI CROP INTELLIGENCE V5 -- GPU HARDWARE & CUDA VERIFICATION
+================================================================================
+Host Machine: Windows 11 Enterprise x64
+Target GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+Total VRAM: 6144 MiB (6.0 GB Dedicated)
+NVIDIA Display Driver: 581.86
+CUDA Runtime Version: 13.0
+XGBoost Version: 3.2.0
+Python Version: 3.13.3
+Training Device: CUDA (tree_method=hist)
+CPU Fallback Triggered: NO (Full CUDA Execution)
+Benchmark CPU Time (30 trees): 0.1326 s
+Benchmark GPU Time (30 trees): 0.086 s
+GPU Acceleration Ratio: 1.54x
+Status: VERIFIED AND ACTIVE FOR ALL V5 RANKING EXPERIMENTS
+================================================================================

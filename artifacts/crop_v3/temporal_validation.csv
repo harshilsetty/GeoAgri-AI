@@ -1,0 +1,2 @@
+train_period,test_period,v2_temporal_top5,v3_temporal_top5,delta
+1997-2015,2018-2020,0.5648,0.5638,-0.0009

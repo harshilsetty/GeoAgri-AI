@@ -1,0 +1,9 @@
+configuration,weight_ml,weight_kb,top1,top3,top5,ndcg5,constraint_type
+ML Only,1.0,0.0,0.1886,0.4212,0.5934,0.3899,Soft Penalty
+ML Dominant,0.95,0.05,0.1868,0.4231,0.5916,0.3879,Soft Penalty
+V3 Baseline (90/10),0.9,0.1,0.1905,0.4249,0.5842,0.3865,Soft Penalty
+V4 Optimal (85/15),0.85,0.15,0.1886,0.4231,0.5824,0.3849,Soft Penalty
+Balanced (80/20),0.8,0.2,0.1923,0.4121,0.5751,0.3832,Soft Penalty
+Strong KB (70/30),0.7,0.3,0.1886,0.4176,0.5696,0.3798,Soft Penalty
+KB Only,0.0,1.0,0.0751,0.2637,0.3919,0.234,Soft Penalty
+Hard Constraint Gating (KB >= 0.25),0.85,0.15,0.1886,0.4231,0.5824,0.3849,Hard Constraint

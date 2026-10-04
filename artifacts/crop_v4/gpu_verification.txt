@@ -1,0 +1,17 @@
+GPU TRAINING VERIFICATION -- CROP INTELLIGENCE V4
+--------------------------------------------------------------------------------
+GPU Model:              NVIDIA GeForce RTX 3050 Laptop GPU
+CUDA Available:         YES
+CUDA Version:           13.0
+Driver Version:         581.86
+Framework:              XGBoost 3.2.0 / Python 3.13.3
+Total VRAM:             6144 MiB (6 GB GDDR6)
+
+Training Device:        CUDA
+Peak VRAM Allocated:    285.0 MiB
+CPU Training Time:      0.2534 s
+GPU Training Time:      0.3448 s
+Speedup Factor:         0.73x
+CPU Fallback:           NO
+Verification Status:    CERTIFIED CUDA ACCELERATED
+--------------------------------------------------------------------------------

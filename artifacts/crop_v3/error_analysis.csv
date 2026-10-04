@@ -1,0 +1,1636 @@
+sample_index,true_crop,predicted_crop,true_crop_rank,in_top_3,in_top_5,state,season,soil_ph,rainfall_season,error_category
+0,Urad,Groundnut,9,False,False,Uttar Pradesh,Kharif,7.98,432.7,Severe pedological / environmental divergence
+2,Cotton,Urad,10,False,False,Madhya Pradesh,Kharif,6.55,723.4,Severe pedological / environmental divergence
+3,Sesamum,Pearl Millet,8,False,False,Punjab,Kharif,8.17,383.3,Severe pedological / environmental divergence
+4,Sesamum,Pigeonpea,2,True,True,Punjab,Kharif,5.83,302.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+6,Maize,Wheat,4,False,True,Maharashtra,Rabi,7.81,133.9,Moderate ecological ambiguity (Top-5 compatible)
+7,Rice,Mustard,5,False,True,Uttarakhand,Rabi,7.79,216.4,Moderate ecological ambiguity (Top-5 compatible)
+8,Rice,Groundnut,3,True,True,Chhattisgarh,Kharif,6.58,1024.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+9,Groundnut,Rice,8,False,False,Punjab,Kharif,5.45,235.8,Severe pedological / environmental divergence
+11,Urad,Chickpea,8,False,False,Karnataka,Rabi,7.79,191.8,Legume/Pulse physiological similarity
+12,Mustard,Wheat,2,True,True,Manipur,Rabi,7.58,270.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+13,Cotton,Maize,10,False,False,Andhra Pradesh,Kharif,6.46,803.6,Severe pedological / environmental divergence
+14,Moong,Chickpea,4,False,True,Telangana,Rabi,6.99,145.5,Moderate ecological ambiguity (Top-5 compatible)
+15,Sorghum,Pearl Millet,2,True,True,Maharashtra,Kharif,7.76,860.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+17,Urad,Cotton,7,False,False,Haryana,Kharif,7.57,393.7,Severe pedological / environmental divergence
+18,Groundnut,Rice,6,False,False,West Bengal,Summer,6.4,152.6,Severe pedological / environmental divergence
+19,Moong,Rice,12,False,False,Mizoram,Kharif,7.51,2000.2,Severe pedological / environmental divergence
+20,Groundnut,Finger Millet,9,False,False,Tamil Nadu,Kharif,6.4,788.6,Severe pedological / environmental divergence
+22,Maize,Rice,2,True,True,Sikkim,Kharif,7.43,1261.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+23,Urad,Rice,5,False,True,Arunachal Pradesh,Kharif,7.61,1813.6,Moderate ecological ambiguity (Top-5 compatible)
+24,Urad,Wheat,7,False,False,Tripura,Rabi,7.76,433.3,Severe pedological / environmental divergence
+25,Groundnut,Chickpea,12,False,False,Andhra Pradesh,Rabi,6.54,154.7,Severe pedological / environmental divergence
+26,Pigeonpea,Wheat,6,False,False,West Bengal,Rabi,6.17,162.6,Severe pedological / environmental divergence
+27,Sesamum,Rice,5,False,True,Uttarakhand,Kharif,5.33,945.5,Moderate ecological ambiguity (Top-5 compatible)
+28,Moong,Rice,3,True,True,West Bengal,Rabi,6.39,227.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+29,Groundnut,Pearl Millet,3,True,True,Gujarat,Summer,5.32,64.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+30,Mustard,Chickpea,2,True,True,Himachal Pradesh,Rabi,5.86,195.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+31,Finger Millet,Rice,11,False,False,Gujarat,Kharif,5.68,332.4,Severe pedological / environmental divergence
+32,Chickpea,Mustard,3,True,True,Chhattisgarh,Rabi,6.41,214.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+33,Mustard,Wheat,2,True,True,Nagaland,Rabi,6.92,206.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+34,Rice,Sesamum,5,False,True,Andhra Pradesh,Kharif,6.69,654.1,Moderate ecological ambiguity (Top-5 compatible)
+35,Groundnut,Maize,3,True,True,Gujarat,Kharif,5.49,829.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+36,Soybean,Rice,9,False,False,Mizoram,Kharif,6.9,1898.5,Severe pedological / environmental divergence
+37,Mustard,Rice,15,False,False,Karnataka,Kharif,6.68,948.7,Severe pedological / environmental divergence
+38,Moong,Wheat,8,False,False,Puducherry,Rabi,7.74,155.8,Severe pedological / environmental divergence
+39,Maize,Rice,3,True,True,Manipur,Kharif,6.39,878.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+40,Mustard,Wheat,2,True,True,Sikkim,Rabi,7.43,428.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+41,Cotton,Maize,11,False,False,Chhattisgarh,Kharif,6.7,969.3,Severe pedological / environmental divergence
+43,Rice,Finger Millet,2,True,True,West Bengal,Summer,6.81,209.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+44,Urad,Rice,7,False,False,Chhattisgarh,Kharif,6.05,1099.6,Severe pedological / environmental divergence
+45,Sorghum,Moong,5,False,True,Puducherry,Summer,7.77,101.9,Moderate ecological ambiguity (Top-5 compatible)
+46,Sorghum,Mustard,7,False,False,Andhra Pradesh,Rabi,6.38,102.0,Severe pedological / environmental divergence
+48,Cotton,Urad,9,False,False,Jammu and Kashmir,Kharif,5.84,605.9,Severe pedological / environmental divergence
+49,Chickpea,Mustard,5,False,True,Jharkhand,Rabi,6.22,145.1,Moderate ecological ambiguity (Top-5 compatible)
+50,Mustard,Maize,15,False,False,Karnataka,Kharif,7.25,1034.6,Severe pedological / environmental divergence
+51,Pigeonpea,Rice,8,False,False,Uttarakhand,Kharif,7.28,998.4,Severe pedological / environmental divergence
+52,Chickpea,Mustard,2,True,True,Manipur,Rabi,7.32,243.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+53,Groundnut,Wheat,5,False,True,Puducherry,Rabi,8.15,197.6,Moderate ecological ambiguity (Top-5 compatible)
+54,Urad,Pearl Millet,5,False,True,Madhya Pradesh,Kharif,8.04,520.8,Moderate ecological ambiguity (Top-5 compatible)
+55,Pigeonpea,Rice,6,False,False,Jharkhand,Kharif,7.36,819.9,Severe pedological / environmental divergence
+57,Moong,Rice,3,True,True,Uttar Pradesh,Summer,8.17,66.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+58,Maize,Rice,2,True,True,Assam,Kharif,7.53,1792.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+60,Sesamum,Rice,5,False,True,Mizoram,Kharif,6.53,1722.3,Moderate ecological ambiguity (Top-5 compatible)
+63,Maize,Mustard,4,False,True,Odisha,Rabi,6.59,215.7,Moderate ecological ambiguity (Top-5 compatible)
+64,Maize,Urad,8,False,False,Madhya Pradesh,Kharif,7.66,641.0,Severe pedological / environmental divergence
+65,Urad,Mustard,4,False,True,Chhattisgarh,Rabi,6.73,222.3,Moderate ecological ambiguity (Top-5 compatible)
+66,Soybean,Rice,5,False,True,Nagaland,Kharif,7.21,1347.0,Moderate ecological ambiguity (Top-5 compatible)
+67,Groundnut,Maize,3,True,True,Bihar,Kharif,7.21,949.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+68,Moong,Pearl Millet,8,False,False,Punjab,Kharif,8.24,431.1,Severe pedological / environmental divergence
+69,Maize,Moong,3,True,True,Karnataka,Summer,8.01,104.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+70,Urad,Groundnut,4,False,True,Andhra Pradesh,Kharif,6.19,720.0,Moderate ecological ambiguity (Top-5 compatible)
+72,Pearl Millet,Rice,8,False,False,Puducherry,Summer,7.63,109.5,Severe pedological / environmental divergence
+73,Wheat,Mustard,2,True,True,Telangana,Rabi,5.91,199.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+76,Moong,Rice,5,False,True,Karnataka,Summer,7.66,121.6,Moderate ecological ambiguity (Top-5 compatible)
+78,Maize,Rice,3,True,True,Bihar,Kharif,7.04,719.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+79,Finger Millet,Chickpea,12,False,False,Andhra Pradesh,Rabi,6.2,102.8,Severe pedological / environmental divergence
+80,Soybean,Pigeonpea,11,False,False,Andhra Pradesh,Kharif,6.7,663.1,Severe pedological / environmental divergence
+81,Mustard,Wheat,2,True,True,Uttar Pradesh,Rabi,7.38,113.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+83,Soybean,Pearl Millet,6,False,False,Uttar Pradesh,Kharif,8.03,799.7,Severe pedological / environmental divergence
+84,Sorghum,Groundnut,3,True,True,Gujarat,Kharif,5.11,658.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+86,Sesamum,Urad,4,False,True,Odisha,Kharif,5.95,866.5,Moderate ecological ambiguity (Top-5 compatible)
+88,Groundnut,Rice,7,False,False,Nagaland,Kharif,7.66,1176.3,Severe pedological / environmental divergence
+90,Moong,Rice,9,False,False,Tripura,Kharif,7.38,1760.0,Severe pedological / environmental divergence
+91,Urad,Rice,4,False,True,Bihar,Kharif,7.6,919.3,Moderate ecological ambiguity (Top-5 compatible)
+92,Pigeonpea,Sesamum,7,False,False,Haryana,Kharif,7.71,507.1,Severe pedological / environmental divergence
+93,Sesamum,Maize,9,False,False,Maharashtra,Rabi,8.37,151.1,Severe pedological / environmental divergence
+95,Sorghum,Rice,5,False,True,Delhi,Kharif,6.63,476.8,Moderate ecological ambiguity (Top-5 compatible)
+96,Wheat,Mustard,3,True,True,Himachal Pradesh,Rabi,7.25,199.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+97,Maize,Sorghum,4,False,True,Uttar Pradesh,Kharif,7.97,686.7,Moderate ecological ambiguity (Top-5 compatible)
+98,Pigeonpea,Urad,6,False,False,Telangana,Kharif,6.91,554.8,Severe pedological / environmental divergence
+99,Cotton,Maize,10,False,False,Jammu and Kashmir,Kharif,5.98,1314.4,Severe pedological / environmental divergence
+100,Sesamum,Urad,8,False,False,Andhra Pradesh,Kharif,6.39,635.8,Severe pedological / environmental divergence
+102,Chickpea,Mustard,4,False,True,Meghalaya,Rabi,7.46,362.8,Moderate ecological ambiguity (Top-5 compatible)
+104,Finger Millet,Urad,10,False,False,Himachal Pradesh,Kharif,6.13,747.0,Severe pedological / environmental divergence
+106,Cotton,Sesamum,10,False,False,Andhra Pradesh,Kharif,6.79,732.5,Severe pedological / environmental divergence
+107,Pigeonpea,Sorghum,11,False,False,Gujarat,Kharif,4.9,623.4,Severe pedological / environmental divergence
+108,Maize,Rice,4,False,True,Maharashtra,Kharif,7.8,903.5,Moderate ecological ambiguity (Top-5 compatible)
+109,Moong,Chickpea,6,False,False,Chhattisgarh,Rabi,7.08,206.1,Legume/Pulse physiological similarity
+110,Maize,Rice,3,True,True,Sikkim,Kharif,7.29,1978.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+111,Maize,Rice,2,True,True,Jharkhand,Kharif,7.38,916.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+112,Sesamum,Rice,7,False,False,Jammu and Kashmir,Kharif,6.28,842.8,Severe pedological / environmental divergence
+114,Pigeonpea,Rice,4,False,True,Bihar,Kharif,7.68,895.3,Moderate ecological ambiguity (Top-5 compatible)
+115,Cotton,Sesamum,3,True,True,Tripura,Kharif,5.96,1338.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+116,Rice,Maize,2,True,True,West Bengal,Kharif,6.45,1267.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+118,Wheat,Chickpea,2,True,True,Karnataka,Rabi,7.41,199.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+119,Sorghum,Rice,9,False,False,Uttar Pradesh,Kharif,7.68,557.9,Severe pedological / environmental divergence
+120,Moong,Rice,3,True,True,Uttarakhand,Summer,7.37,156.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+121,Maize,Rice,2,True,True,Uttar Pradesh,Summer,7.98,21.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+122,Groundnut,Rice,7,False,False,Manipur,Kharif,7.27,845.3,Severe pedological / environmental divergence
+123,Mustard,Chickpea,2,True,True,Tamil Nadu,Rabi,6.46,121.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+124,Chickpea,Wheat,2,True,True,Tamil Nadu,Rabi,7.06,138.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+126,Groundnut,Sesamum,10,False,False,Bihar,Kharif,7.73,624.5,Severe pedological / environmental divergence
+129,Maize,Mustard,5,False,True,Manipur,Rabi,7.28,219.1,Moderate ecological ambiguity (Top-5 compatible)
+130,Urad,Rice,5,False,True,Manipur,Kharif,7.41,768.7,Moderate ecological ambiguity (Top-5 compatible)
+131,Chickpea,Wheat,4,False,True,Meghalaya,Rabi,7.18,551.0,Moderate ecological ambiguity (Top-5 compatible)
+133,Urad,Rice,3,True,True,Jammu and Kashmir,Kharif,5.84,640.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+134,Urad,Rice,8,False,False,West Bengal,Kharif,6.58,1753.9,Severe pedological / environmental divergence
+135,Sesamum,Rice,10,False,False,Bihar,Kharif,6.95,780.5,Severe pedological / environmental divergence
+138,Urad,Rice,3,True,True,Haryana,Kharif,7.51,345.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+140,Cotton,Rice,8,False,False,Maharashtra,Kharif,5.28,1172.4,Severe pedological / environmental divergence
+141,Sorghum,Pigeonpea,3,True,True,Uttar Pradesh,Kharif,7.85,772.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+142,Soybean,Urad,12,False,False,Andhra Pradesh,Kharif,6.19,642.6,Severe pedological / environmental divergence
+143,Groundnut,Rice,8,False,False,Odisha,Rabi,6.53,227.5,Severe pedological / environmental divergence
+144,Maize,Rice,3,True,True,Jharkhand,Kharif,6.66,712.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+145,Sesamum,Rice,5,False,True,Gujarat,Summer,5.57,87.4,Moderate ecological ambiguity (Top-5 compatible)
+146,Sorghum,Groundnut,10,False,False,Gujarat,Kharif,5.69,287.1,Severe pedological / environmental divergence
+147,Pigeonpea,Sugarcane,5,False,True,Tamil Nadu,Whole Year,6.13,56.5,Moderate ecological ambiguity (Top-5 compatible)
+148,Sorghum,Rice,7,False,False,Nagaland,Kharif,7.68,938.8,Severe pedological / environmental divergence
+149,Finger Millet,Rice,12,False,False,Bihar,Kharif,7.42,798.0,Severe pedological / environmental divergence
+150,Pigeonpea,Sugarcane,4,False,True,Kerala,Whole Year,6.69,312.2,Moderate ecological ambiguity (Top-5 compatible)
+152,Pigeonpea,Finger Millet,6,False,False,Madhya Pradesh,Kharif,7.58,770.0,Severe pedological / environmental divergence
+153,Sesamum,Rice,5,False,True,West Bengal,Summer,7.66,141.3,Moderate ecological ambiguity (Top-5 compatible)
+154,Rice,Maize,2,True,True,Puducherry,Summer,8.05,141.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+155,Wheat,Chickpea,2,True,True,West Bengal,Rabi,6.71,221.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+156,Sesamum,Moong,6,False,False,Himachal Pradesh,Kharif,5.61,942.6,Severe pedological / environmental divergence
+157,Sesamum,Rice,5,False,True,Tripura,Kharif,7.58,1983.3,Moderate ecological ambiguity (Top-5 compatible)
+158,Chickpea,Wheat,3,True,True,Meghalaya,Rabi,6.73,611.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+159,Rice,Urad,2,True,True,Tamil Nadu,Kharif,6.37,892.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+160,Wheat,Chickpea,2,True,True,Karnataka,Rabi,7.84,167.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+161,Urad,Rice,2,True,True,Odisha,Kharif,6.36,1108.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+165,Urad,Mustard,7,False,False,Assam,Rabi,7.52,362.6,Severe pedological / environmental divergence
+167,Finger Millet,Pearl Millet,2,True,True,Puducherry,Kharif,7.79,830.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+168,Chickpea,Wheat,4,False,True,West Bengal,Rabi,7.8,298.7,Moderate ecological ambiguity (Top-5 compatible)
+169,Groundnut,Pearl Millet,2,True,True,Bihar,Kharif,7.62,473.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+170,Mustard,Wheat,2,True,True,Madhya Pradesh,Rabi,7.81,223.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+172,Pigeonpea,Rice,10,False,False,Chhattisgarh,Kharif,6.65,844.5,Severe pedological / environmental divergence
+173,Maize,Moong,2,True,True,Madhya Pradesh,Summer,6.46,78.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+174,Urad,Rice,5,False,True,Puducherry,Summer,6.55,150.3,Moderate ecological ambiguity (Top-5 compatible)
+175,Pearl Millet,Maize,5,False,True,Chhattisgarh,Kharif,6.59,952.5,Moderate ecological ambiguity (Top-5 compatible)
+177,Sugarcane,Mustard,14,False,False,Odisha,Rabi,7.02,238.4,Severe pedological / environmental divergence
+178,Groundnut,Moong,5,False,True,Odisha,Summer,6.1,161.5,Moderate ecological ambiguity (Top-5 compatible)
+179,Cotton,Maize,9,False,False,Himachal Pradesh,Kharif,5.76,839.4,Severe pedological / environmental divergence
+180,Pearl Millet,Groundnut,3,True,True,Karnataka,Kharif,8.03,752.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+181,Finger Millet,Rice,2,True,True,Goa,Kharif,4.94,2264.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+182,Maize,Rice,2,True,True,Bihar,Summer,7.35,104.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+184,Sesamum,Finger Millet,8,False,False,Chhattisgarh,Kharif,6.74,827.0,Severe pedological / environmental divergence
+185,Finger Millet,Maize,9,False,False,Jharkhand,Kharif,7.35,804.3,Severe pedological / environmental divergence
+186,Sesamum,Mustard,10,False,False,Odisha,Rabi,6.35,228.7,Severe pedological / environmental divergence
+188,Maize,Mustard,5,False,True,Karnataka,Rabi,6.38,121.5,Moderate ecological ambiguity (Top-5 compatible)
+190,Sesamum,Mustard,9,False,False,Puducherry,Rabi,6.46,206.6,Severe pedological / environmental divergence
+191,Finger Millet,Urad,12,False,False,Madhya Pradesh,Kharif,7.17,584.1,Severe pedological / environmental divergence
+192,Sesamum,Groundnut,7,False,False,Karnataka,Kharif,5.13,940.8,Severe pedological / environmental divergence
+193,Sorghum,Wheat,7,False,False,Maharashtra,Rabi,7.73,214.6,Severe pedological / environmental divergence
+194,Maize,Moong,2,True,True,Odisha,Summer,7.14,140.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+195,Sesamum,Rice,3,True,True,Odisha,Kharif,6.62,1017.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+196,Rice,Urad,5,False,True,Maharashtra,Kharif,7.85,910.5,Moderate ecological ambiguity (Top-5 compatible)
+197,Maize,Rice,3,True,True,Assam,Kharif,7.35,1695.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+198,Finger Millet,Rice,10,False,False,Puducherry,Kharif,7.52,1103.5,Severe pedological / environmental divergence
+199,Pigeonpea,Maize,6,False,False,Nagaland,Kharif,7.14,1152.6,Severe pedological / environmental divergence
+200,Mustard,Wheat,2,True,True,Manipur,Rabi,7.98,280.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+201,Urad,Rice,5,False,True,Uttar Pradesh,Summer,7.75,97.3,Moderate ecological ambiguity (Top-5 compatible)
+202,Sesamum,Maize,3,True,True,Nagaland,Kharif,7.37,1002.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+203,Sorghum,Wheat,8,False,False,Madhya Pradesh,Rabi,7.51,172.0,Severe pedological / environmental divergence
+204,Finger Millet,Maize,7,False,False,Puducherry,Summer,7.62,114.4,Severe pedological / environmental divergence
+205,Cotton,Sesamum,11,False,False,Haryana,Kharif,7.93,513.1,Severe pedological / environmental divergence
+206,Wheat,Mustard,2,True,True,Gujarat,Rabi,5.56,153.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+207,Mustard,Chickpea,2,True,True,Uttar Pradesh,Rabi,7.79,89.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+209,Pigeonpea,Rice,7,False,False,Assam,Kharif,7.61,1284.0,Severe pedological / environmental divergence
+210,Sesamum,Wheat,12,False,False,Maharashtra,Rabi,7.45,173.1,Severe pedological / environmental divergence
+211,Chickpea,Mustard,3,True,True,Tripura,Rabi,7.32,315.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+212,Chickpea,Mustard,4,False,True,Assam,Rabi,7.25,248.5,Moderate ecological ambiguity (Top-5 compatible)
+213,Groundnut,Rice,8,False,False,West Bengal,Kharif,6.21,1343.6,Severe pedological / environmental divergence
+215,Maize,Mustard,5,False,True,Mizoram,Rabi,7.3,270.9,Moderate ecological ambiguity (Top-5 compatible)
+216,Sorghum,Sugarcane,5,False,True,Chhattisgarh,Whole Year,6.04,114.8,Moderate ecological ambiguity (Top-5 compatible)
+217,Mustard,Chickpea,3,True,True,Tamil Nadu,Rabi,6.58,148.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+218,Soybean,Pigeonpea,11,False,False,Uttarakhand,Kharif,6.0,1069.8,Severe pedological / environmental divergence
+219,Maize,Wheat,5,False,True,Manipur,Rabi,7.45,306.9,Moderate ecological ambiguity (Top-5 compatible)
+220,Pigeonpea,Mustard,10,False,False,West Bengal,Rabi,7.67,255.4,Severe pedological / environmental divergence
+222,Urad,Mustard,5,False,True,Tripura,Rabi,6.57,355.9,Moderate ecological ambiguity (Top-5 compatible)
+223,Sugarcane,Groundnut,13,False,False,Uttar Pradesh,Kharif,6.82,760.3,Severe pedological / environmental divergence
+224,Wheat,Mustard,3,True,True,Jharkhand,Rabi,7.68,169.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+225,Maize,Rice,2,True,True,Himachal Pradesh,Kharif,6.07,806.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+226,Sesamum,Maize,4,False,True,Punjab,Kharif,7.33,185.1,Moderate ecological ambiguity (Top-5 compatible)
+227,Pearl Millet,Chickpea,13,False,False,Karnataka,Rabi,5.71,183.9,Severe pedological / environmental divergence
+228,Mustard,Rice,9,False,False,Maharashtra,Rabi,8.27,226.9,Severe pedological / environmental divergence
+230,Rice,Maize,2,True,True,Assam,Kharif,6.95,1426.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+231,Wheat,Mustard,3,True,True,Chhattisgarh,Rabi,6.59,251.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+232,Pearl Millet,Rice,10,False,False,Odisha,Kharif,6.36,1301.3,Severe pedological / environmental divergence
+233,Rice,Sesamum,5,False,True,Odisha,Summer,6.66,156.1,Moderate ecological ambiguity (Top-5 compatible)
+234,Pigeonpea,Maize,9,False,False,Himachal Pradesh,Kharif,6.0,1024.0,Severe pedological / environmental divergence
+235,Maize,Rice,2,True,True,Arunachal Pradesh,Kharif,7.0,1533.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+236,Moong,Chickpea,8,False,False,Karnataka,Rabi,7.87,153.2,Legume/Pulse physiological similarity
+237,Cotton,Rice,7,False,False,Nagaland,Kharif,7.15,1295.3,Severe pedological / environmental divergence
+238,Wheat,Mustard,3,True,True,Uttar Pradesh,Rabi,7.69,124.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+239,Finger Millet,Maize,12,False,False,West Bengal,Kharif,7.28,1224.0,Severe pedological / environmental divergence
+240,Rice,Chickpea,7,False,False,Andhra Pradesh,Rabi,7.1,168.8,Severe pedological / environmental divergence
+241,Soybean,Rice,9,False,False,Mizoram,Kharif,6.31,1509.0,Severe pedological / environmental divergence
+245,Rice,Chickpea,6,False,False,Odisha,Rabi,6.33,207.1,Severe pedological / environmental divergence
+246,Maize,Wheat,4,False,True,Maharashtra,Rabi,8.07,232.3,Moderate ecological ambiguity (Top-5 compatible)
+247,Sorghum,Pigeonpea,5,False,True,Madhya Pradesh,Kharif,7.49,808.7,Moderate ecological ambiguity (Top-5 compatible)
+248,Finger Millet,Rice,3,True,True,Gujarat,Kharif,5.57,845.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+249,Sesamum,Rice,2,True,True,Uttar Pradesh,Kharif,7.33,528.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+252,Moong,Rice,6,False,False,Himachal Pradesh,Kharif,7.36,1084.2,Severe pedological / environmental divergence
+253,Pearl Millet,Sugarcane,3,True,True,Tamil Nadu,Whole Year,6.4,97.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+254,Groundnut,Rice,10,False,False,Uttarakhand,Kharif,7.46,1147.7,Severe pedological / environmental divergence
+255,Moong,Finger Millet,5,False,True,Odisha,Kharif,6.16,1263.4,Moderate ecological ambiguity (Top-5 compatible)
+256,Sesamum,Pigeonpea,6,False,False,Odisha,Kharif,6.69,1150.2,Severe pedological / environmental divergence
+257,Mustard,Chickpea,3,True,True,Chhattisgarh,Rabi,7.05,201.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+258,Groundnut,Rice,4,False,True,West Bengal,Summer,6.67,167.9,Moderate ecological ambiguity (Top-5 compatible)
+259,Sesamum,Finger Millet,6,False,False,Puducherry,Kharif,6.41,957.0,Severe pedological / environmental divergence
+260,Groundnut,Rice,10,False,False,Bihar,Kharif,7.45,837.9,Severe pedological / environmental divergence
+261,Chickpea,Wheat,2,True,True,Chhattisgarh,Rabi,6.02,179.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+263,Groundnut,Rice,4,False,True,Karnataka,Summer,7.96,107.5,Moderate ecological ambiguity (Top-5 compatible)
+264,Mustard,Chickpea,3,True,True,Punjab,Rabi,5.74,41.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+265,Moong,Chickpea,8,False,False,Andhra Pradesh,Rabi,6.22,129.2,Legume/Pulse physiological similarity
+268,Groundnut,Finger Millet,5,False,True,Karnataka,Kharif,6.79,927.3,Moderate ecological ambiguity (Top-5 compatible)
+269,Chickpea,Sugarcane,14,False,False,Tamil Nadu,Whole Year,6.57,121.0,Severe pedological / environmental divergence
+270,Pearl Millet,Urad,9,False,False,Himachal Pradesh,Kharif,5.75,711.3,Severe pedological / environmental divergence
+271,Urad,Rice,6,False,False,Odisha,Kharif,6.62,1095.0,Severe pedological / environmental divergence
+272,Moong,Groundnut,8,False,False,Maharashtra,Kharif,7.74,1076.9,Severe pedological / environmental divergence
+273,Maize,Groundnut,3,True,True,Gujarat,Kharif,5.68,564.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+274,Pearl Millet,Cotton,2,True,True,Gujarat,Kharif,8.12,301.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+276,Groundnut,Rice,4,False,True,Chhattisgarh,Kharif,6.3,1139.7,Moderate ecological ambiguity (Top-5 compatible)
+277,Groundnut,Rice,9,False,False,Uttar Pradesh,Kharif,7.18,817.4,Severe pedological / environmental divergence
+278,Maize,Pearl Millet,11,False,False,Uttar Pradesh,Kharif,8.04,419.9,Severe pedological / environmental divergence
+279,Pigeonpea,Groundnut,9,False,False,Maharashtra,Kharif,8.06,1197.2,Severe pedological / environmental divergence
+280,Rice,Chickpea,9,False,False,Andhra Pradesh,Rabi,6.72,143.7,Severe pedological / environmental divergence
+282,Chickpea,Wheat,3,True,True,Uttar Pradesh,Rabi,8.12,143.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+283,Groundnut,Sugarcane,8,False,False,Tamil Nadu,Whole Year,6.84,85.2,Severe pedological / environmental divergence
+285,Urad,Pigeonpea,2,True,True,Himachal Pradesh,Kharif,6.01,727.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+287,Groundnut,Rice,6,False,False,Himachal Pradesh,Kharif,6.25,833.1,Severe pedological / environmental divergence
+288,Urad,Wheat,4,False,True,Puducherry,Rabi,7.3,216.4,Moderate ecological ambiguity (Top-5 compatible)
+289,Groundnut,Urad,4,False,True,Karnataka,Kharif,6.23,894.7,Moderate ecological ambiguity (Top-5 compatible)
+290,Pearl Millet,Sugarcane,2,True,True,Chhattisgarh,Whole Year,6.52,119.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+291,Pearl Millet,Sugarcane,4,False,True,Chhattisgarh,Whole Year,6.5,123.1,Moderate ecological ambiguity (Top-5 compatible)
+292,Soybean,Rice,12,False,False,Himachal Pradesh,Kharif,6.31,775.8,Severe pedological / environmental divergence
+293,Groundnut,Chickpea,11,False,False,Karnataka,Rabi,7.52,159.1,Severe pedological / environmental divergence
+294,Maize,Urad,3,True,True,Andhra Pradesh,Kharif,6.96,704.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+295,Moong,Rice,2,True,True,Puducherry,Summer,6.99,168.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+296,Wheat,Mustard,3,True,True,Himachal Pradesh,Rabi,5.85,177.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+297,Mustard,Wheat,6,False,False,Madhya Pradesh,Rabi,7.42,157.5,Severe pedological / environmental divergence
+299,Soybean,Finger Millet,12,False,False,Andhra Pradesh,Kharif,6.5,1054.8,Severe pedological / environmental divergence
+300,Sesamum,Rice,5,False,True,Puducherry,Summer,7.83,177.9,Moderate ecological ambiguity (Top-5 compatible)
+302,Sesamum,Pearl Millet,9,False,False,Uttar Pradesh,Kharif,7.63,333.8,Severe pedological / environmental divergence
+303,Pigeonpea,Rice,4,False,True,Manipur,Kharif,6.82,830.6,Moderate ecological ambiguity (Top-5 compatible)
+304,Pearl Millet,Groundnut,2,True,True,Delhi,Kharif,7.42,562.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+305,Soybean,Wheat,16,False,False,Tripura,Rabi,7.5,373.4,Severe pedological / environmental divergence
+307,Finger Millet,Sesamum,12,False,False,Bihar,Kharif,7.36,664.2,Severe pedological / environmental divergence
+309,Groundnut,Rice,2,True,True,Tripura,Kharif,6.26,2134.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+311,Groundnut,Rice,6,False,False,Goa,Rabi,4.86,549.6,Severe pedological / environmental divergence
+312,Finger Millet,Rice,12,False,False,Nagaland,Kharif,7.29,1173.1,Severe pedological / environmental divergence
+313,Soybean,Groundnut,11,False,False,Chhattisgarh,Kharif,6.49,1195.1,Severe pedological / environmental divergence
+314,Maize,Rice,4,False,True,Karnataka,Kharif,5.3,980.7,Moderate ecological ambiguity (Top-5 compatible)
+315,Rice,Groundnut,3,True,True,Chhattisgarh,Kharif,6.59,1103.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+316,Finger Millet,Rice,7,False,False,Karnataka,Summer,5.69,136.3,Severe pedological / environmental divergence
+317,Rice,Maize,4,False,True,Karnataka,Rabi,7.5,145.7,Moderate ecological ambiguity (Top-5 compatible)
+318,Sesamum,Urad,3,True,True,Tamil Nadu,Kharif,6.38,542.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+319,Mustard,Wheat,2,True,True,Meghalaya,Rabi,7.41,917.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+320,Maize,Rice,3,True,True,Bihar,Summer,7.86,129.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+321,Mustard,Wheat,4,False,True,Karnataka,Rabi,5.51,191.4,Moderate ecological ambiguity (Top-5 compatible)
+322,Maize,Wheat,4,False,True,Manipur,Rabi,7.7,210.6,Moderate ecological ambiguity (Top-5 compatible)
+323,Groundnut,Chickpea,12,False,False,Tamil Nadu,Rabi,6.26,144.1,Severe pedological / environmental divergence
+326,Pigeonpea,Chickpea,6,False,False,Andhra Pradesh,Rabi,5.64,180.1,Severe pedological / environmental divergence
+328,Sesamum,Rice,3,True,True,West Bengal,Kharif,6.26,1368.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+329,Rice,Maize,3,True,True,Chhattisgarh,Kharif,6.32,685.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+330,Wheat,Mustard,5,False,True,Chhattisgarh,Rabi,6.97,227.8,Moderate ecological ambiguity (Top-5 compatible)
+331,Moong,Rice,9,False,False,Odisha,Kharif,6.6,1236.9,Severe pedological / environmental divergence
+332,Wheat,Chickpea,3,True,True,Punjab,Rabi,5.92,69.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+333,Cotton,Urad,6,False,False,Madhya Pradesh,Kharif,6.23,631.9,Severe pedological / environmental divergence
+334,Soybean,Groundnut,11,False,False,Chhattisgarh,Kharif,6.62,840.9,Severe pedological / environmental divergence
+335,Pigeonpea,Mustard,9,False,False,Mizoram,Rabi,6.4,245.9,Severe pedological / environmental divergence
+336,Sesamum,Urad,5,False,True,Jammu and Kashmir,Kharif,5.59,502.5,Moderate ecological ambiguity (Top-5 compatible)
+337,Urad,Chickpea,5,False,True,Chhattisgarh,Rabi,6.65,183.2,Moderate ecological ambiguity (Top-5 compatible)
+339,Pigeonpea,Maize,12,False,False,Andhra Pradesh,Kharif,7.7,541.7,Severe pedological / environmental divergence
+340,Maize,Rice,2,True,True,Nagaland,Kharif,7.39,1108.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+341,Groundnut,Chickpea,3,True,True,Karnataka,Rabi,5.26,209.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+342,Urad,Maize,2,True,True,Andhra Pradesh,Kharif,6.39,645.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+343,Urad,Pearl Millet,3,True,True,Uttar Pradesh,Kharif,8.32,525.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+344,Soybean,Rice,6,False,False,Nagaland,Kharif,7.15,1271.8,Severe pedological / environmental divergence
+345,Pearl Millet,Rice,3,True,True,Maharashtra,Kharif,7.63,1033.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+346,Cotton,Rice,3,True,True,Meghalaya,Kharif,7.23,4688.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+347,Finger Millet,Sorghum,8,False,False,Andhra Pradesh,Kharif,6.39,522.8,Severe pedological / environmental divergence
+348,Urad,Mustard,7,False,False,Nagaland,Rabi,7.12,241.6,Severe pedological / environmental divergence
+349,Wheat,Mustard,9,False,False,West Bengal,Rabi,6.33,334.7,Severe pedological / environmental divergence
+350,Moong,Pearl Millet,8,False,False,Haryana,Kharif,7.28,291.0,Severe pedological / environmental divergence
+351,Moong,Rice,9,False,False,Manipur,Kharif,7.37,967.7,Severe pedological / environmental divergence
+352,Moong,Chickpea,6,False,False,Chhattisgarh,Rabi,6.23,163.2,Legume/Pulse physiological similarity
+355,Sorghum,Rice,9,False,False,Tamil Nadu,Kharif,6.51,726.2,Severe pedological / environmental divergence
+356,Cotton,Rice,4,False,True,Mizoram,Kharif,6.47,1888.2,Moderate ecological ambiguity (Top-5 compatible)
+357,Groundnut,Wheat,12,False,False,Telangana,Rabi,6.63,135.6,Severe pedological / environmental divergence
+358,Groundnut,Chickpea,11,False,False,Andhra Pradesh,Rabi,6.71,156.8,Severe pedological / environmental divergence
+360,Sesamum,Sugarcane,3,True,True,Madhya Pradesh,Whole Year,7.81,81.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+361,Cotton,Sorghum,7,False,False,Uttar Pradesh,Kharif,7.63,709.1,Severe pedological / environmental divergence
+362,Sorghum,Groundnut,9,False,False,Andhra Pradesh,Kharif,6.48,494.0,Severe pedological / environmental divergence
+363,Pigeonpea,Maize,4,False,True,Gujarat,Kharif,5.49,558.2,Moderate ecological ambiguity (Top-5 compatible)
+364,Soybean,Maize,8,False,False,Nagaland,Kharif,7.94,1485.9,Severe pedological / environmental divergence
+365,Pigeonpea,Rice,7,False,False,West Bengal,Kharif,6.72,1717.4,Severe pedological / environmental divergence
+366,Finger Millet,Urad,12,False,False,Karnataka,Rabi,6.2,198.8,Severe pedological / environmental divergence
+367,Groundnut,Sorghum,3,True,True,Gujarat,Kharif,5.5,291.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+368,Rice,Mustard,3,True,True,Odisha,Rabi,6.41,198.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+369,Chickpea,Mustard,3,True,True,Jammu and Kashmir,Rabi,5.97,179.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+370,Moong,Rice,6,False,False,Nagaland,Kharif,7.35,1449.8,Severe pedological / environmental divergence
+371,Pigeonpea,Rice,8,False,False,Meghalaya,Kharif,7.16,2363.2,Severe pedological / environmental divergence
+373,Sesamum,Wheat,11,False,False,Meghalaya,Rabi,7.65,373.8,Severe pedological / environmental divergence
+375,Mustard,Finger Millet,15,False,False,Karnataka,Kharif,4.96,926.7,Severe pedological / environmental divergence
+376,Soybean,Rice,3,True,True,Mizoram,Kharif,7.2,1950.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+377,Pearl Millet,Sorghum,4,False,True,Gujarat,Kharif,5.57,575.9,Moderate ecological ambiguity (Top-5 compatible)
+378,Wheat,Mustard,2,True,True,Jammu and Kashmir,Rabi,6.05,147.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+379,Maize,Rice,2,True,True,Odisha,Rabi,6.81,258.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+380,Rice,Urad,4,False,True,Delhi,Kharif,7.49,451.1,Moderate ecological ambiguity (Top-5 compatible)
+381,Finger Millet,Groundnut,2,True,True,Maharashtra,Kharif,8.0,892.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+383,Chickpea,Urad,2,True,True,West Bengal,Rabi,6.42,237.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+384,Groundnut,Soybean,8,False,False,Uttar Pradesh,Kharif,7.34,698.0,Severe pedological / environmental divergence
+385,Sesamum,Sorghum,5,False,True,Uttar Pradesh,Kharif,8.16,475.4,Moderate ecological ambiguity (Top-5 compatible)
+386,Sesamum,Maize,3,True,True,Assam,Kharif,7.09,1639.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+388,Finger Millet,Rice,2,True,True,Chhattisgarh,Kharif,6.68,848.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+389,Sorghum,Groundnut,10,False,False,Karnataka,Kharif,5.79,958.7,Severe pedological / environmental divergence
+390,Pigeonpea,Sugarcane,6,False,False,Madhya Pradesh,Whole Year,6.9,87.8,Severe pedological / environmental divergence
+391,Sesamum,Maize,4,False,True,Puducherry,Summer,6.11,113.3,Moderate ecological ambiguity (Top-5 compatible)
+393,Rice,Maize,2,True,True,Assam,Kharif,7.29,1472.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+394,Soybean,Maize,10,False,False,West Bengal,Kharif,6.26,1227.6,Severe pedological / environmental divergence
+395,Sorghum,Rice,11,False,False,Karnataka,Kharif,7.6,949.7,Severe pedological / environmental divergence
+396,Chickpea,Mustard,2,True,True,Haryana,Rabi,7.15,91.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+397,Sorghum,Mustard,10,False,False,Karnataka,Rabi,6.3,189.0,Severe pedological / environmental divergence
+398,Rice,Sesamum,2,True,True,Arunachal Pradesh,Kharif,7.57,1291.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+399,Mustard,Chickpea,2,True,True,Madhya Pradesh,Rabi,6.26,153.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+400,Sorghum,Rice,11,False,False,West Bengal,Kharif,6.56,1554.8,Severe pedological / environmental divergence
+401,Finger Millet,Rice,5,False,True,Odisha,Kharif,6.58,1081.8,Moderate ecological ambiguity (Top-5 compatible)
+402,Moong,Groundnut,10,False,False,Madhya Pradesh,Kharif,8.04,785.6,Severe pedological / environmental divergence
+403,Groundnut,Sugarcane,6,False,False,Kerala,Whole Year,5.81,251.0,Severe pedological / environmental divergence
+404,Finger Millet,Maize,7,False,False,Puducherry,Summer,7.64,105.9,Severe pedological / environmental divergence
+405,Groundnut,Rice,7,False,False,Bihar,Kharif,7.48,694.2,Severe pedological / environmental divergence
+406,Chickpea,Mustard,3,True,True,Punjab,Rabi,5.8,105.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+407,Chickpea,Mustard,2,True,True,Bihar,Rabi,7.13,167.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+409,Pigeonpea,Rice,3,True,True,Uttarakhand,Kharif,7.53,1267.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+411,Moong,Mustard,5,False,True,Mizoram,Rabi,6.48,311.8,Moderate ecological ambiguity (Top-5 compatible)
+412,Sesamum,Mustard,5,False,True,Andhra Pradesh,Rabi,6.64,124.6,Moderate ecological ambiguity (Top-5 compatible)
+413,Soybean,Sugarcane,16,False,False,Kerala,Whole Year,5.49,230.4,Severe pedological / environmental divergence
+414,Sesamum,Rice,6,False,False,Manipur,Kharif,7.26,1397.2,Severe pedological / environmental divergence
+415,Maize,Chickpea,4,False,True,Bihar,Rabi,7.2,177.4,Moderate ecological ambiguity (Top-5 compatible)
+416,Mustard,Maize,4,False,True,Maharashtra,Rabi,7.85,126.8,Moderate ecological ambiguity (Top-5 compatible)
+417,Cotton,Pearl Millet,10,False,False,Haryana,Kharif,7.73,224.2,Severe pedological / environmental divergence
+419,Pigeonpea,Rice,4,False,True,Nagaland,Kharif,7.72,1128.2,Moderate ecological ambiguity (Top-5 compatible)
+420,Urad,Rice,12,False,False,Karnataka,Kharif,5.19,833.4,Severe pedological / environmental divergence
+421,Pearl Millet,Rice,7,False,False,Bihar,Kharif,7.59,495.9,Severe pedological / environmental divergence
+422,Groundnut,Maize,8,False,False,Uttarakhand,Kharif,5.46,1063.5,Severe pedological / environmental divergence
+424,Sorghum,Rice,9,False,False,Karnataka,Summer,6.77,109.2,Severe pedological / environmental divergence
+425,Groundnut,Rice,10,False,False,West Bengal,Rabi,6.57,220.2,Severe pedological / environmental divergence
+426,Maize,Groundnut,9,False,False,Andhra Pradesh,Kharif,7.91,695.9,Severe pedological / environmental divergence
+427,Groundnut,Rice,8,False,False,Tripura,Kharif,7.41,2088.7,Severe pedological / environmental divergence
+428,Pearl Millet,Pigeonpea,5,False,True,Himachal Pradesh,Kharif,6.29,905.6,Moderate ecological ambiguity (Top-5 compatible)
+429,Sorghum,Rice,12,False,False,Bihar,Kharif,7.02,904.6,Severe pedological / environmental divergence
+430,Urad,Sorghum,9,False,False,Gujarat,Kharif,4.98,432.5,Severe pedological / environmental divergence
+431,Chickpea,Mustard,3,True,True,Nagaland,Rabi,7.16,265.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+433,Sorghum,Rice,11,False,False,West Bengal,Kharif,6.83,1630.5,Severe pedological / environmental divergence
+434,Maize,Cotton,4,False,True,Punjab,Kharif,5.68,276.9,Moderate ecological ambiguity (Top-5 compatible)
+436,Sesamum,Rice,6,False,False,Chhattisgarh,Kharif,6.28,1157.5,Severe pedological / environmental divergence
+437,Wheat,Mustard,3,True,True,Nagaland,Rabi,7.15,204.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+438,Sorghum,Rice,5,False,True,Haryana,Kharif,7.48,333.4,Moderate ecological ambiguity (Top-5 compatible)
+439,Sorghum,Groundnut,8,False,False,Kerala,Kharif,5.89,2262.8,Severe pedological / environmental divergence
+440,Moong,Rice,2,True,True,Odisha,Summer,6.4,148.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+441,Soybean,Chickpea,16,False,False,Andhra Pradesh,Rabi,6.57,141.3,Severe pedological / environmental divergence
+442,Soybean,Rice,12,False,False,Himachal Pradesh,Kharif,5.49,678.1,Severe pedological / environmental divergence
+445,Sesamum,Rice,2,True,True,Meghalaya,Kharif,7.3,2213.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+446,Rice,Maize,2,True,True,West Bengal,Kharif,7.38,1460.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+447,Urad,Maize,6,False,False,Sikkim,Kharif,7.45,1942.1,Severe pedological / environmental divergence
+448,Groundnut,Rice,6,False,False,Gujarat,Summer,5.84,85.2,Severe pedological / environmental divergence
+449,Sesamum,Cotton,7,False,False,Telangana,Kharif,6.5,582.6,Severe pedological / environmental divergence
+450,Maize,Rice,3,True,True,Bihar,Summer,7.13,130.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+451,Groundnut,Sorghum,3,True,True,Uttar Pradesh,Kharif,7.82,533.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+452,Pigeonpea,Rice,2,True,True,Nagaland,Kharif,7.32,1174.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+453,Sesamum,Rice,7,False,False,Odisha,Summer,6.35,132.9,Severe pedological / environmental divergence
+454,Sesamum,Rice,7,False,False,Karnataka,Kharif,7.68,987.8,Severe pedological / environmental divergence
+455,Sorghum,Groundnut,10,False,False,Chhattisgarh,Kharif,6.98,1275.7,Severe pedological / environmental divergence
+458,Chickpea,Mustard,3,True,True,Delhi,Rabi,8.09,96.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+459,Finger Millet,Wheat,10,False,False,Uttar Pradesh,Rabi,8.16,80.9,Severe pedological / environmental divergence
+460,Moong,Soybean,7,False,False,Andhra Pradesh,Kharif,6.52,744.9,Severe pedological / environmental divergence
+461,Rice,Maize,5,False,True,Puducherry,Kharif,7.94,1095.1,Moderate ecological ambiguity (Top-5 compatible)
+462,Finger Millet,Rice,4,False,True,Puducherry,Kharif,7.5,1147.7,Moderate ecological ambiguity (Top-5 compatible)
+463,Pearl Millet,Rice,6,False,False,Madhya Pradesh,Kharif,8.03,1117.2,Severe pedological / environmental divergence
+464,Urad,Sugarcane,10,False,False,Kerala,Whole Year,6.03,332.5,Severe pedological / environmental divergence
+465,Maize,Groundnut,3,True,True,Chhattisgarh,Kharif,6.42,1061.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+466,Cotton,Rice,8,False,False,Gujarat,Kharif,5.39,502.5,Severe pedological / environmental divergence
+468,Soybean,Groundnut,11,False,False,Maharashtra,Kharif,7.84,996.3,Severe pedological / environmental divergence
+471,Chickpea,Wheat,3,True,True,Himachal Pradesh,Rabi,6.03,177.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+472,Moong,Rice,2,True,True,Odisha,Summer,6.71,167.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+474,Maize,Rice,3,True,True,Odisha,Kharif,6.08,1030.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+475,Urad,Maize,5,False,True,Odisha,Kharif,6.3,986.6,Moderate ecological ambiguity (Top-5 compatible)
+476,Maize,Mustard,4,False,True,Andhra Pradesh,Rabi,6.68,112.7,Moderate ecological ambiguity (Top-5 compatible)
+477,Moong,Maize,7,False,False,Manipur,Kharif,7.16,1381.0,Severe pedological / environmental divergence
+478,Sesamum,Rice,7,False,False,Tamil Nadu,Kharif,6.34,1017.2,Severe pedological / environmental divergence
+480,Groundnut,Rice,2,True,True,Gujarat,Summer,5.34,59.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+481,Maize,Rice,12,False,False,West Bengal,Kharif,6.6,963.6,Severe pedological / environmental divergence
+482,Wheat,Mustard,2,True,True,Manipur,Rabi,7.07,208.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+483,Sorghum,Rice,7,False,False,Kerala,Kharif,5.56,1884.5,Severe pedological / environmental divergence
+484,Moong,Maize,7,False,False,Himachal Pradesh,Kharif,5.9,817.2,Severe pedological / environmental divergence
+485,Moong,Rice,2,True,True,Bihar,Summer,7.47,93.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+488,Cotton,Maize,3,True,True,Meghalaya,Kharif,7.29,2199.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+489,Maize,Finger Millet,5,False,True,Gujarat,Kharif,5.3,584.7,Moderate ecological ambiguity (Top-5 compatible)
+490,Pearl Millet,Rice,2,True,True,Bihar,Kharif,7.73,637.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+491,Sesamum,Urad,8,False,False,Jammu and Kashmir,Kharif,6.02,630.4,Severe pedological / environmental divergence
+492,Maize,Finger Millet,4,False,True,Tamil Nadu,Kharif,6.64,869.2,Moderate ecological ambiguity (Top-5 compatible)
+493,Sesamum,Rice,3,True,True,Odisha,Summer,6.42,162.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+494,Mustard,Chickpea,2,True,True,Andhra Pradesh,Rabi,6.3,83.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+495,Finger Millet,Rice,2,True,True,Odisha,Kharif,6.44,1201.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+496,Wheat,Mustard,2,True,True,Jammu and Kashmir,Rabi,5.69,262.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+497,Mustard,Wheat,2,True,True,Bihar,Rabi,7.23,194.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+498,Wheat,Mustard,3,True,True,Punjab,Rabi,5.63,103.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+499,Maize,Sesamum,4,False,True,Tamil Nadu,Kharif,6.51,999.2,Moderate ecological ambiguity (Top-5 compatible)
+500,Rice,Maize,3,True,True,Uttar Pradesh,Summer,7.87,65.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+501,Wheat,Mustard,2,True,True,Madhya Pradesh,Rabi,7.36,206.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+502,Urad,Maize,8,False,False,Uttarakhand,Kharif,8.32,1002.2,Severe pedological / environmental divergence
+503,Sorghum,Rice,3,True,True,Maharashtra,Kharif,8.13,1072.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+504,Cotton,Maize,6,False,False,Assam,Kharif,7.25,1723.9,Severe pedological / environmental divergence
+505,Rice,Wheat,7,False,False,Telangana,Rabi,6.55,120.2,Severe pedological / environmental divergence
+506,Wheat,Mustard,2,True,True,Andhra Pradesh,Rabi,7.75,128.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+507,Chickpea,Urad,2,True,True,Telangana,Rabi,6.68,200.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+508,Groundnut,Mustard,9,False,False,West Bengal,Rabi,6.58,296.7,Severe pedological / environmental divergence
+510,Groundnut,Pearl Millet,2,True,True,Maharashtra,Kharif,7.32,745.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+512,Pigeonpea,Rice,10,False,False,Madhya Pradesh,Kharif,6.31,638.4,Severe pedological / environmental divergence
+514,Finger Millet,Wheat,12,False,False,Tamil Nadu,Rabi,6.51,154.6,Severe pedological / environmental divergence
+515,Moong,Urad,11,False,False,Odisha,Kharif,6.17,1017.8,Legume/Pulse physiological similarity
+516,Soybean,Rice,3,True,True,Uttarakhand,Kharif,7.5,1190.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+517,Urad,Rice,6,False,False,Gujarat,Kharif,5.87,292.3,Severe pedological / environmental divergence
+518,Urad,Mustard,5,False,True,Tamil Nadu,Rabi,6.61,134.5,Moderate ecological ambiguity (Top-5 compatible)
+519,Pigeonpea,Chickpea,10,False,False,Andhra Pradesh,Rabi,6.23,192.7,Severe pedological / environmental divergence
+520,Pearl Millet,Rice,9,False,False,Andhra Pradesh,Kharif,6.58,666.7,Severe pedological / environmental divergence
+523,Pearl Millet,Sesamum,2,True,True,Andhra Pradesh,Kharif,6.23,689.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+524,Cotton,Rice,5,False,True,Nagaland,Kharif,7.12,1326.4,Moderate ecological ambiguity (Top-5 compatible)
+525,Moong,Rice,7,False,False,Karnataka,Kharif,5.25,659.5,Severe pedological / environmental divergence
+526,Sorghum,Rice,10,False,False,Bihar,Kharif,6.71,895.0,Severe pedological / environmental divergence
+527,Pigeonpea,Pearl Millet,10,False,False,Uttar Pradesh,Kharif,8.0,452.6,Severe pedological / environmental divergence
+528,Urad,Wheat,7,False,False,Telangana,Rabi,6.5,98.8,Severe pedological / environmental divergence
+529,Moong,Pigeonpea,6,False,False,Punjab,Kharif,5.61,417.7,Severe pedological / environmental divergence
+532,Maize,Rice,2,True,True,Bihar,Kharif,7.56,876.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+534,Rice,Maize,2,True,True,Sikkim,Kharif,7.41,1906.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+535,Rice,Wheat,4,False,True,Meghalaya,Rabi,7.36,661.7,Moderate ecological ambiguity (Top-5 compatible)
+536,Wheat,Chickpea,6,False,False,Uttar Pradesh,Rabi,7.85,167.1,Severe pedological / environmental divergence
+537,Groundnut,Rice,7,False,False,Uttarakhand,Kharif,6.04,981.2,Severe pedological / environmental divergence
+538,Mustard,Wheat,2,True,True,Tripura,Rabi,7.23,342.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+540,Finger Millet,Rice,8,False,False,Puducherry,Summer,7.66,168.3,Severe pedological / environmental divergence
+541,Urad,Rice,8,False,False,Bihar,Kharif,7.39,792.5,Severe pedological / environmental divergence
+542,Pearl Millet,Rice,4,False,True,Karnataka,Summer,5.34,107.7,Moderate ecological ambiguity (Top-5 compatible)
+543,Maize,Rice,4,False,True,Jharkhand,Kharif,6.08,800.6,Moderate ecological ambiguity (Top-5 compatible)
+544,Maize,Groundnut,2,True,True,Odisha,Kharif,6.48,1013.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+545,Moong,Rice,4,False,True,Jammu and Kashmir,Kharif,6.54,731.5,Moderate ecological ambiguity (Top-5 compatible)
+546,Groundnut,Rice,2,True,True,Goa,Rabi,5.29,425.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+547,Urad,Rice,4,False,True,Andhra Pradesh,Kharif,6.81,683.4,Moderate ecological ambiguity (Top-5 compatible)
+548,Maize,Rice,2,True,True,Manipur,Kharif,7.37,1635.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+549,Urad,Rice,6,False,False,Tripura,Kharif,7.32,1506.9,Severe pedological / environmental divergence
+552,Urad,Wheat,3,True,True,West Bengal,Rabi,6.18,188.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+553,Groundnut,Maize,4,False,True,Odisha,Summer,6.57,172.3,Moderate ecological ambiguity (Top-5 compatible)
+554,Moong,Sugarcane,5,False,True,Tamil Nadu,Whole Year,6.57,92.1,Moderate ecological ambiguity (Top-5 compatible)
+556,Finger Millet,Rice,4,False,True,Chhattisgarh,Kharif,6.59,1057.5,Moderate ecological ambiguity (Top-5 compatible)
+557,Pigeonpea,Maize,8,False,False,Nagaland,Kharif,7.9,983.2,Severe pedological / environmental divergence
+558,Groundnut,Rice,9,False,False,Bihar,Kharif,7.73,1116.7,Severe pedological / environmental divergence
+559,Rice,Mustard,3,True,True,Mizoram,Rabi,6.5,302.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+560,Urad,Sorghum,9,False,False,Gujarat,Kharif,5.73,311.3,Severe pedological / environmental divergence
+562,Chickpea,Wheat,3,True,True,Tripura,Rabi,7.57,354.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+563,Maize,Moong,2,True,True,Uttarakhand,Summer,5.46,157.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+565,Groundnut,Maize,6,False,False,Maharashtra,Summer,7.82,125.8,Severe pedological / environmental divergence
+566,Pearl Millet,Rice,7,False,False,Puducherry,Summer,6.56,172.9,Severe pedological / environmental divergence
+567,Rice,Moong,2,True,True,Bihar,Summer,7.18,81.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+568,Pigeonpea,Rice,12,False,False,Chhattisgarh,Kharif,6.27,1274.4,Severe pedological / environmental divergence
+569,Groundnut,Finger Millet,3,True,True,Puducherry,Kharif,6.65,1077.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+570,Pigeonpea,Sesamum,10,False,False,Maharashtra,Kharif,7.81,1105.4,Severe pedological / environmental divergence
+571,Rice,Urad,4,False,True,Himachal Pradesh,Kharif,5.45,684.9,Moderate ecological ambiguity (Top-5 compatible)
+572,Wheat,Mustard,2,True,True,West Bengal,Rabi,6.54,267.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+573,Sesamum,Wheat,12,False,False,Andhra Pradesh,Rabi,6.63,121.0,Severe pedological / environmental divergence
+574,Cotton,Rice,10,False,False,Haryana,Kharif,7.21,368.6,Severe pedological / environmental divergence
+576,Groundnut,Finger Millet,4,False,True,Tamil Nadu,Kharif,6.19,815.7,Moderate ecological ambiguity (Top-5 compatible)
+577,Groundnut,Rice,4,False,True,Mizoram,Kharif,6.59,1898.2,Moderate ecological ambiguity (Top-5 compatible)
+578,Cotton,Moong,9,False,False,Himachal Pradesh,Kharif,6.11,661.9,Severe pedological / environmental divergence
+579,Chickpea,Mustard,2,True,True,Punjab,Rabi,5.59,116.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+580,Soybean,Sorghum,11,False,False,Uttar Pradesh,Kharif,7.91,483.3,Severe pedological / environmental divergence
+581,Rice,Mustard,7,False,False,Andhra Pradesh,Rabi,6.6,173.7,Severe pedological / environmental divergence
+583,Sorghum,Maize,12,False,False,Bihar,Kharif,7.25,817.7,Severe pedological / environmental divergence
+584,Rice,Pearl Millet,5,False,True,Delhi,Kharif,7.55,250.2,Moderate ecological ambiguity (Top-5 compatible)
+585,Maize,Groundnut,4,False,True,Karnataka,Rabi,8.03,194.1,Moderate ecological ambiguity (Top-5 compatible)
+586,Urad,Wheat,7,False,False,Tripura,Rabi,7.31,341.5,Severe pedological / environmental divergence
+588,Pearl Millet,Pigeonpea,7,False,False,Maharashtra,Kharif,7.1,763.4,Severe pedological / environmental divergence
+591,Groundnut,Sorghum,8,False,False,Andhra Pradesh,Kharif,6.72,503.2,Severe pedological / environmental divergence
+592,Urad,Maize,10,False,False,Maharashtra,Kharif,7.86,1045.9,Severe pedological / environmental divergence
+593,Rice,Finger Millet,2,True,True,Chhattisgarh,Kharif,6.52,1161.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+594,Finger Millet,Rice,5,False,True,Jharkhand,Kharif,7.0,892.6,Moderate ecological ambiguity (Top-5 compatible)
+595,Maize,Pearl Millet,2,True,True,Delhi,Kharif,7.91,289.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+596,Soybean,Rice,9,False,False,Manipur,Kharif,7.52,1559.6,Severe pedological / environmental divergence
+597,Groundnut,Mustard,8,False,False,West Bengal,Rabi,7.59,329.9,Severe pedological / environmental divergence
+598,Moong,Soybean,11,False,False,Bihar,Kharif,6.86,806.6,Severe pedological / environmental divergence
+599,Groundnut,Mustard,2,True,True,Odisha,Rabi,6.51,207.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+600,Urad,Mustard,3,True,True,West Bengal,Rabi,6.59,268.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+601,Wheat,Chickpea,3,True,True,Haryana,Rabi,7.26,83.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+602,Urad,Mustard,5,False,True,Odisha,Rabi,6.66,244.8,Moderate ecological ambiguity (Top-5 compatible)
+603,Sesamum,Sugarcane,3,True,True,Madhya Pradesh,Whole Year,7.61,113.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+604,Sugarcane,Pearl Millet,13,False,False,Uttar Pradesh,Kharif,7.7,529.7,Severe pedological / environmental divergence
+605,Finger Millet,Sugarcane,8,False,False,Tamil Nadu,Whole Year,6.7,122.9,Severe pedological / environmental divergence
+607,Sorghum,Urad,5,False,True,Andhra Pradesh,Kharif,6.31,692.3,Moderate ecological ambiguity (Top-5 compatible)
+609,Rice,Sesamum,2,True,True,Uttarakhand,Kharif,5.97,1126.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+610,Cotton,Sorghum,3,True,True,Gujarat,Kharif,5.4,582.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+612,Sorghum,Mustard,4,False,True,Gujarat,Rabi,5.57,121.3,Moderate ecological ambiguity (Top-5 compatible)
+613,Rice,Wheat,5,False,True,Bihar,Rabi,7.62,160.4,Moderate ecological ambiguity (Top-5 compatible)
+614,Urad,Rice,4,False,True,Uttarakhand,Summer,7.75,130.0,Moderate ecological ambiguity (Top-5 compatible)
+615,Mustard,Chickpea,2,True,True,Uttarakhand,Rabi,8.06,210.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+616,Groundnut,Moong,5,False,True,Madhya Pradesh,Summer,7.92,81.7,Moderate ecological ambiguity (Top-5 compatible)
+617,Moong,Mustard,7,False,False,Assam,Rabi,7.39,325.6,Severe pedological / environmental divergence
+618,Soybean,Rice,3,True,True,Sikkim,Kharif,7.19,1913.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+619,Maize,Rice,2,True,True,Bihar,Kharif,7.47,774.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+620,Wheat,Mustard,2,True,True,Tripura,Rabi,7.4,347.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+622,Pearl Millet,Sesamum,7,False,False,Karnataka,Kharif,8.03,1060.3,Severe pedological / environmental divergence
+623,Moong,Sesamum,4,False,True,Telangana,Kharif,6.98,511.3,Moderate ecological ambiguity (Top-5 compatible)
+624,Pearl Millet,Finger Millet,9,False,False,Puducherry,Kharif,7.83,1119.4,Severe pedological / environmental divergence
+625,Maize,Rice,3,True,True,Tripura,Kharif,7.51,1505.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+626,Groundnut,Rice,8,False,False,West Bengal,Summer,5.96,165.8,Severe pedological / environmental divergence
+627,Sorghum,Wheat,8,False,False,Maharashtra,Rabi,7.78,168.3,Severe pedological / environmental divergence
+628,Groundnut,Chickpea,10,False,False,Andhra Pradesh,Rabi,6.51,154.8,Severe pedological / environmental divergence
+629,Wheat,Mustard,2,True,True,Madhya Pradesh,Rabi,7.68,166.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+630,Mustard,Wheat,2,True,True,Bihar,Rabi,7.49,185.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+631,Rice,Wheat,3,True,True,Meghalaya,Rabi,7.61,702.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+633,Wheat,Mustard,3,True,True,Madhya Pradesh,Rabi,6.76,154.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+635,Groundnut,Maize,5,False,True,Odisha,Kharif,6.45,1235.7,Moderate ecological ambiguity (Top-5 compatible)
+636,Sesamum,Moong,5,False,True,Uttarakhand,Kharif,5.88,1171.6,Moderate ecological ambiguity (Top-5 compatible)
+637,Rice,Mustard,7,False,False,Andhra Pradesh,Rabi,6.55,104.6,Severe pedological / environmental divergence
+638,Cotton,Sugarcane,9,False,False,Tamil Nadu,Whole Year,6.24,99.3,Severe pedological / environmental divergence
+639,Wheat,Mustard,2,True,True,Tripura,Rabi,7.49,310.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+640,Mustard,Chickpea,2,True,True,Tamil Nadu,Rabi,6.24,139.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+642,Sorghum,Rice,11,False,False,Nagaland,Kharif,7.3,1293.3,Severe pedological / environmental divergence
+643,Moong,Groundnut,7,False,False,Tamil Nadu,Kharif,5.15,673.1,Severe pedological / environmental divergence
+644,Urad,Maize,3,True,True,Himachal Pradesh,Kharif,5.71,734.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+645,Groundnut,Rice,5,False,True,Karnataka,Summer,7.85,126.9,Moderate ecological ambiguity (Top-5 compatible)
+646,Maize,Urad,4,False,True,Andhra Pradesh,Kharif,6.41,662.9,Moderate ecological ambiguity (Top-5 compatible)
+647,Maize,Soybean,4,False,True,West Bengal,Kharif,6.39,1207.7,Moderate ecological ambiguity (Top-5 compatible)
+648,Sesamum,Mustard,9,False,False,Andhra Pradesh,Rabi,6.52,202.8,Severe pedological / environmental divergence
+649,Moong,Rice,6,False,False,Odisha,Kharif,6.4,1083.4,Severe pedological / environmental divergence
+650,Groundnut,Rice,4,False,True,Gujarat,Summer,5.27,84.1,Moderate ecological ambiguity (Top-5 compatible)
+651,Sugarcane,Rice,14,False,False,Uttar Pradesh,Kharif,7.31,405.4,Severe pedological / environmental divergence
+652,Wheat,Mustard,4,False,True,West Bengal,Rabi,6.94,242.4,Moderate ecological ambiguity (Top-5 compatible)
+653,Moong,Rice,11,False,False,Odisha,Kharif,6.77,852.8,Severe pedological / environmental divergence
+654,Moong,Rice,6,False,False,Jammu and Kashmir,Kharif,5.72,746.2,Severe pedological / environmental divergence
+655,Cotton,Rice,3,True,True,Tripura,Kharif,6.47,2102.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+656,Sorghum,Finger Millet,6,False,False,Uttar Pradesh,Kharif,7.9,697.7,Severe pedological / environmental divergence
+657,Pigeonpea,Urad,9,False,False,Punjab,Kharif,5.83,436.5,Severe pedological / environmental divergence
+658,Sesamum,Groundnut,6,False,False,Gujarat,Kharif,5.51,531.1,Severe pedological / environmental divergence
+660,Maize,Wheat,4,False,True,Telangana,Rabi,6.27,95.1,Moderate ecological ambiguity (Top-5 compatible)
+661,Pigeonpea,Rice,3,True,True,Meghalaya,Kharif,7.27,4912.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+663,Urad,Chickpea,5,False,True,Andhra Pradesh,Rabi,6.65,156.8,Moderate ecological ambiguity (Top-5 compatible)
+664,Cotton,Rice,6,False,False,Kerala,Kharif,5.41,2193.0,Severe pedological / environmental divergence
+665,Pigeonpea,Rice,9,False,False,Andhra Pradesh,Kharif,6.61,831.2,Severe pedological / environmental divergence
+666,Sesamum,Rice,9,False,False,Puducherry,Summer,8.02,131.7,Severe pedological / environmental divergence
+667,Rice,Sorghum,2,True,True,Uttar Pradesh,Kharif,7.69,613.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+669,Groundnut,Rice,5,False,True,Odisha,Summer,6.27,131.2,Moderate ecological ambiguity (Top-5 compatible)
+671,Maize,Rice,3,True,True,Manipur,Kharif,7.6,1334.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+673,Moong,Rice,8,False,False,Uttarakhand,Kharif,6.8,1187.6,Severe pedological / environmental divergence
+674,Soybean,Pigeonpea,4,False,True,Manipur,Kharif,7.42,843.9,Moderate ecological ambiguity (Top-5 compatible)
+677,Rice,Chickpea,5,False,True,Tamil Nadu,Rabi,6.55,143.0,Moderate ecological ambiguity (Top-5 compatible)
+678,Pigeonpea,Moong,9,False,False,Punjab,Kharif,6.33,304.2,Severe pedological / environmental divergence
+679,Sorghum,Rice,12,False,False,Bihar,Kharif,7.48,1006.6,Severe pedological / environmental divergence
+681,Urad,Rice,5,False,True,Himachal Pradesh,Kharif,7.01,959.4,Moderate ecological ambiguity (Top-5 compatible)
+683,Sugarcane,Wheat,13,False,False,Odisha,Rabi,6.57,206.2,Severe pedological / environmental divergence
+685,Wheat,Mustard,2,True,True,Nagaland,Rabi,7.28,231.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+686,Maize,Rice,2,True,True,West Bengal,Kharif,6.17,1255.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+687,Urad,Moong,5,False,True,Gujarat,Summer,5.82,55.2,Moderate ecological ambiguity (Top-5 compatible)
+688,Pigeonpea,Rice,8,False,False,Mizoram,Kharif,6.68,1944.3,Severe pedological / environmental divergence
+689,Urad,Mustard,5,False,True,Assam,Rabi,7.43,350.5,Moderate ecological ambiguity (Top-5 compatible)
+690,Urad,Rice,7,False,False,Himachal Pradesh,Kharif,5.95,919.7,Severe pedological / environmental divergence
+691,Rice,Maize,2,True,True,Jammu and Kashmir,Kharif,6.2,790.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+692,Sesamum,Rice,4,False,True,Nagaland,Kharif,7.53,1220.9,Moderate ecological ambiguity (Top-5 compatible)
+693,Sorghum,Wheat,7,False,False,Karnataka,Rabi,7.92,187.4,Severe pedological / environmental divergence
+694,Urad,Groundnut,10,False,False,Uttar Pradesh,Kharif,8.06,653.7,Severe pedological / environmental divergence
+695,Maize,Rice,3,True,True,Arunachal Pradesh,Kharif,7.33,1652.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+696,Rice,Moong,3,True,True,Puducherry,Summer,6.32,141.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+700,Sugarcane,Pigeonpea,13,False,False,Nagaland,Kharif,7.46,1185.8,Severe pedological / environmental divergence
+701,Sesamum,Rice,5,False,True,Uttarakhand,Kharif,7.81,1039.5,Moderate ecological ambiguity (Top-5 compatible)
+703,Rice,Finger Millet,2,True,True,Karnataka,Kharif,5.19,802.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+704,Cotton,Sorghum,10,False,False,Madhya Pradesh,Kharif,7.5,721.9,Severe pedological / environmental divergence
+706,Groundnut,Moong,3,True,True,Odisha,Summer,6.78,148.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+707,Urad,Rice,7,False,False,Sikkim,Kharif,7.93,1216.9,Severe pedological / environmental divergence
+708,Maize,Rice,3,True,True,Sikkim,Kharif,7.33,1855.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+710,Rice,Cotton,2,True,True,Delhi,Kharif,6.36,417.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+712,Wheat,Mustard,2,True,True,West Bengal,Rabi,7.43,262.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+713,Urad,Maize,5,False,True,Tripura,Kharif,7.25,1732.0,Moderate ecological ambiguity (Top-5 compatible)
+715,Sorghum,Sesamum,11,False,False,Bihar,Kharif,7.65,648.5,Severe pedological / environmental divergence
+716,Cotton,Finger Millet,10,False,False,Gujarat,Kharif,5.48,817.4,Severe pedological / environmental divergence
+717,Maize,Wheat,4,False,True,Uttar Pradesh,Rabi,7.99,154.2,Moderate ecological ambiguity (Top-5 compatible)
+718,Maize,Finger Millet,3,True,True,Odisha,Kharif,6.59,1120.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+719,Pearl Millet,Sesamum,12,False,False,Bihar,Kharif,7.19,864.6,Severe pedological / environmental divergence
+720,Maize,Mustard,10,False,False,Mizoram,Rabi,6.47,337.2,Severe pedological / environmental divergence
+721,Mustard,Chickpea,2,True,True,Sikkim,Rabi,7.32,318.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+722,Maize,Rice,2,True,True,Bihar,Summer,7.58,123.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+724,Groundnut,Rice,5,False,True,Nagaland,Kharif,7.32,1042.4,Moderate ecological ambiguity (Top-5 compatible)
+726,Soybean,Urad,12,False,False,Maharashtra,Kharif,7.81,806.7,Severe pedological / environmental divergence
+727,Finger Millet,Chickpea,12,False,False,Andhra Pradesh,Rabi,6.2,140.9,Severe pedological / environmental divergence
+728,Sorghum,Pearl Millet,4,False,True,Delhi,Kharif,7.99,388.9,Moderate ecological ambiguity (Top-5 compatible)
+729,Rice,Maize,2,True,True,Assam,Kharif,7.31,1356.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+730,Sesamum,Pearl Millet,9,False,False,Uttar Pradesh,Kharif,7.79,564.5,Severe pedological / environmental divergence
+731,Chickpea,Mustard,6,False,False,Maharashtra,Rabi,8.17,233.9,Severe pedological / environmental divergence
+732,Maize,Rice,3,True,True,Uttarakhand,Summer,7.16,127.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+734,Cotton,Maize,3,True,True,Meghalaya,Kharif,7.41,3075.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+735,Cotton,Sugarcane,8,False,False,Chhattisgarh,Whole Year,6.41,135.6,Severe pedological / environmental divergence
+736,Urad,Rice,5,False,True,Uttarakhand,Kharif,5.22,1244.4,Moderate ecological ambiguity (Top-5 compatible)
+738,Urad,Rice,5,False,True,Odisha,Kharif,6.29,1173.7,Moderate ecological ambiguity (Top-5 compatible)
+740,Sorghum,Finger Millet,5,False,True,Maharashtra,Kharif,7.87,969.3,Moderate ecological ambiguity (Top-5 compatible)
+741,Sesamum,Mustard,12,False,False,Telangana,Rabi,6.8,110.9,Severe pedological / environmental divergence
+742,Pearl Millet,Urad,5,False,True,Jammu and Kashmir,Kharif,5.67,697.9,Moderate ecological ambiguity (Top-5 compatible)
+743,Finger Millet,Rice,5,False,True,Himachal Pradesh,Kharif,5.99,1029.4,Moderate ecological ambiguity (Top-5 compatible)
+744,Groundnut,Pigeonpea,12,False,False,Andhra Pradesh,Kharif,6.45,795.6,Severe pedological / environmental divergence
+745,Sorghum,Groundnut,5,False,True,Odisha,Kharif,6.56,801.6,Moderate ecological ambiguity (Top-5 compatible)
+746,Moong,Wheat,6,False,False,Chhattisgarh,Rabi,6.31,166.3,Severe pedological / environmental divergence
+747,Sorghum,Chickpea,9,False,False,Andhra Pradesh,Rabi,6.44,109.3,Severe pedological / environmental divergence
+748,Cotton,Sesamum,9,False,False,Punjab,Kharif,6.04,451.0,Severe pedological / environmental divergence
+749,Pigeonpea,Rice,8,False,False,Tripura,Kharif,6.74,1863.0,Severe pedological / environmental divergence
+750,Pigeonpea,Rice,8,False,False,Assam,Kharif,7.98,1743.5,Severe pedological / environmental divergence
+752,Sesamum,Pigeonpea,7,False,False,Uttarakhand,Kharif,5.76,996.6,Severe pedological / environmental divergence
+753,Rice,Mustard,3,True,True,Puducherry,Rabi,6.88,209.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+754,Moong,Rice,2,True,True,Punjab,Kharif,5.76,475.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+755,Pearl Millet,Maize,7,False,False,Haryana,Kharif,7.31,342.9,Severe pedological / environmental divergence
+756,Sesamum,Rice,6,False,False,Mizoram,Kharif,6.29,1549.1,Severe pedological / environmental divergence
+757,Urad,Mustard,7,False,False,Uttarakhand,Rabi,5.24,195.8,Severe pedological / environmental divergence
+758,Sorghum,Rice,8,False,False,Karnataka,Summer,7.75,102.1,Severe pedological / environmental divergence
+759,Pearl Millet,Rice,5,False,True,Gujarat,Summer,5.51,29.6,Moderate ecological ambiguity (Top-5 compatible)
+760,Sugarcane,Finger Millet,13,False,False,Puducherry,Kharif,7.91,1069.0,Severe pedological / environmental divergence
+761,Wheat,Moong,9,False,False,Odisha,Summer,6.37,154.3,Severe pedological / environmental divergence
+762,Urad,Mustard,7,False,False,Mizoram,Rabi,6.85,364.4,Severe pedological / environmental divergence
+763,Sorghum,Rice,5,False,True,Haryana,Kharif,7.37,398.9,Moderate ecological ambiguity (Top-5 compatible)
+765,Urad,Rice,4,False,True,Sikkim,Kharif,7.73,1761.1,Moderate ecological ambiguity (Top-5 compatible)
+766,Finger Millet,Mustard,13,False,False,Tamil Nadu,Rabi,6.89,118.3,Severe pedological / environmental divergence
+767,Rice,Maize,2,True,True,Tamil Nadu,Kharif,6.34,560.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+768,Rice,Wheat,4,False,True,Tripura,Rabi,7.09,371.5,Moderate ecological ambiguity (Top-5 compatible)
+769,Urad,Mustard,6,False,False,Assam,Rabi,6.92,405.8,Severe pedological / environmental divergence
+770,Finger Millet,Rice,8,False,False,Karnataka,Summer,4.95,125.1,Severe pedological / environmental divergence
+771,Pigeonpea,Rice,6,False,False,Manipur,Kharif,7.21,766.1,Severe pedological / environmental divergence
+772,Rice,Moong,2,True,True,West Bengal,Summer,6.62,146.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+773,Urad,Chickpea,5,False,True,Andhra Pradesh,Rabi,6.24,168.9,Moderate ecological ambiguity (Top-5 compatible)
+775,Rice,Wheat,3,True,True,Assam,Rabi,7.26,246.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+776,Cotton,Rice,12,False,False,Bihar,Kharif,7.44,1015.4,Severe pedological / environmental divergence
+777,Finger Millet,Chickpea,13,False,False,Andhra Pradesh,Rabi,6.49,167.6,Severe pedological / environmental divergence
+779,Sesamum,Maize,7,False,False,Andhra Pradesh,Kharif,6.83,761.7,Severe pedological / environmental divergence
+780,Groundnut,Wheat,9,False,False,Karnataka,Rabi,7.97,183.5,Severe pedological / environmental divergence
+781,Sorghum,Rice,12,False,False,Jharkhand,Kharif,6.11,884.6,Severe pedological / environmental divergence
+782,Urad,Rice,2,True,True,Odisha,Kharif,6.37,1293.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+783,Sesamum,Groundnut,7,False,False,Himachal Pradesh,Kharif,6.0,778.6,Severe pedological / environmental divergence
+784,Pigeonpea,Rice,5,False,True,Haryana,Kharif,7.21,420.9,Moderate ecological ambiguity (Top-5 compatible)
+785,Groundnut,Rice,7,False,False,Uttarakhand,Kharif,6.12,1129.9,Severe pedological / environmental divergence
+787,Wheat,Moong,5,False,True,Karnataka,Rabi,7.67,213.7,Moderate ecological ambiguity (Top-5 compatible)
+788,Pearl Millet,Maize,11,False,False,Karnataka,Kharif,7.23,970.2,Severe pedological / environmental divergence
+789,Rice,Finger Millet,2,True,True,Goa,Kharif,5.25,2890.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+790,Soybean,Pearl Millet,10,False,False,Karnataka,Kharif,7.76,1018.4,Severe pedological / environmental divergence
+791,Moong,Sugarcane,7,False,False,Tripura,Whole Year,6.6,232.7,Severe pedological / environmental divergence
+793,Pearl Millet,Maize,8,False,False,Bihar,Kharif,6.14,1007.5,Severe pedological / environmental divergence
+794,Pearl Millet,Urad,8,False,False,Andhra Pradesh,Kharif,6.41,720.4,Severe pedological / environmental divergence
+796,Chickpea,Wheat,2,True,True,Andhra Pradesh,Rabi,6.3,137.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+797,Cotton,Soybean,4,False,True,Tamil Nadu,Kharif,6.45,663.9,Moderate ecological ambiguity (Top-5 compatible)
+798,Sesamum,Rice,3,True,True,Assam,Kharif,6.97,1882.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+799,Chickpea,Mustard,2,True,True,Delhi,Rabi,6.66,93.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+800,Pearl Millet,Sugarcane,6,False,False,Chhattisgarh,Whole Year,6.78,110.3,Severe pedological / environmental divergence
+802,Cotton,Sesamum,6,False,False,Nagaland,Kharif,7.15,1274.4,Severe pedological / environmental divergence
+803,Sugarcane,Mustard,14,False,False,Odisha,Rabi,6.17,201.2,Severe pedological / environmental divergence
+804,Pearl Millet,Maize,2,True,True,Haryana,Kharif,8.38,305.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+805,Sesamum,Rice,3,True,True,Tripura,Kharif,7.63,1522.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+807,Chickpea,Mustard,4,False,True,Tripura,Rabi,6.91,318.6,Moderate ecological ambiguity (Top-5 compatible)
+808,Urad,Rice,4,False,True,West Bengal,Rabi,6.46,261.6,Moderate ecological ambiguity (Top-5 compatible)
+809,Moong,Maize,3,True,True,Chhattisgarh,Kharif,6.65,1006.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+810,Moong,Maize,3,True,True,Telangana,Kharif,6.53,655.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+811,Sesamum,Chickpea,13,False,False,Andhra Pradesh,Rabi,6.06,129.4,Severe pedological / environmental divergence
+812,Rice,Cotton,2,True,True,Tripura,Kharif,7.13,1419.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+813,Mustard,Wheat,3,True,True,Bihar,Rabi,7.28,152.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+814,Groundnut,Rice,10,False,False,Jammu and Kashmir,Kharif,5.84,807.0,Severe pedological / environmental divergence
+815,Rice,Maize,2,True,True,Manipur,Kharif,7.33,1452.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+817,Maize,Rice,2,True,True,Mizoram,Kharif,7.29,1914.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+818,Pearl Millet,Rice,4,False,True,Maharashtra,Kharif,7.37,1044.4,Moderate ecological ambiguity (Top-5 compatible)
+819,Maize,Rice,2,True,True,Tripura,Kharif,7.89,1630.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+820,Wheat,Mustard,2,True,True,Sikkim,Rabi,7.32,402.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+822,Groundnut,Rice,5,False,True,Puducherry,Summer,8.05,129.7,Moderate ecological ambiguity (Top-5 compatible)
+823,Moong,Rice,6,False,False,Madhya Pradesh,Kharif,7.84,1094.5,Severe pedological / environmental divergence
+824,Sesamum,Sorghum,9,False,False,Madhya Pradesh,Kharif,8.01,893.6,Severe pedological / environmental divergence
+827,Sugarcane,Pearl Millet,13,False,False,Jammu and Kashmir,Kharif,5.64,538.6,Severe pedological / environmental divergence
+828,Moong,Rice,6,False,False,Haryana,Kharif,7.24,330.4,Severe pedological / environmental divergence
+829,Groundnut,Rice,8,False,False,Odisha,Kharif,6.19,1084.0,Severe pedological / environmental divergence
+830,Rice,Sorghum,3,True,True,Puducherry,Kharif,7.45,1097.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+833,Mustard,Wheat,2,True,True,Meghalaya,Rabi,7.32,704.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+834,Maize,Rice,2,True,True,Tripura,Kharif,7.06,1485.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+835,Moong,Rice,6,False,False,Karnataka,Kharif,6.64,986.2,Severe pedological / environmental divergence
+836,Finger Millet,Rice,12,False,False,Bihar,Kharif,7.55,775.2,Severe pedological / environmental divergence
+837,Sesamum,Rice,4,False,True,Tripura,Kharif,7.38,1709.9,Moderate ecological ambiguity (Top-5 compatible)
+841,Moong,Mustard,7,False,False,Tripura,Rabi,7.64,358.8,Severe pedological / environmental divergence
+842,Urad,Rice,4,False,True,Uttar Pradesh,Summer,7.79,75.8,Moderate ecological ambiguity (Top-5 compatible)
+843,Wheat,Mustard,2,True,True,Bihar,Rabi,7.2,193.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+844,Sorghum,Rice,6,False,False,Puducherry,Summer,7.81,148.3,Severe pedological / environmental divergence
+845,Rice,Finger Millet,2,True,True,Goa,Kharif,5.46,2524.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+846,Sesamum,Pearl Millet,9,False,False,Karnataka,Kharif,7.9,829.8,Severe pedological / environmental divergence
+847,Pigeonpea,Rice,2,True,True,Manipur,Kharif,7.64,863.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+849,Moong,Chickpea,7,False,False,Odisha,Rabi,6.51,156.0,Legume/Pulse physiological similarity
+850,Wheat,Sugarcane,14,False,False,Kerala,Whole Year,5.67,258.2,Severe pedological / environmental divergence
+851,Maize,Rice,2,True,True,Assam,Kharif,7.62,1737.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+852,Maize,Rice,2,True,True,Gujarat,Summer,5.34,100.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+853,Pigeonpea,Rice,7,False,False,Karnataka,Kharif,6.38,939.5,Severe pedological / environmental divergence
+855,Moong,Groundnut,7,False,False,Gujarat,Kharif,5.0,612.6,Severe pedological / environmental divergence
+856,Groundnut,Chickpea,11,False,False,Tamil Nadu,Rabi,6.49,149.5,Severe pedological / environmental divergence
+857,Pearl Millet,Rice,7,False,False,Karnataka,Summer,7.61,116.9,Severe pedological / environmental divergence
+858,Urad,Rice,5,False,True,Puducherry,Kharif,7.98,1104.7,Moderate ecological ambiguity (Top-5 compatible)
+859,Pigeonpea,Groundnut,12,False,False,Karnataka,Kharif,7.96,1077.6,Severe pedological / environmental divergence
+860,Moong,Maize,4,False,True,Madhya Pradesh,Rabi,7.94,159.2,Moderate ecological ambiguity (Top-5 compatible)
+862,Moong,Rice,3,True,True,West Bengal,Summer,6.38,225.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+863,Pigeonpea,Urad,11,False,False,Chhattisgarh,Kharif,5.96,1028.1,Severe pedological / environmental divergence
+864,Chickpea,Mustard,2,True,True,Jharkhand,Rabi,7.62,154.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+865,Wheat,Chickpea,3,True,True,Punjab,Rabi,7.56,123.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+866,Pearl Millet,Sugarcane,2,True,True,Madhya Pradesh,Whole Year,7.54,72.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+868,Maize,Rice,4,False,True,Gujarat,Kharif,5.26,567.3,Moderate ecological ambiguity (Top-5 compatible)
+869,Rice,Urad,6,False,False,Haryana,Kharif,7.55,550.5,Severe pedological / environmental divergence
+871,Rice,Groundnut,3,True,True,Delhi,Kharif,6.41,537.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+872,Chickpea,Mustard,3,True,True,Jammu and Kashmir,Rabi,6.09,262.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+873,Sugarcane,Rice,13,False,False,Jammu and Kashmir,Kharif,5.52,1139.4,Severe pedological / environmental divergence
+874,Mustard,Wheat,2,True,True,Himachal Pradesh,Rabi,5.92,141.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+875,Soybean,Pearl Millet,11,False,False,Uttar Pradesh,Kharif,7.9,574.6,Severe pedological / environmental divergence
+876,Moong,Rice,4,False,True,Uttarakhand,Summer,7.61,137.2,Moderate ecological ambiguity (Top-5 compatible)
+877,Soybean,Rice,5,False,True,Sikkim,Kharif,7.39,2012.2,Moderate ecological ambiguity (Top-5 compatible)
+878,Groundnut,Rice,2,True,True,Tamil Nadu,Kharif,6.59,723.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+879,Moong,Soybean,7,False,False,Madhya Pradesh,Kharif,7.55,729.3,Severe pedological / environmental divergence
+880,Rice,Mustard,5,False,True,Odisha,Rabi,6.4,231.0,Moderate ecological ambiguity (Top-5 compatible)
+881,Cotton,Pearl Millet,6,False,False,Karnataka,Kharif,7.61,871.0,Severe pedological / environmental divergence
+883,Rice,Urad,2,True,True,Chhattisgarh,Kharif,6.13,854.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+885,Soybean,Maize,12,False,False,Karnataka,Kharif,8.33,912.5,Severe pedological / environmental divergence
+887,Urad,Pearl Millet,9,False,False,Puducherry,Kharif,7.58,1076.5,Severe pedological / environmental divergence
+888,Cotton,Rice,2,True,True,Kerala,Kharif,6.62,1797.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+889,Sesamum,Wheat,9,False,False,Maharashtra,Rabi,7.69,149.7,Severe pedological / environmental divergence
+890,Groundnut,Pearl Millet,2,True,True,Uttar Pradesh,Kharif,8.02,720.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+892,Urad,Rice,7,False,False,Arunachal Pradesh,Kharif,7.37,2220.4,Severe pedological / environmental divergence
+894,Soybean,Rice,11,False,False,Gujarat,Kharif,5.46,772.8,Severe pedological / environmental divergence
+896,Sorghum,Rice,5,False,True,Puducherry,Kharif,7.72,852.4,Moderate ecological ambiguity (Top-5 compatible)
+899,Pearl Millet,Rice,5,False,True,Gujarat,Summer,5.26,93.8,Moderate ecological ambiguity (Top-5 compatible)
+900,Maize,Rice,2,True,True,Jharkhand,Kharif,7.46,822.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+901,Moong,Rice,5,False,True,Manipur,Kharif,7.19,857.3,Moderate ecological ambiguity (Top-5 compatible)
+903,Groundnut,Rice,3,True,True,Gujarat,Summer,5.61,80.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+904,Pearl Millet,Rice,3,True,True,Himachal Pradesh,Kharif,5.86,810.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+905,Groundnut,Mustard,11,False,False,Tamil Nadu,Rabi,6.42,89.2,Severe pedological / environmental divergence
+906,Urad,Rice,6,False,False,West Bengal,Kharif,6.37,1131.5,Severe pedological / environmental divergence
+908,Rice,Pearl Millet,3,True,True,Delhi,Kharif,7.99,585.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+909,Pearl Millet,Chickpea,11,False,False,Telangana,Rabi,6.83,179.7,Severe pedological / environmental divergence
+910,Cotton,Rice,4,False,True,Gujarat,Kharif,5.47,610.3,Moderate ecological ambiguity (Top-5 compatible)
+911,Pearl Millet,Maize,8,False,False,Jammu and Kashmir,Kharif,5.66,1005.9,Severe pedological / environmental divergence
+912,Rice,Groundnut,3,True,True,Jharkhand,Kharif,6.76,957.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+913,Moong,Rice,6,False,False,Jammu and Kashmir,Kharif,5.53,1126.6,Severe pedological / environmental divergence
+914,Sesamum,Soybean,11,False,False,Chhattisgarh,Kharif,6.33,844.6,Severe pedological / environmental divergence
+915,Sesamum,Rice,6,False,False,Gujarat,Kharif,5.48,807.1,Severe pedological / environmental divergence
+920,Finger Millet,Groundnut,3,True,True,Kerala,Kharif,5.5,2274.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+921,Rice,Groundnut,2,True,True,Goa,Kharif,5.17,2241.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+922,Maize,Sorghum,6,False,False,Delhi,Kharif,8.0,378.5,Severe pedological / environmental divergence
+923,Pigeonpea,Sugarcane,7,False,False,Kerala,Whole Year,5.26,337.5,Severe pedological / environmental divergence
+924,Maize,Chickpea,7,False,False,Tamil Nadu,Rabi,6.42,178.4,Severe pedological / environmental divergence
+926,Pearl Millet,Rice,12,False,False,Bihar,Kharif,7.59,892.0,Severe pedological / environmental divergence
+927,Maize,Sesamum,3,True,True,Uttarakhand,Kharif,5.83,1063.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+928,Pigeonpea,Soybean,11,False,False,Chhattisgarh,Kharif,6.47,1158.7,Severe pedological / environmental divergence
+929,Pearl Millet,Urad,13,False,False,Tamil Nadu,Rabi,6.48,192.6,Severe pedological / environmental divergence
+930,Rice,Wheat,4,False,True,West Bengal,Rabi,7.81,303.1,Moderate ecological ambiguity (Top-5 compatible)
+931,Finger Millet,Rice,7,False,False,Uttarakhand,Kharif,5.78,1063.0,Severe pedological / environmental divergence
+933,Pearl Millet,Sugarcane,3,True,True,Chhattisgarh,Whole Year,6.37,124.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+936,Rice,Sesamum,2,True,True,Bihar,Kharif,7.77,1017.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+938,Maize,Rice,2,True,True,Haryana,Kharif,7.7,272.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+939,Chickpea,Mustard,3,True,True,Haryana,Rabi,7.41,120.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+941,Soybean,Rice,9,False,False,Manipur,Kharif,7.75,1571.6,Severe pedological / environmental divergence
+942,Pigeonpea,Rice,3,True,True,Assam,Kharif,7.12,1256.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+943,Cotton,Chickpea,15,False,False,Karnataka,Rabi,8.11,137.8,Severe pedological / environmental divergence
+944,Chickpea,Wheat,4,False,True,Maharashtra,Rabi,8.02,117.8,Moderate ecological ambiguity (Top-5 compatible)
+945,Finger Millet,Urad,6,False,False,Madhya Pradesh,Kharif,7.92,659.1,Severe pedological / environmental divergence
+946,Finger Millet,Sorghum,10,False,False,Karnataka,Kharif,7.8,831.7,Severe pedological / environmental divergence
+948,Urad,Maize,9,False,False,Gujarat,Kharif,8.46,492.6,Severe pedological / environmental divergence
+949,Soybean,Groundnut,11,False,False,Andhra Pradesh,Kharif,6.3,889.7,Severe pedological / environmental divergence
+950,Soybean,Rice,6,False,False,West Bengal,Kharif,6.98,1443.0,Severe pedological / environmental divergence
+952,Rice,Maize,2,True,True,Assam,Kharif,7.7,1269.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+953,Groundnut,Rice,8,False,False,Arunachal Pradesh,Kharif,7.63,2214.3,Severe pedological / environmental divergence
+956,Rice,Maize,2,True,True,Haryana,Kharif,7.19,468.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+957,Cotton,Maize,10,False,False,Uttar Pradesh,Kharif,8.02,464.0,Severe pedological / environmental divergence
+958,Finger Millet,Rice,10,False,False,Puducherry,Kharif,7.69,1080.1,Severe pedological / environmental divergence
+959,Rice,Moong,3,True,True,Andhra Pradesh,Rabi,6.45,161.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+960,Wheat,Chickpea,2,True,True,Haryana,Rabi,7.39,58.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+961,Pearl Millet,Sorghum,9,False,False,Gujarat,Kharif,5.3,328.2,Severe pedological / environmental divergence
+965,Finger Millet,Cotton,7,False,False,Tamil Nadu,Kharif,6.38,540.7,Severe pedological / environmental divergence
+966,Urad,Rice,6,False,False,Uttarakhand,Kharif,7.09,868.3,Severe pedological / environmental divergence
+967,Maize,Rice,2,True,True,Bihar,Kharif,7.1,1102.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+968,Moong,Wheat,9,False,False,Chhattisgarh,Rabi,6.52,129.2,Severe pedological / environmental divergence
+970,Maize,Sesamum,4,False,True,Bihar,Kharif,7.16,716.4,Moderate ecological ambiguity (Top-5 compatible)
+971,Pigeonpea,Maize,3,True,True,Assam,Kharif,7.7,1440.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+972,Groundnut,Moong,6,False,False,West Bengal,Summer,6.7,174.6,Severe pedological / environmental divergence
+973,Pearl Millet,Rice,10,False,False,West Bengal,Kharif,6.4,1244.2,Severe pedological / environmental divergence
+974,Pearl Millet,Finger Millet,7,False,False,Andhra Pradesh,Kharif,6.48,669.7,Severe pedological / environmental divergence
+975,Moong,Rice,3,True,True,Odisha,Kharif,7.27,999.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+976,Mustard,Wheat,2,True,True,Jharkhand,Rabi,7.3,153.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+977,Chickpea,Wheat,2,True,True,Delhi,Rabi,7.01,143.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+978,Groundnut,Pigeonpea,4,False,True,Uttarakhand,Kharif,5.93,893.3,Moderate ecological ambiguity (Top-5 compatible)
+979,Pigeonpea,Rice,4,False,True,Assam,Kharif,7.46,1541.0,Moderate ecological ambiguity (Top-5 compatible)
+980,Soybean,Rice,8,False,False,Himachal Pradesh,Kharif,7.42,907.1,Severe pedological / environmental divergence
+981,Moong,Mustard,7,False,False,Assam,Rabi,7.49,287.0,Severe pedological / environmental divergence
+982,Groundnut,Rice,4,False,True,Gujarat,Summer,5.38,33.3,Moderate ecological ambiguity (Top-5 compatible)
+984,Chickpea,Rice,4,False,True,Madhya Pradesh,Rabi,7.7,228.0,Moderate ecological ambiguity (Top-5 compatible)
+985,Finger Millet,Groundnut,8,False,False,Kerala,Kharif,6.98,2179.6,Severe pedological / environmental divergence
+986,Sesamum,Moong,4,False,True,Odisha,Summer,6.86,129.7,Moderate ecological ambiguity (Top-5 compatible)
+987,Sesamum,Rice,7,False,False,Uttarakhand,Kharif,7.34,917.2,Severe pedological / environmental divergence
+988,Soybean,Pearl Millet,11,False,False,Andhra Pradesh,Kharif,6.62,762.3,Severe pedological / environmental divergence
+989,Cotton,Pigeonpea,8,False,False,Punjab,Kharif,5.96,282.7,Severe pedological / environmental divergence
+990,Pigeonpea,Groundnut,4,False,True,Karnataka,Kharif,8.22,984.6,Moderate ecological ambiguity (Top-5 compatible)
+991,Maize,Mustard,5,False,True,Uttar Pradesh,Rabi,7.98,119.4,Moderate ecological ambiguity (Top-5 compatible)
+992,Groundnut,Rice,12,False,False,Manipur,Kharif,7.3,925.7,Severe pedological / environmental divergence
+993,Rice,Finger Millet,2,True,True,Uttarakhand,Kharif,7.68,1161.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+994,Sorghum,Pearl Millet,2,True,True,Maharashtra,Kharif,7.6,988.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+995,Maize,Sesamum,3,True,True,Punjab,Kharif,7.85,266.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+996,Maize,Groundnut,2,True,True,Maharashtra,Kharif,8.02,791.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+997,Sesamum,Maize,6,False,False,Odisha,Summer,6.81,118.4,Severe pedological / environmental divergence
+1000,Sesamum,Wheat,9,False,False,Maharashtra,Rabi,7.31,158.9,Severe pedological / environmental divergence
+1001,Sesamum,Rice,4,False,True,Mizoram,Kharif,7.32,2868.9,Moderate ecological ambiguity (Top-5 compatible)
+1002,Wheat,Chickpea,2,True,True,Punjab,Rabi,7.69,29.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1003,Sugarcane,Rice,13,False,False,Jammu and Kashmir,Kharif,5.65,934.7,Severe pedological / environmental divergence
+1004,Moong,Rice,4,False,True,Maharashtra,Kharif,8.1,901.4,Moderate ecological ambiguity (Top-5 compatible)
+1005,Cotton,Sorghum,5,False,True,Karnataka,Kharif,7.62,620.9,Moderate ecological ambiguity (Top-5 compatible)
+1006,Chickpea,Mustard,2,True,True,Himachal Pradesh,Rabi,6.06,165.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1007,Rice,Finger Millet,2,True,True,Karnataka,Kharif,5.42,1011.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1008,Moong,Sesamum,9,False,False,Haryana,Kharif,7.34,382.6,Severe pedological / environmental divergence
+1009,Cotton,Pigeonpea,9,False,False,Punjab,Kharif,7.55,269.4,Severe pedological / environmental divergence
+1010,Cotton,Rice,4,False,True,Meghalaya,Kharif,7.57,3585.6,Moderate ecological ambiguity (Top-5 compatible)
+1011,Maize,Pigeonpea,2,True,True,Haryana,Kharif,7.39,462.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1012,Groundnut,Rice,8,False,False,Goa,Rabi,5.11,476.5,Severe pedological / environmental divergence
+1013,Urad,Rice,2,True,True,Haryana,Kharif,7.02,441.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1015,Cotton,Rice,5,False,True,Mizoram,Kharif,6.33,1979.0,Moderate ecological ambiguity (Top-5 compatible)
+1017,Moong,Sorghum,6,False,False,Maharashtra,Kharif,7.76,750.0,Severe pedological / environmental divergence
+1018,Moong,Maize,6,False,False,Tamil Nadu,Rabi,6.35,138.8,Severe pedological / environmental divergence
+1019,Sorghum,Rice,3,True,True,Gujarat,Kharif,5.83,593.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1020,Moong,Maize,9,False,False,West Bengal,Kharif,6.73,1423.1,Severe pedological / environmental divergence
+1021,Rice,Groundnut,4,False,True,Maharashtra,Kharif,7.99,1182.9,Moderate ecological ambiguity (Top-5 compatible)
+1022,Sesamum,Mustard,10,False,False,Puducherry,Rabi,7.25,220.0,Severe pedological / environmental divergence
+1023,Pearl Millet,Finger Millet,11,False,False,Andhra Pradesh,Kharif,6.49,721.6,Severe pedological / environmental divergence
+1024,Wheat,Mustard,2,True,True,Manipur,Rabi,7.26,315.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1026,Cotton,Mustard,14,False,False,Tamil Nadu,Rabi,6.78,128.1,Severe pedological / environmental divergence
+1027,Finger Millet,Rice,8,False,False,Nagaland,Kharif,7.09,976.9,Severe pedological / environmental divergence
+1028,Urad,Chickpea,5,False,True,Odisha,Rabi,6.14,208.2,Moderate ecological ambiguity (Top-5 compatible)
+1029,Mustard,Rice,3,True,True,Mizoram,Rabi,6.1,410.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1030,Moong,Wheat,5,False,True,Uttarakhand,Rabi,7.61,243.4,Moderate ecological ambiguity (Top-5 compatible)
+1031,Pearl Millet,Maize,10,False,False,Nagaland,Kharif,7.43,1167.9,Severe pedological / environmental divergence
+1032,Groundnut,Rice,5,False,True,Chhattisgarh,Kharif,6.92,974.1,Moderate ecological ambiguity (Top-5 compatible)
+1033,Sorghum,Chickpea,5,False,True,Maharashtra,Rabi,7.96,171.5,Moderate ecological ambiguity (Top-5 compatible)
+1034,Moong,Rice,4,False,True,Bihar,Summer,7.71,172.6,Moderate ecological ambiguity (Top-5 compatible)
+1036,Mustard,Sugarcane,15,False,False,West Bengal,Whole Year,6.64,176.3,Severe pedological / environmental divergence
+1037,Cotton,Sorghum,10,False,False,Uttar Pradesh,Kharif,7.65,450.6,Severe pedological / environmental divergence
+1038,Maize,Wheat,2,True,True,Maharashtra,Rabi,7.69,181.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1039,Groundnut,Maize,4,False,True,Gujarat,Kharif,8.28,462.6,Moderate ecological ambiguity (Top-5 compatible)
+1040,Rice,Maize,2,True,True,Odisha,Kharif,6.15,1026.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1041,Pigeonpea,Urad,4,False,True,Maharashtra,Kharif,7.43,786.4,Moderate ecological ambiguity (Top-5 compatible)
+1042,Chickpea,Wheat,2,True,True,Bihar,Rabi,8.01,161.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1044,Pearl Millet,Rice,7,False,False,Uttar Pradesh,Kharif,7.6,602.8,Severe pedological / environmental divergence
+1045,Soybean,Rice,11,False,False,Himachal Pradesh,Kharif,5.42,747.3,Severe pedological / environmental divergence
+1046,Wheat,Mustard,2,True,True,Arunachal Pradesh,Rabi,7.23,293.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1047,Moong,Wheat,10,False,False,Karnataka,Rabi,8.06,177.2,Severe pedological / environmental divergence
+1048,Moong,Rice,10,False,False,Odisha,Kharif,6.2,1003.4,Severe pedological / environmental divergence
+1049,Pearl Millet,Sesamum,8,False,False,Uttar Pradesh,Kharif,7.63,500.6,Severe pedological / environmental divergence
+1050,Moong,Mustard,8,False,False,Uttar Pradesh,Rabi,7.64,127.5,Severe pedological / environmental divergence
+1051,Wheat,Maize,2,True,True,Maharashtra,Rabi,8.28,154.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1052,Urad,Chickpea,5,False,True,Chhattisgarh,Rabi,6.56,169.3,Moderate ecological ambiguity (Top-5 compatible)
+1053,Moong,Rice,9,False,False,Mizoram,Kharif,7.48,1957.6,Severe pedological / environmental divergence
+1054,Chickpea,Wheat,4,False,True,Meghalaya,Rabi,7.33,648.7,Moderate ecological ambiguity (Top-5 compatible)
+1056,Urad,Wheat,8,False,False,Karnataka,Rabi,5.22,174.9,Severe pedological / environmental divergence
+1057,Wheat,Mustard,2,True,True,West Bengal,Rabi,7.42,185.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1059,Wheat,Mustard,4,False,True,West Bengal,Rabi,6.56,312.9,Moderate ecological ambiguity (Top-5 compatible)
+1060,Finger Millet,Rice,6,False,False,Uttarakhand,Kharif,6.96,941.6,Severe pedological / environmental divergence
+1061,Rice,Wheat,3,True,True,Meghalaya,Rabi,7.69,508.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1062,Finger Millet,Maize,10,False,False,Tamil Nadu,Kharif,6.48,327.0,Severe pedological / environmental divergence
+1063,Finger Millet,Rice,12,False,False,Himachal Pradesh,Kharif,5.69,773.9,Severe pedological / environmental divergence
+1064,Moong,Wheat,7,False,False,Tripura,Rabi,7.58,346.7,Severe pedological / environmental divergence
+1065,Chickpea,Wheat,3,True,True,Uttarakhand,Rabi,7.59,225.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1066,Sesamum,Sugarcane,2,True,True,West Bengal,Whole Year,6.42,200.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1067,Moong,Wheat,5,False,True,Assam,Rabi,7.29,379.2,Moderate ecological ambiguity (Top-5 compatible)
+1068,Maize,Groundnut,6,False,False,Himachal Pradesh,Kharif,5.99,1069.4,Severe pedological / environmental divergence
+1069,Pearl Millet,Rice,8,False,False,Bihar,Kharif,7.22,1137.4,Severe pedological / environmental divergence
+1070,Groundnut,Chickpea,10,False,False,Andhra Pradesh,Rabi,8.0,101.7,Severe pedological / environmental divergence
+1073,Finger Millet,Rice,5,False,True,Gujarat,Kharif,5.81,840.1,Moderate ecological ambiguity (Top-5 compatible)
+1074,Finger Millet,Sugarcane,9,False,False,Tamil Nadu,Whole Year,6.7,92.7,Severe pedological / environmental divergence
+1076,Finger Millet,Rice,10,False,False,Puducherry,Summer,6.08,176.0,Severe pedological / environmental divergence
+1078,Chickpea,Mustard,2,True,True,West Bengal,Rabi,7.49,316.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1079,Maize,Groundnut,5,False,True,Gujarat,Summer,5.09,76.9,Moderate ecological ambiguity (Top-5 compatible)
+1080,Moong,Rice,7,False,False,Chhattisgarh,Kharif,6.22,1057.0,Severe pedological / environmental divergence
+1081,Sorghum,Urad,4,False,True,Andhra Pradesh,Kharif,7.59,888.6,Moderate ecological ambiguity (Top-5 compatible)
+1082,Urad,Finger Millet,4,False,True,Andhra Pradesh,Kharif,6.19,833.9,Moderate ecological ambiguity (Top-5 compatible)
+1083,Pigeonpea,Rice,8,False,False,Himachal Pradesh,Kharif,8.02,907.2,Severe pedological / environmental divergence
+1084,Pigeonpea,Rice,4,False,True,Jharkhand,Kharif,6.4,925.3,Moderate ecological ambiguity (Top-5 compatible)
+1085,Urad,Rice,6,False,False,Puducherry,Kharif,7.73,1295.3,Severe pedological / environmental divergence
+1086,Sesamum,Mustard,7,False,False,Odisha,Rabi,6.39,190.5,Severe pedological / environmental divergence
+1087,Sesamum,Sugarcane,8,False,False,Madhya Pradesh,Whole Year,7.87,117.4,Severe pedological / environmental divergence
+1088,Groundnut,Rice,10,False,False,Haryana,Kharif,7.36,397.4,Severe pedological / environmental divergence
+1089,Sorghum,Mustard,7,False,False,Andhra Pradesh,Rabi,6.78,120.2,Severe pedological / environmental divergence
+1090,Sugarcane,Rice,13,False,False,Nagaland,Kharif,7.46,1179.0,Severe pedological / environmental divergence
+1091,Urad,Rice,6,False,False,Puducherry,Summer,6.69,148.2,Severe pedological / environmental divergence
+1092,Pigeonpea,Sorghum,4,False,True,Madhya Pradesh,Kharif,7.64,1090.3,Moderate ecological ambiguity (Top-5 compatible)
+1093,Rice,Wheat,3,True,True,Karnataka,Rabi,7.68,214.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1095,Chickpea,Mustard,3,True,True,Tripura,Rabi,7.2,225.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1096,Urad,Mustard,7,False,False,Tamil Nadu,Rabi,6.55,190.9,Severe pedological / environmental divergence
+1097,Mustard,Urad,16,False,False,Andhra Pradesh,Kharif,5.93,640.8,Severe pedological / environmental divergence
+1098,Groundnut,Sugarcane,9,False,False,West Bengal,Whole Year,7.75,185.6,Severe pedological / environmental divergence
+1101,Sesamum,Sorghum,3,True,True,Gujarat,Kharif,5.56,583.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1102,Groundnut,Maize,8,False,False,Himachal Pradesh,Kharif,5.51,890.7,Severe pedological / environmental divergence
+1105,Urad,Maize,7,False,False,Punjab,Kharif,6.0,553.9,Severe pedological / environmental divergence
+1106,Sorghum,Maize,12,False,False,Bihar,Kharif,7.54,922.1,Severe pedological / environmental divergence
+1107,Cotton,Sesamum,3,True,True,Andhra Pradesh,Kharif,6.5,681.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1108,Maize,Sugarcane,2,True,True,Sikkim,Whole Year,7.44,231.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1109,Sesamum,Sugarcane,4,False,True,Tamil Nadu,Whole Year,6.72,102.1,Moderate ecological ambiguity (Top-5 compatible)
+1111,Groundnut,Finger Millet,3,True,True,Goa,Kharif,5.75,3286.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1112,Urad,Wheat,4,False,True,Chhattisgarh,Rabi,6.62,164.2,Moderate ecological ambiguity (Top-5 compatible)
+1113,Chickpea,Wheat,4,False,True,Uttarakhand,Rabi,7.85,305.8,Moderate ecological ambiguity (Top-5 compatible)
+1115,Sesamum,Rice,3,True,True,Assam,Kharif,7.31,1544.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1116,Moong,Sorghum,8,False,False,Gujarat,Kharif,5.63,736.7,Severe pedological / environmental divergence
+1117,Finger Millet,Chickpea,12,False,False,Karnataka,Rabi,7.76,202.7,Severe pedological / environmental divergence
+1118,Pearl Millet,Finger Millet,6,False,False,Tamil Nadu,Kharif,6.67,721.8,Severe pedological / environmental divergence
+1119,Maize,Pearl Millet,10,False,False,Delhi,Kharif,7.51,454.9,Severe pedological / environmental divergence
+1120,Sugarcane,Finger Millet,13,False,False,Puducherry,Kharif,6.74,770.6,Severe pedological / environmental divergence
+1121,Finger Millet,Rice,7,False,False,West Bengal,Kharif,6.61,1133.0,Severe pedological / environmental divergence
+1122,Groundnut,Pearl Millet,5,False,True,Chhattisgarh,Kharif,6.77,916.0,Moderate ecological ambiguity (Top-5 compatible)
+1123,Pearl Millet,Mustard,9,False,False,Andhra Pradesh,Rabi,6.41,106.5,Severe pedological / environmental divergence
+1124,Maize,Urad,3,True,True,Odisha,Rabi,6.33,271.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1125,Moong,Rice,3,True,True,Bihar,Summer,8.01,113.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1126,Pigeonpea,Groundnut,8,False,False,Gujarat,Kharif,5.28,441.3,Severe pedological / environmental divergence
+1127,Sesamum,Sorghum,2,True,True,Haryana,Kharif,7.22,258.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1128,Urad,Rice,10,False,False,Uttar Pradesh,Kharif,7.66,669.8,Severe pedological / environmental divergence
+1130,Groundnut,Rice,3,True,True,Maharashtra,Summer,7.78,155.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1132,Chickpea,Mustard,3,True,True,Madhya Pradesh,Rabi,7.67,143.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1133,Maize,Pigeonpea,7,False,False,Himachal Pradesh,Kharif,6.92,846.3,Severe pedological / environmental divergence
+1135,Chickpea,Mustard,2,True,True,Punjab,Rabi,5.61,98.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1136,Moong,Rice,9,False,False,Maharashtra,Kharif,5.4,1063.9,Severe pedological / environmental divergence
+1137,Moong,Rice,10,False,False,Bihar,Kharif,7.04,917.7,Severe pedological / environmental divergence
+1138,Cotton,Urad,8,False,False,Maharashtra,Kharif,7.58,855.4,Severe pedological / environmental divergence
+1139,Sesamum,Groundnut,8,False,False,Telangana,Kharif,8.15,943.3,Severe pedological / environmental divergence
+1140,Groundnut,Rice,11,False,False,Nagaland,Kharif,7.27,1146.2,Severe pedological / environmental divergence
+1141,Maize,Pigeonpea,5,False,True,Punjab,Kharif,5.77,386.2,Moderate ecological ambiguity (Top-5 compatible)
+1143,Chickpea,Mustard,2,True,True,West Bengal,Rabi,6.36,202.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1144,Pearl Millet,Groundnut,4,False,True,Gujarat,Kharif,4.96,563.0,Moderate ecological ambiguity (Top-5 compatible)
+1145,Mustard,Wheat,3,True,True,Haryana,Rabi,7.35,78.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1146,Groundnut,Pigeonpea,10,False,False,Punjab,Kharif,5.9,268.6,Severe pedological / environmental divergence
+1147,Maize,Wheat,3,True,True,Maharashtra,Rabi,8.07,219.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1149,Groundnut,Finger Millet,5,False,True,Chhattisgarh,Kharif,6.46,897.3,Moderate ecological ambiguity (Top-5 compatible)
+1150,Pigeonpea,Maize,3,True,True,Bihar,Kharif,7.17,1015.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1151,Finger Millet,Rice,7,False,False,Puducherry,Summer,7.88,154.6,Severe pedological / environmental divergence
+1152,Chickpea,Wheat,2,True,True,Uttar Pradesh,Rabi,7.48,118.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1153,Finger Millet,Maize,12,False,False,Telangana,Kharif,5.93,761.8,Severe pedological / environmental divergence
+1156,Rice,Mustard,4,False,True,Meghalaya,Rabi,7.27,380.9,Moderate ecological ambiguity (Top-5 compatible)
+1157,Rice,Urad,2,True,True,Jammu and Kashmir,Kharif,6.12,793.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1158,Mustard,Wheat,2,True,True,Gujarat,Rabi,5.28,75.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1159,Wheat,Mustard,2,True,True,Bihar,Rabi,7.18,125.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1160,Sesamum,Maize,5,False,True,Assam,Kharif,7.55,1790.6,Moderate ecological ambiguity (Top-5 compatible)
+1163,Sesamum,Groundnut,7,False,False,Telangana,Kharif,6.4,740.3,Severe pedological / environmental divergence
+1164,Sesamum,Wheat,13,False,False,Maharashtra,Rabi,7.62,169.4,Severe pedological / environmental divergence
+1165,Sorghum,Rice,8,False,False,Kerala,Kharif,5.08,2193.5,Severe pedological / environmental divergence
+1166,Groundnut,Sesamum,2,True,True,Telangana,Kharif,7.01,1051.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1167,Mustard,Wheat,3,True,True,Uttar Pradesh,Rabi,8.07,146.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1168,Rice,Maize,3,True,True,Tripura,Kharif,7.08,1361.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1169,Pigeonpea,Maize,11,False,False,Andhra Pradesh,Kharif,7.08,633.0,Severe pedological / environmental divergence
+1170,Pigeonpea,Rice,4,False,True,Assam,Kharif,7.56,1336.3,Moderate ecological ambiguity (Top-5 compatible)
+1171,Soybean,Rice,9,False,False,Nagaland,Kharif,7.54,974.3,Severe pedological / environmental divergence
+1173,Moong,Rice,3,True,True,Uttar Pradesh,Summer,7.58,68.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1174,Sesamum,Wheat,9,False,False,Puducherry,Rabi,7.6,221.8,Severe pedological / environmental divergence
+1175,Pearl Millet,Rice,5,False,True,Haryana,Kharif,7.81,329.7,Moderate ecological ambiguity (Top-5 compatible)
+1176,Rice,Wheat,7,False,False,Andhra Pradesh,Rabi,6.82,118.6,Severe pedological / environmental divergence
+1177,Rice,Chickpea,5,False,True,Bihar,Rabi,7.49,158.7,Moderate ecological ambiguity (Top-5 compatible)
+1178,Pigeonpea,Maize,11,False,False,Uttar Pradesh,Kharif,8.3,473.3,Severe pedological / environmental divergence
+1179,Mustard,Maize,16,False,False,Karnataka,Kharif,7.18,757.2,Severe pedological / environmental divergence
+1180,Sorghum,Urad,9,False,False,Puducherry,Kharif,6.0,1068.4,Severe pedological / environmental divergence
+1181,Chickpea,Wheat,2,True,True,Delhi,Rabi,6.58,92.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1182,Urad,Sorghum,9,False,False,Haryana,Kharif,7.5,408.9,Severe pedological / environmental divergence
+1183,Urad,Pearl Millet,8,False,False,Maharashtra,Kharif,7.63,728.8,Severe pedological / environmental divergence
+1184,Soybean,Cotton,10,False,False,West Bengal,Kharif,7.36,1328.6,Severe pedological / environmental divergence
+1185,Rice,Chickpea,7,False,False,Andhra Pradesh,Rabi,6.53,206.9,Severe pedological / environmental divergence
+1186,Sesamum,Cotton,7,False,False,Kerala,Kharif,6.65,2234.4,Severe pedological / environmental divergence
+1188,Urad,Maize,5,False,True,Karnataka,Rabi,8.53,161.3,Moderate ecological ambiguity (Top-5 compatible)
+1189,Cotton,Rice,5,False,True,Assam,Kharif,7.47,1601.2,Moderate ecological ambiguity (Top-5 compatible)
+1190,Finger Millet,Rice,9,False,False,Karnataka,Summer,7.64,116.6,Severe pedological / environmental divergence
+1191,Finger Millet,Rice,11,False,False,Jharkhand,Kharif,6.78,1071.9,Severe pedological / environmental divergence
+1192,Pigeonpea,Rice,7,False,False,Tripura,Kharif,6.5,1515.7,Severe pedological / environmental divergence
+1193,Sesamum,Sorghum,3,True,True,Karnataka,Kharif,7.85,733.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1194,Moong,Rice,2,True,True,Himachal Pradesh,Kharif,5.36,811.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1195,Sesamum,Moong,4,False,True,Odisha,Summer,6.52,152.4,Moderate ecological ambiguity (Top-5 compatible)
+1196,Wheat,Mustard,3,True,True,Punjab,Rabi,7.12,111.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1198,Rice,Mustard,2,True,True,Odisha,Rabi,6.72,234.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1199,Mustard,Chickpea,2,True,True,Odisha,Rabi,6.41,238.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1200,Maize,Wheat,4,False,True,Nagaland,Rabi,7.21,227.5,Moderate ecological ambiguity (Top-5 compatible)
+1202,Pigeonpea,Rice,5,False,True,West Bengal,Kharif,6.95,1614.8,Moderate ecological ambiguity (Top-5 compatible)
+1203,Maize,Wheat,4,False,True,Manipur,Rabi,7.44,150.3,Moderate ecological ambiguity (Top-5 compatible)
+1204,Maize,Rice,3,True,True,Karnataka,Summer,5.4,134.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1205,Mustard,Wheat,2,True,True,Assam,Rabi,7.49,349.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1208,Groundnut,Mustard,5,False,True,Andhra Pradesh,Rabi,6.4,105.6,Moderate ecological ambiguity (Top-5 compatible)
+1209,Groundnut,Urad,9,False,False,West Bengal,Kharif,6.43,828.7,Severe pedological / environmental divergence
+1210,Moong,Wheat,7,False,False,Tripura,Rabi,7.27,377.0,Severe pedological / environmental divergence
+1211,Pigeonpea,Wheat,11,False,False,Mizoram,Rabi,7.68,391.6,Severe pedological / environmental divergence
+1212,Urad,Mustard,7,False,False,Uttarakhand,Rabi,5.2,206.1,Severe pedological / environmental divergence
+1213,Moong,Rice,6,False,False,Chhattisgarh,Kharif,6.51,872.3,Severe pedological / environmental divergence
+1217,Sorghum,Cotton,2,True,True,West Bengal,Kharif,6.64,826.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1218,Rice,Pigeonpea,3,True,True,Jharkhand,Kharif,6.51,828.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1219,Rice,Groundnut,2,True,True,Telangana,Kharif,6.89,645.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1220,Urad,Rice,6,False,False,Tripura,Kharif,6.64,1711.6,Severe pedological / environmental divergence
+1221,Wheat,Chickpea,3,True,True,Himachal Pradesh,Rabi,7.38,149.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1222,Groundnut,Rice,8,False,False,Himachal Pradesh,Kharif,6.86,998.3,Severe pedological / environmental divergence
+1225,Pigeonpea,Sesamum,5,False,True,Haryana,Kharif,7.38,391.1,Moderate ecological ambiguity (Top-5 compatible)
+1226,Rice,Cotton,2,True,True,Tamil Nadu,Kharif,6.59,741.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1227,Mustard,Maize,15,False,False,Karnataka,Kharif,6.75,1007.7,Severe pedological / environmental divergence
+1229,Wheat,Chickpea,3,True,True,Haryana,Rabi,6.57,90.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1231,Pearl Millet,Rice,5,False,True,Nagaland,Kharif,7.79,1246.3,Moderate ecological ambiguity (Top-5 compatible)
+1232,Wheat,Mustard,4,False,True,West Bengal,Rabi,7.38,246.4,Moderate ecological ambiguity (Top-5 compatible)
+1233,Chickpea,Wheat,3,True,True,Jammu and Kashmir,Rabi,5.85,200.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1234,Pearl Millet,Rice,9,False,False,Uttar Pradesh,Kharif,7.65,473.0,Severe pedological / environmental divergence
+1235,Pigeonpea,Mustard,9,False,False,West Bengal,Rabi,7.8,261.0,Severe pedological / environmental divergence
+1236,Sugarcane,Chickpea,14,False,False,Odisha,Rabi,7.01,268.8,Severe pedological / environmental divergence
+1237,Moong,Mustard,9,False,False,Andhra Pradesh,Rabi,6.56,114.9,Severe pedological / environmental divergence
+1239,Soybean,Rice,8,False,False,Himachal Pradesh,Kharif,6.06,833.0,Severe pedological / environmental divergence
+1240,Sesamum,Chickpea,12,False,False,Maharashtra,Rabi,7.63,161.6,Severe pedological / environmental divergence
+1241,Urad,Sorghum,3,True,True,Punjab,Kharif,5.93,449.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1242,Pearl Millet,Urad,4,False,True,Madhya Pradesh,Kharif,7.53,774.0,Moderate ecological ambiguity (Top-5 compatible)
+1243,Cotton,Chickpea,15,False,False,Karnataka,Rabi,7.51,180.2,Severe pedological / environmental divergence
+1244,Sesamum,Rice,4,False,True,Manipur,Kharif,7.68,1591.9,Moderate ecological ambiguity (Top-5 compatible)
+1245,Rice,Mustard,4,False,True,Meghalaya,Rabi,7.46,363.9,Moderate ecological ambiguity (Top-5 compatible)
+1247,Wheat,Mustard,2,True,True,Karnataka,Rabi,7.46,192.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1249,Groundnut,Finger Millet,3,True,True,Goa,Kharif,5.46,2944.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1250,Sesamum,Rice,5,False,True,Puducherry,Summer,6.36,117.4,Moderate ecological ambiguity (Top-5 compatible)
+1251,Urad,Finger Millet,3,True,True,West Bengal,Rabi,6.43,243.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1252,Sorghum,Rice,9,False,False,Puducherry,Kharif,6.57,1064.8,Severe pedological / environmental divergence
+1253,Mustard,Wheat,3,True,True,Sikkim,Rabi,7.46,357.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1255,Groundnut,Rice,9,False,False,Manipur,Kharif,7.47,1302.8,Severe pedological / environmental divergence
+1256,Urad,Mustard,7,False,False,West Bengal,Rabi,6.24,368.3,Severe pedological / environmental divergence
+1257,Rice,Maize,2,True,True,Maharashtra,Summer,7.93,138.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1258,Groundnut,Soybean,8,False,False,Odisha,Kharif,6.93,1049.7,Severe pedological / environmental divergence
+1259,Sorghum,Sugarcane,11,False,False,Kerala,Whole Year,5.78,227.5,Severe pedological / environmental divergence
+1260,Groundnut,Chickpea,11,False,False,Andhra Pradesh,Rabi,6.56,98.2,Severe pedological / environmental divergence
+1262,Maize,Moong,3,True,True,Uttarakhand,Summer,5.88,197.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1263,Soybean,Maize,4,False,True,Sikkim,Kharif,7.4,1687.8,Moderate ecological ambiguity (Top-5 compatible)
+1264,Moong,Maize,11,False,False,West Bengal,Kharif,6.1,836.8,Severe pedological / environmental divergence
+1265,Sesamum,Urad,6,False,False,Punjab,Kharif,5.46,354.7,Severe pedological / environmental divergence
+1266,Soybean,Rice,6,False,False,Meghalaya,Kharif,7.26,1820.2,Severe pedological / environmental divergence
+1268,Pigeonpea,Mustard,8,False,False,Mizoram,Rabi,7.56,302.1,Severe pedological / environmental divergence
+1272,Maize,Sugarcane,2,True,True,Sikkim,Whole Year,7.24,281.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1274,Urad,Groundnut,8,False,False,Karnataka,Kharif,5.87,1004.8,Severe pedological / environmental divergence
+1277,Rice,Urad,3,True,True,Kerala,Rabi,6.39,310.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1278,Finger Millet,Groundnut,10,False,False,Puducherry,Kharif,6.7,1002.3,Severe pedological / environmental divergence
+1279,Cotton,Rice,4,False,True,Mizoram,Kharif,7.44,2923.7,Moderate ecological ambiguity (Top-5 compatible)
+1280,Pearl Millet,Sesamum,7,False,False,Delhi,Kharif,6.94,469.2,Severe pedological / environmental divergence
+1281,Pigeonpea,Maize,6,False,False,Manipur,Kharif,7.08,552.1,Severe pedological / environmental divergence
+1282,Maize,Mustard,4,False,True,Mizoram,Rabi,6.4,366.5,Moderate ecological ambiguity (Top-5 compatible)
+1283,Pearl Millet,Rice,6,False,False,Jharkhand,Kharif,7.31,923.8,Severe pedological / environmental divergence
+1284,Mustard,Wheat,2,True,True,Uttar Pradesh,Rabi,7.6,131.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1285,Sesamum,Rice,6,False,False,Haryana,Kharif,7.59,341.8,Severe pedological / environmental divergence
+1286,Groundnut,Pigeonpea,7,False,False,Madhya Pradesh,Kharif,7.31,818.7,Severe pedological / environmental divergence
+1287,Maize,Mustard,3,True,True,Odisha,Rabi,6.87,201.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1288,Sorghum,Pigeonpea,7,False,False,Tamil Nadu,Rabi,6.11,130.2,Severe pedological / environmental divergence
+1289,Rice,Moong,2,True,True,Odisha,Summer,5.89,118.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1290,Sesamum,Urad,5,False,True,Odisha,Kharif,6.34,963.7,Moderate ecological ambiguity (Top-5 compatible)
+1292,Mustard,Wheat,2,True,True,Madhya Pradesh,Rabi,7.77,120.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1293,Groundnut,Moong,11,False,False,Chhattisgarh,Kharif,6.48,1019.1,Severe pedological / environmental divergence
+1294,Cotton,Sugarcane,12,False,False,Kerala,Whole Year,6.48,299.6,Severe pedological / environmental divergence
+1295,Urad,Finger Millet,10,False,False,Karnataka,Kharif,7.42,921.0,Severe pedological / environmental divergence
+1296,Pearl Millet,Sesamum,14,False,False,Puducherry,Rabi,6.22,231.2,Severe pedological / environmental divergence
+1297,Soybean,Rice,8,False,False,Mizoram,Kharif,6.17,2067.2,Severe pedological / environmental divergence
+1298,Sesamum,Chickpea,12,False,False,Maharashtra,Rabi,7.75,174.7,Severe pedological / environmental divergence
+1299,Pigeonpea,Chickpea,12,False,False,Telangana,Rabi,6.67,118.6,Severe pedological / environmental divergence
+1300,Chickpea,Mustard,3,True,True,Jammu and Kashmir,Rabi,6.17,113.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1301,Wheat,Mustard,3,True,True,Arunachal Pradesh,Rabi,7.85,424.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1302,Sesamum,Mustard,10,False,False,Odisha,Rabi,6.51,245.4,Severe pedological / environmental divergence
+1303,Urad,Cotton,5,False,True,Punjab,Kharif,8.06,389.7,Moderate ecological ambiguity (Top-5 compatible)
+1304,Pearl Millet,Pigeonpea,8,False,False,Himachal Pradesh,Kharif,7.09,707.4,Severe pedological / environmental divergence
+1305,Maize,Mustard,4,False,True,Bihar,Rabi,7.6,94.0,Moderate ecological ambiguity (Top-5 compatible)
+1306,Pearl Millet,Rice,2,True,True,Puducherry,Kharif,8.09,1052.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1308,Moong,Rice,2,True,True,Uttarakhand,Summer,5.46,168.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1310,Wheat,Chickpea,2,True,True,Himachal Pradesh,Rabi,7.32,166.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1311,Finger Millet,Chickpea,6,False,False,Telangana,Rabi,8.06,163.4,Severe pedological / environmental divergence
+1312,Wheat,Chickpea,2,True,True,Bihar,Rabi,7.56,162.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1313,Rice,Wheat,4,False,True,Nagaland,Rabi,7.27,280.3,Moderate ecological ambiguity (Top-5 compatible)
+1314,Rice,Moong,2,True,True,Uttar Pradesh,Summer,8.26,89.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1315,Chickpea,Mustard,3,True,True,Bihar,Rabi,7.37,183.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1316,Pearl Millet,Mustard,14,False,False,Jammu and Kashmir,Rabi,6.0,224.5,Severe pedological / environmental divergence
+1317,Urad,Sesamum,4,False,True,Tamil Nadu,Kharif,6.46,788.3,Moderate ecological ambiguity (Top-5 compatible)
+1318,Urad,Finger Millet,6,False,False,Tamil Nadu,Kharif,6.25,863.0,Severe pedological / environmental divergence
+1319,Wheat,Chickpea,2,True,True,Bihar,Rabi,7.32,143.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1321,Pigeonpea,Rice,7,False,False,Chhattisgarh,Kharif,6.55,881.3,Severe pedological / environmental divergence
+1323,Mustard,Wheat,4,False,True,Tripura,Rabi,7.75,424.2,Moderate ecological ambiguity (Top-5 compatible)
+1324,Pigeonpea,Groundnut,5,False,True,Karnataka,Kharif,5.11,881.2,Moderate ecological ambiguity (Top-5 compatible)
+1325,Sesamum,Maize,5,False,True,Haryana,Kharif,7.14,439.8,Moderate ecological ambiguity (Top-5 compatible)
+1327,Cotton,Maize,11,False,False,West Bengal,Kharif,7.57,1247.8,Severe pedological / environmental divergence
+1328,Moong,Maize,8,False,False,Jammu and Kashmir,Kharif,5.66,717.2,Severe pedological / environmental divergence
+1329,Moong,Mustard,6,False,False,Tripura,Rabi,6.7,378.8,Severe pedological / environmental divergence
+1330,Groundnut,Wheat,9,False,False,Andhra Pradesh,Rabi,6.61,127.5,Severe pedological / environmental divergence
+1333,Finger Millet,Sorghum,12,False,False,Madhya Pradesh,Kharif,7.37,715.4,Severe pedological / environmental divergence
+1334,Rice,Moong,4,False,True,Odisha,Rabi,6.57,244.9,Moderate ecological ambiguity (Top-5 compatible)
+1335,Mustard,Maize,6,False,False,Karnataka,Rabi,8.28,223.2,Severe pedological / environmental divergence
+1336,Mustard,Chickpea,3,True,True,Haryana,Rabi,7.51,80.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1337,Pigeonpea,Pearl Millet,5,False,True,Tamil Nadu,Kharif,6.63,676.7,Moderate ecological ambiguity (Top-5 compatible)
+1338,Sorghum,Rice,12,False,False,Nagaland,Kharif,6.86,1460.1,Severe pedological / environmental divergence
+1339,Moong,Mustard,7,False,False,Tripura,Rabi,7.42,415.3,Severe pedological / environmental divergence
+1340,Maize,Urad,7,False,False,Jammu and Kashmir,Kharif,5.98,701.7,Severe pedological / environmental divergence
+1342,Rice,Sesamum,4,False,True,Puducherry,Kharif,7.9,1011.8,Moderate ecological ambiguity (Top-5 compatible)
+1343,Moong,Rice,4,False,True,Uttarakhand,Summer,7.77,135.9,Moderate ecological ambiguity (Top-5 compatible)
+1344,Moong,Rice,4,False,True,Odisha,Summer,6.22,130.5,Moderate ecological ambiguity (Top-5 compatible)
+1345,Chickpea,Groundnut,2,True,True,Karnataka,Rabi,5.1,178.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1346,Rice,Pearl Millet,6,False,False,Uttar Pradesh,Kharif,7.52,329.8,Severe pedological / environmental divergence
+1348,Sugarcane,Chickpea,14,False,False,Odisha,Rabi,6.5,193.8,Severe pedological / environmental divergence
+1349,Urad,Rice,7,False,False,Sikkim,Kharif,7.24,2219.5,Severe pedological / environmental divergence
+1352,Finger Millet,Rice,9,False,False,Uttarakhand,Kharif,7.35,1109.7,Severe pedological / environmental divergence
+1354,Maize,Rice,2,True,True,Bihar,Kharif,7.45,780.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1355,Groundnut,Maize,11,False,False,Nagaland,Kharif,7.67,1268.9,Severe pedological / environmental divergence
+1356,Urad,Rice,6,False,False,Puducherry,Summer,7.44,151.2,Severe pedological / environmental divergence
+1358,Rice,Mustard,5,False,True,Bihar,Rabi,7.23,149.1,Moderate ecological ambiguity (Top-5 compatible)
+1359,Soybean,Rice,8,False,False,Mizoram,Kharif,7.03,1798.3,Severe pedological / environmental divergence
+1361,Urad,Chickpea,5,False,True,Puducherry,Rabi,6.77,162.8,Moderate ecological ambiguity (Top-5 compatible)
+1362,Pearl Millet,Rice,8,False,False,Punjab,Kharif,7.44,339.2,Severe pedological / environmental divergence
+1364,Groundnut,Rice,9,False,False,Haryana,Kharif,7.78,314.4,Severe pedological / environmental divergence
+1365,Chickpea,Wheat,3,True,True,Bihar,Rabi,6.91,239.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1366,Sesamum,Rice,3,True,True,Uttar Pradesh,Kharif,7.85,757.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1367,Sorghum,Finger Millet,3,True,True,Karnataka,Kharif,5.57,927.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1368,Cotton,Rice,6,False,False,Jammu and Kashmir,Kharif,5.46,954.0,Severe pedological / environmental divergence
+1369,Moong,Urad,7,False,False,Maharashtra,Kharif,7.66,721.8,Legume/Pulse physiological similarity
+1370,Maize,Groundnut,4,False,True,Chhattisgarh,Kharif,6.65,971.1,Moderate ecological ambiguity (Top-5 compatible)
+1371,Maize,Sugarcane,2,True,True,Tamil Nadu,Whole Year,6.76,134.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1373,Pigeonpea,Maize,4,False,True,Punjab,Kharif,5.53,178.9,Moderate ecological ambiguity (Top-5 compatible)
+1374,Rice,Wheat,5,False,True,Bihar,Rabi,7.18,140.0,Moderate ecological ambiguity (Top-5 compatible)
+1375,Urad,Maize,3,True,True,Andhra Pradesh,Kharif,6.64,558.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1376,Rice,Mustard,6,False,False,Bihar,Rabi,7.23,130.2,Severe pedological / environmental divergence
+1377,Urad,Pigeonpea,10,False,False,Maharashtra,Kharif,7.77,1027.8,Severe pedological / environmental divergence
+1378,Chickpea,Wheat,3,True,True,Uttar Pradesh,Rabi,7.85,136.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1379,Wheat,Mustard,2,True,True,Assam,Rabi,7.18,287.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1382,Sesamum,Maize,6,False,False,Odisha,Summer,6.06,122.1,Severe pedological / environmental divergence
+1383,Chickpea,Mustard,2,True,True,Jharkhand,Rabi,6.25,189.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1384,Chickpea,Mustard,2,True,True,Manipur,Rabi,7.14,136.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1385,Finger Millet,Rice,12,False,False,West Bengal,Kharif,7.65,1244.2,Severe pedological / environmental divergence
+1386,Urad,Wheat,6,False,False,Andhra Pradesh,Rabi,6.0,152.1,Severe pedological / environmental divergence
+1387,Urad,Rice,7,False,False,Bihar,Kharif,7.42,703.5,Severe pedological / environmental divergence
+1388,Urad,Rice,9,False,False,Karnataka,Kharif,5.51,612.3,Severe pedological / environmental divergence
+1389,Rice,Sorghum,5,False,True,Madhya Pradesh,Kharif,7.69,698.5,Moderate ecological ambiguity (Top-5 compatible)
+1390,Chickpea,Mustard,5,False,True,Chhattisgarh,Rabi,6.53,196.9,Moderate ecological ambiguity (Top-5 compatible)
+1391,Mustard,Wheat,3,True,True,Madhya Pradesh,Rabi,8.06,147.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1392,Cotton,Sugarcane,2,True,True,Chhattisgarh,Whole Year,6.43,146.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1393,Mustard,Wheat,3,True,True,Jharkhand,Rabi,7.28,181.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1394,Urad,Wheat,5,False,True,Chhattisgarh,Rabi,6.72,157.8,Moderate ecological ambiguity (Top-5 compatible)
+1396,Maize,Wheat,5,False,True,Maharashtra,Rabi,7.4,187.6,Moderate ecological ambiguity (Top-5 compatible)
+1398,Maize,Rice,7,False,False,Chhattisgarh,Kharif,6.49,843.4,Severe pedological / environmental divergence
+1399,Pigeonpea,Maize,4,False,True,Andhra Pradesh,Kharif,6.21,767.1,Moderate ecological ambiguity (Top-5 compatible)
+1400,Pearl Millet,Groundnut,11,False,False,Maharashtra,Kharif,7.71,898.9,Severe pedological / environmental divergence
+1401,Sorghum,Wheat,9,False,False,Madhya Pradesh,Rabi,6.41,135.3,Severe pedological / environmental divergence
+1402,Maize,Rice,3,True,True,Uttarakhand,Summer,7.27,144.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1403,Pearl Millet,Rice,8,False,False,Tamil Nadu,Kharif,6.36,696.1,Severe pedological / environmental divergence
+1404,Sugarcane,Sorghum,13,False,False,Telangana,Kharif,6.68,530.3,Severe pedological / environmental divergence
+1405,Moong,Groundnut,8,False,False,Tamil Nadu,Kharif,6.0,693.5,Severe pedological / environmental divergence
+1406,Maize,Rice,2,True,True,Maharashtra,Summer,7.92,126.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1407,Sesamum,Sugarcane,5,False,True,Kerala,Whole Year,5.43,317.4,Moderate ecological ambiguity (Top-5 compatible)
+1408,Sorghum,Maize,3,True,True,Maharashtra,Kharif,7.65,771.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1409,Urad,Rice,2,True,True,Uttar Pradesh,Summer,7.81,109.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1410,Rice,Groundnut,4,False,True,Madhya Pradesh,Kharif,8.12,680.2,Moderate ecological ambiguity (Top-5 compatible)
+1414,Soybean,Maize,11,False,False,Maharashtra,Kharif,7.74,879.3,Severe pedological / environmental divergence
+1415,Sesamum,Rice,5,False,True,Assam,Kharif,7.34,1487.2,Moderate ecological ambiguity (Top-5 compatible)
+1417,Pearl Millet,Rice,8,False,False,West Bengal,Kharif,6.26,1190.6,Severe pedological / environmental divergence
+1418,Sorghum,Cotton,3,True,True,Uttar Pradesh,Kharif,7.63,322.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1419,Finger Millet,Rice,9,False,False,Odisha,Summer,6.77,155.3,Severe pedological / environmental divergence
+1420,Maize,Soybean,3,True,True,Manipur,Kharif,7.2,535.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1421,Cotton,Groundnut,11,False,False,Karnataka,Kharif,7.98,956.1,Severe pedological / environmental divergence
+1422,Cotton,Rice,6,False,False,Tripura,Kharif,7.31,1697.6,Severe pedological / environmental divergence
+1423,Pearl Millet,Rice,10,False,False,Punjab,Kharif,6.3,403.9,Severe pedological / environmental divergence
+1426,Chickpea,Mustard,2,True,True,Delhi,Rabi,6.38,70.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1427,Sorghum,Rice,12,False,False,Odisha,Kharif,6.56,1166.6,Severe pedological / environmental divergence
+1429,Moong,Maize,4,False,True,Odisha,Summer,6.67,136.0,Moderate ecological ambiguity (Top-5 compatible)
+1430,Cotton,Rice,12,False,False,Maharashtra,Kharif,5.33,1059.7,Severe pedological / environmental divergence
+1436,Maize,Moong,3,True,True,Uttar Pradesh,Summer,7.61,56.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1437,Sesamum,Mustard,11,False,False,West Bengal,Rabi,6.4,155.9,Severe pedological / environmental divergence
+1439,Maize,Chickpea,4,False,True,Bihar,Rabi,7.71,170.9,Moderate ecological ambiguity (Top-5 compatible)
+1440,Sorghum,Wheat,5,False,True,Maharashtra,Rabi,7.66,222.8,Moderate ecological ambiguity (Top-5 compatible)
+1441,Pearl Millet,Rice,4,False,True,Karnataka,Kharif,5.34,757.9,Moderate ecological ambiguity (Top-5 compatible)
+1442,Mustard,Chickpea,3,True,True,Uttar Pradesh,Rabi,7.78,89.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1443,Moong,Rice,7,False,False,Himachal Pradesh,Kharif,5.88,987.7,Severe pedological / environmental divergence
+1445,Rice,Maize,8,False,False,Tamil Nadu,Kharif,5.94,264.9,Severe pedological / environmental divergence
+1446,Urad,Rice,5,False,True,Nagaland,Kharif,6.98,990.6,Moderate ecological ambiguity (Top-5 compatible)
+1447,Rice,Mustard,5,False,True,Karnataka,Rabi,6.8,157.4,Moderate ecological ambiguity (Top-5 compatible)
+1448,Cotton,Rice,10,False,False,Nagaland,Kharif,7.43,999.3,Severe pedological / environmental divergence
+1450,Finger Millet,Sugarcane,8,False,False,Tamil Nadu,Whole Year,6.78,102.3,Severe pedological / environmental divergence
+1451,Moong,Sorghum,7,False,False,Gujarat,Kharif,5.44,462.1,Severe pedological / environmental divergence
+1453,Groundnut,Finger Millet,3,True,True,Goa,Kharif,5.05,2958.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1454,Maize,Sorghum,7,False,False,Andhra Pradesh,Kharif,7.63,519.6,Severe pedological / environmental divergence
+1455,Mustard,Wheat,3,True,True,Gujarat,Rabi,7.88,146.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1456,Groundnut,Rice,7,False,False,Puducherry,Kharif,6.14,1500.6,Severe pedological / environmental divergence
+1457,Chickpea,Wheat,3,True,True,Bihar,Rabi,7.33,175.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1458,Finger Millet,Groundnut,3,True,True,Maharashtra,Kharif,8.04,1020.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1459,Mustard,Wheat,3,True,True,Haryana,Rabi,6.85,68.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1460,Chickpea,Wheat,3,True,True,Maharashtra,Rabi,7.78,229.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1461,Maize,Sugarcane,2,True,True,Kerala,Whole Year,5.03,258.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1463,Maize,Wheat,4,False,True,Uttar Pradesh,Rabi,7.52,103.0,Moderate ecological ambiguity (Top-5 compatible)
+1465,Urad,Rice,8,False,False,West Bengal,Kharif,6.86,1223.2,Severe pedological / environmental divergence
+1466,Sesamum,Sugarcane,3,True,True,Madhya Pradesh,Whole Year,7.53,147.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1467,Wheat,Mustard,2,True,True,Maharashtra,Rabi,7.95,209.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1469,Maize,Rice,2,True,True,Uttarakhand,Kharif,5.49,969.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1470,Pearl Millet,Maize,10,False,False,Himachal Pradesh,Kharif,5.76,964.4,Severe pedological / environmental divergence
+1471,Maize,Pigeonpea,2,True,True,Haryana,Kharif,7.15,286.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1472,Groundnut,Rice,10,False,False,Haryana,Kharif,7.31,326.9,Severe pedological / environmental divergence
+1473,Cotton,Pigeonpea,11,False,False,Puducherry,Kharif,6.98,969.9,Severe pedological / environmental divergence
+1474,Pearl Millet,Sugarcane,3,True,True,Chhattisgarh,Whole Year,6.54,112.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1475,Sorghum,Wheat,5,False,True,Karnataka,Rabi,7.94,190.3,Moderate ecological ambiguity (Top-5 compatible)
+1476,Mustard,Wheat,2,True,True,Nagaland,Rabi,7.61,208.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1478,Rice,Maize,6,False,False,Andhra Pradesh,Rabi,6.99,109.0,Severe pedological / environmental divergence
+1479,Sorghum,Rice,9,False,False,Karnataka,Summer,7.86,108.0,Severe pedological / environmental divergence
+1480,Pearl Millet,Moong,11,False,False,Uttarakhand,Kharif,6.99,989.2,Severe pedological / environmental divergence
+1482,Wheat,Chickpea,4,False,True,Gujarat,Rabi,5.13,125.6,Moderate ecological ambiguity (Top-5 compatible)
+1483,Groundnut,Maize,5,False,True,Maharashtra,Summer,7.74,111.8,Moderate ecological ambiguity (Top-5 compatible)
+1484,Urad,Rice,4,False,True,Uttar Pradesh,Summer,8.04,74.9,Moderate ecological ambiguity (Top-5 compatible)
+1486,Pearl Millet,Rice,11,False,False,West Bengal,Kharif,6.66,1274.0,Severe pedological / environmental divergence
+1487,Pearl Millet,Wheat,12,False,False,Andhra Pradesh,Rabi,6.41,126.0,Severe pedological / environmental divergence
+1488,Mustard,Wheat,2,True,True,West Bengal,Rabi,6.48,237.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1489,Pearl Millet,Cotton,2,True,True,Andhra Pradesh,Kharif,6.7,510.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1490,Maize,Wheat,5,False,True,Uttar Pradesh,Rabi,7.5,144.6,Moderate ecological ambiguity (Top-5 compatible)
+1492,Urad,Mustard,6,False,False,Nagaland,Rabi,7.51,175.2,Severe pedological / environmental divergence
+1493,Moong,Cotton,11,False,False,Andhra Pradesh,Kharif,6.36,496.9,Severe pedological / environmental divergence
+1494,Cotton,Finger Millet,11,False,False,West Bengal,Kharif,6.21,1246.4,Severe pedological / environmental divergence
+1496,Sesamum,Rice,5,False,True,Assam,Kharif,7.77,1305.7,Moderate ecological ambiguity (Top-5 compatible)
+1497,Wheat,Mustard,2,True,True,Arunachal Pradesh,Rabi,7.8,329.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1498,Rice,Wheat,4,False,True,Meghalaya,Rabi,7.31,868.1,Moderate ecological ambiguity (Top-5 compatible)
+1499,Groundnut,Maize,8,False,False,Punjab,Kharif,5.73,428.1,Severe pedological / environmental divergence
+1500,Urad,Rice,4,False,True,West Bengal,Kharif,6.46,1185.4,Moderate ecological ambiguity (Top-5 compatible)
+1501,Cotton,Moong,9,False,False,Punjab,Kharif,5.76,452.0,Severe pedological / environmental divergence
+1502,Soybean,Maize,8,False,False,Karnataka,Kharif,6.63,748.7,Severe pedological / environmental divergence
+1503,Moong,Sugarcane,10,False,False,Kerala,Whole Year,6.37,311.5,Severe pedological / environmental divergence
+1505,Maize,Soybean,3,True,True,Nagaland,Kharif,7.08,1020.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1506,Wheat,Chickpea,6,False,False,Jharkhand,Rabi,5.95,196.3,Severe pedological / environmental divergence
+1507,Groundnut,Rice,9,False,False,Odisha,Kharif,6.69,1192.5,Severe pedological / environmental divergence
+1509,Soybean,Rice,12,False,False,Maharashtra,Kharif,7.83,741.4,Severe pedological / environmental divergence
+1513,Groundnut,Maize,4,False,True,Tamil Nadu,Kharif,6.5,780.0,Moderate ecological ambiguity (Top-5 compatible)
+1514,Maize,Rice,3,True,True,Meghalaya,Kharif,7.6,2822.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1517,Pearl Millet,Chickpea,13,False,False,Andhra Pradesh,Rabi,6.65,185.5,Severe pedological / environmental divergence
+1518,Wheat,Mustard,3,True,True,Punjab,Rabi,5.22,70.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1519,Groundnut,Maize,4,False,True,Gujarat,Summer,5.46,102.1,Moderate ecological ambiguity (Top-5 compatible)
+1520,Pearl Millet,Groundnut,11,False,False,Tamil Nadu,Kharif,6.64,865.2,Severe pedological / environmental divergence
+1521,Urad,Maize,4,False,True,Uttar Pradesh,Summer,7.32,68.5,Moderate ecological ambiguity (Top-5 compatible)
+1522,Urad,Sesamum,8,False,False,Odisha,Kharif,6.75,1027.1,Severe pedological / environmental divergence
+1523,Sesamum,Rice,9,False,False,Puducherry,Summer,7.93,141.1,Severe pedological / environmental divergence
+1524,Cotton,Wheat,16,False,False,Andhra Pradesh,Rabi,6.34,169.2,Severe pedological / environmental divergence
+1526,Finger Millet,Sesamum,11,False,False,Tamil Nadu,Kharif,6.51,256.1,Severe pedological / environmental divergence
+1527,Moong,Maize,8,False,False,West Bengal,Kharif,6.33,1382.8,Severe pedological / environmental divergence
+1528,Sesamum,Rice,3,True,True,Odisha,Kharif,6.77,1307.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1529,Maize,Rice,2,True,True,West Bengal,Kharif,6.52,1311.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1530,Finger Millet,Rice,8,False,False,Jharkhand,Kharif,7.25,777.9,Severe pedological / environmental divergence
+1531,Moong,Sesamum,8,False,False,Bihar,Kharif,7.46,543.4,Severe pedological / environmental divergence
+1532,Maize,Soybean,4,False,True,Mizoram,Kharif,6.49,1247.3,Moderate ecological ambiguity (Top-5 compatible)
+1533,Cotton,Rice,14,False,False,Karnataka,Summer,5.71,99.0,Severe pedological / environmental divergence
+1536,Wheat,Chickpea,3,True,True,Punjab,Rabi,5.55,51.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1537,Maize,Rice,2,True,True,Tripura,Kharif,6.09,1962.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1538,Urad,Rice,7,False,False,Puducherry,Summer,7.8,197.8,Severe pedological / environmental divergence
+1539,Sesamum,Rice,5,False,True,Karnataka,Kharif,5.84,1034.1,Moderate ecological ambiguity (Top-5 compatible)
+1540,Groundnut,Rice,3,True,True,Madhya Pradesh,Kharif,7.81,871.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1541,Rice,Maize,2,True,True,Telangana,Kharif,6.36,1015.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1542,Urad,Pearl Millet,5,False,True,Maharashtra,Kharif,7.46,894.7,Moderate ecological ambiguity (Top-5 compatible)
+1543,Groundnut,Pearl Millet,4,False,True,Andhra Pradesh,Kharif,6.53,666.9,Moderate ecological ambiguity (Top-5 compatible)
+1544,Pearl Millet,Moong,4,False,True,Punjab,Kharif,5.89,257.5,Moderate ecological ambiguity (Top-5 compatible)
+1545,Soybean,Cotton,9,False,False,Uttar Pradesh,Kharif,7.27,561.3,Severe pedological / environmental divergence
+1546,Pearl Millet,Maize,2,True,True,Delhi,Kharif,7.79,512.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1547,Wheat,Rice,11,False,False,Chhattisgarh,Rabi,6.7,235.7,Severe pedological / environmental divergence
+1548,Maize,Rice,3,True,True,Nagaland,Kharif,7.43,951.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1549,Maize,Rice,2,True,True,Odisha,Summer,6.54,163.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1550,Pigeonpea,Groundnut,10,False,False,Andhra Pradesh,Kharif,7.15,609.4,Severe pedological / environmental divergence
+1551,Sugarcane,Rice,13,False,False,Nagaland,Kharif,7.11,1243.5,Severe pedological / environmental divergence
+1552,Cotton,Sorghum,8,False,False,Uttar Pradesh,Kharif,8.02,426.9,Severe pedological / environmental divergence
+1553,Rice,Groundnut,2,True,True,Odisha,Kharif,6.69,998.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1554,Soybean,Pearl Millet,11,False,False,Madhya Pradesh,Kharif,7.66,760.0,Severe pedological / environmental divergence
+1555,Maize,Rice,2,True,True,Uttar Pradesh,Summer,7.16,60.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1559,Wheat,Moong,11,False,False,Odisha,Summer,6.84,131.0,Severe pedological / environmental divergence
+1560,Maize,Rice,2,True,True,Uttarakhand,Kharif,6.88,1269.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1562,Finger Millet,Maize,11,False,False,Chhattisgarh,Kharif,5.96,964.5,Severe pedological / environmental divergence
+1563,Soybean,Rice,3,True,True,Meghalaya,Kharif,7.11,2898.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1564,Finger Millet,Wheat,13,False,False,Andhra Pradesh,Rabi,7.82,124.2,Severe pedological / environmental divergence
+1565,Mustard,Wheat,3,True,True,Meghalaya,Rabi,7.51,976.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1566,Chickpea,Mustard,2,True,True,Nagaland,Rabi,7.45,254.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1567,Finger Millet,Rice,3,True,True,Chhattisgarh,Kharif,6.57,868.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1568,Pigeonpea,Rice,7,False,False,Nagaland,Kharif,7.09,1469.2,Severe pedological / environmental divergence
+1569,Cotton,Rice,11,False,False,Himachal Pradesh,Kharif,5.87,959.7,Severe pedological / environmental divergence
+1570,Sorghum,Pearl Millet,7,False,False,Gujarat,Kharif,5.72,341.5,Severe pedological / environmental divergence
+1571,Groundnut,Pigeonpea,8,False,False,Bihar,Kharif,7.56,895.6,Severe pedological / environmental divergence
+1572,Sorghum,Maize,7,False,False,Karnataka,Summer,7.69,80.2,Severe pedological / environmental divergence
+1573,Mustard,Maize,4,False,True,Jharkhand,Rabi,7.1,161.0,Moderate ecological ambiguity (Top-5 compatible)
+1575,Sorghum,Mustard,9,False,False,Telangana,Rabi,6.98,140.8,Severe pedological / environmental divergence
+1576,Finger Millet,Rice,10,False,False,Karnataka,Kharif,7.58,891.7,Severe pedological / environmental divergence
+1577,Pearl Millet,Sesamum,10,False,False,Haryana,Kharif,7.15,333.7,Severe pedological / environmental divergence
+1578,Finger Millet,Maize,10,False,False,Bihar,Kharif,7.39,875.3,Severe pedological / environmental divergence
+1579,Cotton,Rice,12,False,False,Puducherry,Summer,7.26,139.8,Severe pedological / environmental divergence
+1580,Mustard,Wheat,3,True,True,Uttarakhand,Rabi,5.96,188.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1581,Maize,Moong,4,False,True,Himachal Pradesh,Kharif,6.1,885.0,Moderate ecological ambiguity (Top-5 compatible)
+1582,Maize,Rice,4,False,True,Mizoram,Rabi,6.04,406.3,Moderate ecological ambiguity (Top-5 compatible)
+1583,Pigeonpea,Mustard,12,False,False,Tamil Nadu,Rabi,6.78,137.2,Severe pedological / environmental divergence
+1585,Wheat,Mustard,3,True,True,Sikkim,Rabi,7.43,411.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1586,Moong,Rice,4,False,True,Odisha,Summer,6.71,132.5,Moderate ecological ambiguity (Top-5 compatible)
+1588,Maize,Rice,3,True,True,Manipur,Kharif,7.43,1520.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1589,Urad,Maize,3,True,True,Odisha,Kharif,6.73,814.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1590,Sesamum,Sorghum,3,True,True,Andhra Pradesh,Kharif,6.37,585.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1591,Pigeonpea,Soybean,10,False,False,Chhattisgarh,Kharif,6.55,952.3,Severe pedological / environmental divergence
+1592,Sugarcane,Pearl Millet,13,False,False,Uttar Pradesh,Kharif,7.7,703.4,Severe pedological / environmental divergence
+1593,Cotton,Rice,4,False,True,Tripura,Kharif,7.6,1761.3,Moderate ecological ambiguity (Top-5 compatible)
+1594,Soybean,Sorghum,12,False,False,Karnataka,Kharif,7.68,950.1,Severe pedological / environmental divergence
+1595,Pigeonpea,Rice,4,False,True,Bihar,Kharif,7.18,1103.6,Moderate ecological ambiguity (Top-5 compatible)
+1596,Chickpea,Mustard,2,True,True,Manipur,Rabi,7.44,163.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1597,Moong,Rice,6,False,False,Bihar,Kharif,7.63,730.2,Severe pedological / environmental divergence
+1598,Finger Millet,Groundnut,7,False,False,Karnataka,Kharif,7.28,948.1,Severe pedological / environmental divergence
+1599,Moong,Sugarcane,8,False,False,Tamil Nadu,Whole Year,6.89,113.8,Severe pedological / environmental divergence
+1603,Finger Millet,Wheat,9,False,False,Telangana,Rabi,8.41,140.6,Severe pedological / environmental divergence
+1604,Sugarcane,Pearl Millet,13,False,False,Andhra Pradesh,Kharif,6.77,639.2,Severe pedological / environmental divergence
+1605,Urad,Mustard,6,False,False,Puducherry,Rabi,7.58,215.2,Severe pedological / environmental divergence
+1606,Maize,Mustard,4,False,True,Uttar Pradesh,Rabi,7.02,126.5,Moderate ecological ambiguity (Top-5 compatible)
+1607,Cotton,Rice,6,False,False,Mizoram,Kharif,7.71,1371.1,Severe pedological / environmental divergence
+1608,Pigeonpea,Groundnut,5,False,True,Andhra Pradesh,Kharif,6.77,828.3,Moderate ecological ambiguity (Top-5 compatible)
+1609,Cotton,Rice,4,False,True,Mizoram,Kharif,6.42,1783.1,Moderate ecological ambiguity (Top-5 compatible)
+1610,Pearl Millet,Rice,11,False,False,Uttarakhand,Kharif,7.52,1064.5,Severe pedological / environmental divergence
+1611,Groundnut,Rice,4,False,True,Uttar Pradesh,Kharif,7.34,595.3,Moderate ecological ambiguity (Top-5 compatible)
+1612,Moong,Rice,7,False,False,Karnataka,Summer,5.19,107.6,Severe pedological / environmental divergence
+1613,Moong,Urad,6,False,False,Haryana,Kharif,7.62,430.2,Legume/Pulse physiological similarity
+1614,Sorghum,Maize,11,False,False,Tripura,Kharif,6.66,1608.9,Severe pedological / environmental divergence
+1615,Cotton,Rice,6,False,False,Karnataka,Kharif,7.49,651.5,Severe pedological / environmental divergence
+1616,Finger Millet,Chickpea,9,False,False,Andhra Pradesh,Rabi,6.71,145.7,Severe pedological / environmental divergence
+1617,Wheat,Chickpea,3,True,True,Delhi,Rabi,7.06,77.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1618,Maize,Rice,3,True,True,Odisha,Summer,6.79,181.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1619,Finger Millet,Rice,6,False,False,West Bengal,Kharif,7.33,776.0,Severe pedological / environmental divergence
+1620,Sesamum,Groundnut,8,False,False,Karnataka,Kharif,5.35,1049.3,Severe pedological / environmental divergence
+1621,Rice,Wheat,3,True,True,Tripura,Rabi,7.18,373.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1622,Sugarcane,Groundnut,13,False,False,Puducherry,Kharif,8.14,1096.9,Severe pedological / environmental divergence
+1623,Rice,Finger Millet,5,False,True,Chhattisgarh,Kharif,6.25,959.2,Moderate ecological ambiguity (Top-5 compatible)
+1624,Soybean,Rice,12,False,False,Himachal Pradesh,Kharif,5.88,674.3,Severe pedological / environmental divergence
+1625,Moong,Rice,2,True,True,West Bengal,Kharif,5.88,1225.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1626,Groundnut,Rice,2,True,True,Kerala,Kharif,5.57,2115.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1627,Cotton,Sesamum,10,False,False,Odisha,Kharif,6.23,1209.5,Severe pedological / environmental divergence
+1628,Sesamum,Rice,6,False,False,Gujarat,Summer,5.34,90.2,Severe pedological / environmental divergence
+1629,Maize,Rice,2,True,True,Tripura,Kharif,6.86,1794.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1631,Urad,Cotton,2,True,True,Chhattisgarh,Kharif,6.22,964.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1632,Chickpea,Sugarcane,14,False,False,Tamil Nadu,Whole Year,6.96,96.5,Severe pedological / environmental divergence
+1633,Wheat,Chickpea,3,True,True,Haryana,Rabi,7.33,63.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1634,Sesamum,Sugarcane,10,False,False,Madhya Pradesh,Whole Year,7.68,100.0,Severe pedological / environmental divergence
+1635,Chickpea,Wheat,3,True,True,Delhi,Rabi,7.95,106.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1636,Cotton,Maize,4,False,True,Assam,Kharif,7.34,1636.4,Moderate ecological ambiguity (Top-5 compatible)
+1637,Pigeonpea,Maize,10,False,False,Punjab,Kharif,5.68,279.9,Severe pedological / environmental divergence
+1638,Finger Millet,Rice,11,False,False,Uttarakhand,Kharif,5.82,862.2,Severe pedological / environmental divergence
+1639,Urad,Mustard,6,False,False,Odisha,Rabi,6.42,206.2,Severe pedological / environmental divergence
+1641,Moong,Groundnut,7,False,False,Gujarat,Kharif,4.99,574.6,Severe pedological / environmental divergence
+1642,Pigeonpea,Rice,5,False,True,Haryana,Kharif,7.24,404.8,Moderate ecological ambiguity (Top-5 compatible)
+1643,Cotton,Rice,10,False,False,Puducherry,Summer,7.88,136.4,Severe pedological / environmental divergence
+1644,Chickpea,Mustard,2,True,True,Haryana,Rabi,7.0,102.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1645,Groundnut,Mustard,10,False,False,West Bengal,Rabi,7.21,251.7,Severe pedological / environmental divergence
+1646,Sesamum,Maize,8,False,False,Puducherry,Kharif,8.31,1080.5,Severe pedological / environmental divergence
+1648,Sesamum,Chickpea,12,False,False,Maharashtra,Rabi,5.6,215.5,Severe pedological / environmental divergence
+1650,Sesamum,Rice,4,False,True,Kerala,Kharif,5.57,2085.3,Moderate ecological ambiguity (Top-5 compatible)
+1651,Sesamum,Rice,3,True,True,Nagaland,Kharif,7.52,1330.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1652,Maize,Rice,3,True,True,West Bengal,Summer,7.4,144.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1653,Wheat,Mustard,2,True,True,West Bengal,Rabi,6.43,270.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1656,Pigeonpea,Maize,11,False,False,Uttar Pradesh,Kharif,7.91,682.7,Severe pedological / environmental divergence
+1657,Moong,Wheat,7,False,False,Madhya Pradesh,Rabi,7.3,157.0,Severe pedological / environmental divergence
+1658,Pearl Millet,Maize,8,False,False,Karnataka,Summer,8.12,123.8,Severe pedological / environmental divergence
+1659,Mustard,Wheat,2,True,True,Mizoram,Rabi,6.99,306.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1662,Cotton,Rice,12,False,False,Jammu and Kashmir,Kharif,6.4,972.5,Severe pedological / environmental divergence
+1664,Moong,Rice,8,False,False,Mizoram,Rabi,6.48,411.2,Severe pedological / environmental divergence
+1665,Soybean,Rice,3,True,True,Meghalaya,Kharif,7.42,3117.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1666,Urad,Mustard,5,False,True,Arunachal Pradesh,Rabi,7.54,421.8,Moderate ecological ambiguity (Top-5 compatible)
+1667,Urad,Sorghum,9,False,False,Madhya Pradesh,Kharif,8.05,676.7,Severe pedological / environmental divergence
+1668,Moong,Rice,10,False,False,Tripura,Kharif,7.0,2041.9,Severe pedological / environmental divergence
+1669,Cotton,Chickpea,15,False,False,Tamil Nadu,Rabi,6.26,173.4,Severe pedological / environmental divergence
+1670,Finger Millet,Rice,8,False,False,Jharkhand,Kharif,6.99,1044.1,Severe pedological / environmental divergence
+1671,Sorghum,Wheat,3,True,True,Maharashtra,Rabi,7.59,176.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1672,Groundnut,Sorghum,4,False,True,Maharashtra,Kharif,7.83,793.5,Moderate ecological ambiguity (Top-5 compatible)
+1674,Sorghum,Groundnut,8,False,False,Gujarat,Kharif,5.7,609.5,Severe pedological / environmental divergence
+1677,Cotton,Sorghum,8,False,False,Tamil Nadu,Kharif,6.91,550.0,Severe pedological / environmental divergence
+1679,Sorghum,Soybean,12,False,False,West Bengal,Kharif,6.44,1493.4,Severe pedological / environmental divergence
+1680,Pigeonpea,Groundnut,7,False,False,Gujarat,Kharif,5.85,450.6,Severe pedological / environmental divergence
+1681,Pearl Millet,Rice,4,False,True,Madhya Pradesh,Kharif,7.55,897.9,Moderate ecological ambiguity (Top-5 compatible)
+1682,Pigeonpea,Mustard,9,False,False,West Bengal,Rabi,7.45,231.3,Severe pedological / environmental divergence
+1683,Rice,Pigeonpea,4,False,True,Bihar,Kharif,7.5,898.4,Moderate ecological ambiguity (Top-5 compatible)
+1684,Soybean,Rice,11,False,False,Uttarakhand,Kharif,5.86,900.0,Severe pedological / environmental divergence
+1687,Pigeonpea,Pearl Millet,12,False,False,Uttar Pradesh,Kharif,8.12,556.8,Severe pedological / environmental divergence
+1688,Mustard,Chickpea,3,True,True,Telangana,Rabi,6.84,92.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1690,Rice,Wheat,4,False,True,Nagaland,Rabi,7.45,261.1,Moderate ecological ambiguity (Top-5 compatible)
+1691,Wheat,Mustard,2,True,True,Nagaland,Rabi,7.11,273.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1692,Soybean,Rice,11,False,False,Uttarakhand,Kharif,5.91,1405.9,Severe pedological / environmental divergence
+1693,Sorghum,Rice,9,False,False,Gujarat,Kharif,5.7,517.5,Severe pedological / environmental divergence
+1694,Soybean,Rice,10,False,False,West Bengal,Kharif,6.29,1747.1,Severe pedological / environmental divergence
+1695,Moong,Rice,5,False,True,Gujarat,Kharif,5.24,239.5,Moderate ecological ambiguity (Top-5 compatible)
+1697,Sesamum,Rice,10,False,False,Gujarat,Kharif,5.69,645.4,Severe pedological / environmental divergence
+1699,Rice,Wheat,9,False,False,Andhra Pradesh,Rabi,6.4,132.9,Severe pedological / environmental divergence
+1700,Groundnut,Chickpea,9,False,False,Odisha,Rabi,6.47,176.8,Severe pedological / environmental divergence
+1702,Moong,Sugarcane,8,False,False,Tripura,Whole Year,7.84,241.7,Severe pedological / environmental divergence
+1703,Sesamum,Maize,4,False,True,Assam,Kharif,7.42,1378.6,Moderate ecological ambiguity (Top-5 compatible)
+1704,Soybean,Sorghum,12,False,False,Madhya Pradesh,Kharif,7.55,694.6,Severe pedological / environmental divergence
+1706,Cotton,Maize,15,False,False,Karnataka,Rabi,7.69,158.0,Severe pedological / environmental divergence
+1707,Urad,Rice,4,False,True,Gujarat,Summer,6.03,46.2,Moderate ecological ambiguity (Top-5 compatible)
+1710,Cotton,Groundnut,7,False,False,Maharashtra,Kharif,7.81,999.8,Severe pedological / environmental divergence
+1711,Maize,Sugarcane,3,True,True,Tamil Nadu,Whole Year,6.27,91.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1712,Sorghum,Rice,6,False,False,Bihar,Kharif,7.19,725.6,Severe pedological / environmental divergence
+1715,Moong,Wheat,6,False,False,Telangana,Rabi,8.08,206.0,Severe pedological / environmental divergence
+1716,Finger Millet,Maize,7,False,False,West Bengal,Kharif,6.22,1239.0,Severe pedological / environmental divergence
+1717,Urad,Mustard,3,True,True,Puducherry,Rabi,7.25,237.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1718,Soybean,Groundnut,12,False,False,Karnataka,Kharif,5.69,748.8,Severe pedological / environmental divergence
+1719,Pigeonpea,Rice,2,True,True,Haryana,Kharif,7.45,374.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1721,Urad,Maize,4,False,True,Bihar,Kharif,6.85,930.0,Moderate ecological ambiguity (Top-5 compatible)
+1722,Groundnut,Maize,4,False,True,Jharkhand,Kharif,7.95,879.7,Moderate ecological ambiguity (Top-5 compatible)
+1723,Wheat,Maize,13,False,False,Odisha,Summer,6.77,128.1,Severe pedological / environmental divergence
+1724,Moong,Pigeonpea,8,False,False,Bihar,Kharif,7.11,779.1,Severe pedological / environmental divergence
+1725,Pigeonpea,Rice,3,True,True,Nagaland,Kharif,7.17,1018.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1726,Soybean,Sesamum,6,False,False,Himachal Pradesh,Kharif,7.47,941.4,Severe pedological / environmental divergence
+1727,Rice,Mustard,4,False,True,Andhra Pradesh,Rabi,6.52,175.3,Moderate ecological ambiguity (Top-5 compatible)
+1728,Pearl Millet,Pigeonpea,5,False,True,Jammu and Kashmir,Kharif,6.14,697.4,Moderate ecological ambiguity (Top-5 compatible)
+1729,Maize,Mustard,4,False,True,Manipur,Rabi,7.52,191.1,Moderate ecological ambiguity (Top-5 compatible)
+1730,Soybean,Rice,11,False,False,Maharashtra,Kharif,7.74,1026.2,Severe pedological / environmental divergence
+1732,Maize,Rice,2,True,True,Bihar,Summer,7.66,89.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1733,Sesamum,Finger Millet,10,False,False,Karnataka,Kharif,7.85,812.9,Severe pedological / environmental divergence
+1734,Pearl Millet,Moong,7,False,False,Karnataka,Summer,6.87,149.0,Severe pedological / environmental divergence
+1736,Wheat,Mustard,2,True,True,Chhattisgarh,Rabi,6.51,205.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1738,Pearl Millet,Rice,10,False,False,Haryana,Kharif,7.69,433.5,Severe pedological / environmental divergence
+1739,Pigeonpea,Chickpea,9,False,False,Andhra Pradesh,Rabi,6.74,133.4,Severe pedological / environmental divergence
+1740,Soybean,Pearl Millet,11,False,False,Madhya Pradesh,Kharif,7.74,631.4,Severe pedological / environmental divergence
+1741,Sesamum,Rice,5,False,True,Haryana,Kharif,7.49,522.6,Moderate ecological ambiguity (Top-5 compatible)
+1742,Pigeonpea,Finger Millet,6,False,False,Madhya Pradesh,Kharif,6.76,852.7,Severe pedological / environmental divergence
+1743,Cotton,Groundnut,5,False,True,Uttar Pradesh,Kharif,8.12,533.3,Moderate ecological ambiguity (Top-5 compatible)
+1744,Sugarcane,Rice,13,False,False,Jammu and Kashmir,Kharif,6.0,834.4,Severe pedological / environmental divergence
+1745,Moong,Rice,4,False,True,Bihar,Kharif,7.38,1180.6,Moderate ecological ambiguity (Top-5 compatible)
+1746,Rice,Pearl Millet,6,False,False,Haryana,Kharif,7.66,267.6,Severe pedological / environmental divergence
+1747,Soybean,Urad,7,False,False,Madhya Pradesh,Kharif,7.49,695.0,Severe pedological / environmental divergence
+1748,Rice,Sesamum,2,True,True,Nagaland,Kharif,6.86,981.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1749,Chickpea,Mustard,2,True,True,Bihar,Rabi,7.25,187.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1751,Pigeonpea,Maize,6,False,False,Madhya Pradesh,Kharif,6.13,667.9,Severe pedological / environmental divergence
+1754,Mustard,Wheat,2,True,True,West Bengal,Rabi,7.7,218.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1755,Moong,Sorghum,7,False,False,Uttar Pradesh,Kharif,8.03,730.9,Severe pedological / environmental divergence
+1756,Moong,Rice,9,False,False,Tripura,Kharif,7.39,1835.3,Severe pedological / environmental divergence
+1757,Soybean,Maize,10,False,False,Uttarakhand,Kharif,7.15,1254.2,Severe pedological / environmental divergence
+1758,Mustard,Chickpea,2,True,True,Madhya Pradesh,Rabi,6.64,165.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1759,Chickpea,Wheat,2,True,True,Madhya Pradesh,Rabi,8.14,194.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1761,Chickpea,Sugarcane,14,False,False,Tamil Nadu,Whole Year,6.43,78.1,Severe pedological / environmental divergence
+1762,Urad,Rice,8,False,False,Mizoram,Kharif,6.7,1795.7,Severe pedological / environmental divergence
+1763,Chickpea,Wheat,3,True,True,Assam,Rabi,7.12,288.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1765,Rice,Maize,2,True,True,Mizoram,Kharif,7.46,1396.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1766,Maize,Rice,3,True,True,Bihar,Summer,7.08,99.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1767,Rice,Wheat,4,False,True,Nagaland,Rabi,7.75,251.3,Moderate ecological ambiguity (Top-5 compatible)
+1768,Moong,Wheat,6,False,False,Karnataka,Rabi,7.36,211.6,Severe pedological / environmental divergence
+1769,Maize,Cotton,3,True,True,Mizoram,Kharif,6.68,2018.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1770,Maize,Rice,2,True,True,Tamil Nadu,Kharif,7.05,763.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1772,Urad,Finger Millet,5,False,True,Maharashtra,Kharif,7.96,812.0,Moderate ecological ambiguity (Top-5 compatible)
+1773,Pigeonpea,Finger Millet,9,False,False,Karnataka,Kharif,8.0,899.9,Severe pedological / environmental divergence
+1774,Rice,Mustard,2,True,True,Mizoram,Rabi,6.45,369.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1775,Maize,Wheat,5,False,True,Maharashtra,Rabi,7.44,219.8,Moderate ecological ambiguity (Top-5 compatible)
+1776,Urad,Rice,7,False,False,Maharashtra,Kharif,5.8,1048.8,Severe pedological / environmental divergence
+1779,Sorghum,Sugarcane,9,False,False,West Bengal,Whole Year,6.51,187.0,Severe pedological / environmental divergence
+1780,Maize,Wheat,5,False,True,Bihar,Rabi,7.5,265.7,Moderate ecological ambiguity (Top-5 compatible)
+1782,Moong,Urad,5,False,True,Himachal Pradesh,Kharif,5.43,722.2,Moderate ecological ambiguity (Top-5 compatible)
+1783,Chickpea,Wheat,4,False,True,Tripura,Rabi,7.36,412.6,Moderate ecological ambiguity (Top-5 compatible)
+1784,Sesamum,Moong,9,False,False,Maharashtra,Summer,7.61,113.3,Severe pedological / environmental divergence
+1785,Mustard,Wheat,2,True,True,Punjab,Rabi,5.74,116.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1787,Pearl Millet,Moong,10,False,False,Himachal Pradesh,Kharif,5.72,1021.4,Severe pedological / environmental divergence
+1788,Moong,Rice,2,True,True,Jammu and Kashmir,Kharif,6.12,949.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1789,Sesamum,Rice,5,False,True,Uttarakhand,Kharif,7.47,1006.7,Moderate ecological ambiguity (Top-5 compatible)
+1790,Maize,Rice,5,False,True,Karnataka,Summer,5.12,120.6,Moderate ecological ambiguity (Top-5 compatible)
+1793,Sorghum,Rice,13,False,False,Nagaland,Kharif,7.53,1287.0,Severe pedological / environmental divergence
+1794,Groundnut,Chickpea,8,False,False,Arunachal Pradesh,Rabi,7.78,352.2,Severe pedological / environmental divergence
+1795,Sugarcane,Mustard,14,False,False,Odisha,Rabi,6.55,226.4,Severe pedological / environmental divergence
+1796,Cotton,Rice,7,False,False,Meghalaya,Kharif,7.1,3309.6,Severe pedological / environmental divergence
+1797,Urad,Groundnut,10,False,False,Karnataka,Kharif,5.5,945.3,Severe pedological / environmental divergence
+1798,Moong,Pigeonpea,6,False,False,Jammu and Kashmir,Kharif,6.03,591.6,Severe pedological / environmental divergence
+1799,Sesamum,Maize,8,False,False,Gujarat,Summer,5.43,59.3,Severe pedological / environmental divergence
+1800,Sorghum,Wheat,5,False,True,Karnataka,Rabi,8.13,187.6,Moderate ecological ambiguity (Top-5 compatible)
+1801,Pigeonpea,Groundnut,10,False,False,Uttar Pradesh,Kharif,8.03,584.9,Severe pedological / environmental divergence
+1802,Groundnut,Mustard,9,False,False,Tripura,Rabi,6.32,466.7,Severe pedological / environmental divergence
+1803,Pearl Millet,Mustard,13,False,False,Andhra Pradesh,Rabi,6.77,112.7,Severe pedological / environmental divergence
+1804,Finger Millet,Sugarcane,3,True,True,Tamil Nadu,Whole Year,6.45,120.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1805,Maize,Groundnut,3,True,True,Uttarakhand,Kharif,5.62,1063.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1806,Sesamum,Maize,11,False,False,Andhra Pradesh,Rabi,6.06,154.3,Severe pedological / environmental divergence
+1807,Maize,Rice,2,True,True,West Bengal,Kharif,6.95,1260.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1808,Moong,Rice,9,False,False,Arunachal Pradesh,Kharif,7.12,1835.7,Severe pedological / environmental divergence
+1809,Finger Millet,Sesamum,12,False,False,Bihar,Kharif,7.51,904.9,Severe pedological / environmental divergence
+1810,Urad,Rice,8,False,False,Himachal Pradesh,Kharif,7.25,1065.7,Severe pedological / environmental divergence
+1811,Moong,Groundnut,11,False,False,Uttar Pradesh,Kharif,7.65,737.6,Severe pedological / environmental divergence
+1812,Moong,Rice,5,False,True,Madhya Pradesh,Kharif,6.21,749.9,Moderate ecological ambiguity (Top-5 compatible)
+1813,Maize,Soybean,2,True,True,Meghalaya,Kharif,7.47,3601.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1814,Moong,Rice,2,True,True,Uttarakhand,Summer,5.91,133.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1815,Groundnut,Sorghum,2,True,True,Maharashtra,Kharif,5.53,894.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1816,Groundnut,Rice,5,False,True,Maharashtra,Summer,8.3,132.3,Moderate ecological ambiguity (Top-5 compatible)
+1817,Sorghum,Sesamum,7,False,False,Bihar,Kharif,7.49,804.6,Severe pedological / environmental divergence
+1818,Rice,Pearl Millet,3,True,True,Maharashtra,Kharif,7.57,670.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1819,Soybean,Rice,5,False,True,Meghalaya,Kharif,7.43,3551.4,Moderate ecological ambiguity (Top-5 compatible)
+1820,Chickpea,Sorghum,2,True,True,Karnataka,Rabi,5.14,184.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1821,Sesamum,Rice,4,False,True,Tripura,Kharif,6.23,1826.6,Moderate ecological ambiguity (Top-5 compatible)
+1822,Rice,Moong,2,True,True,Uttar Pradesh,Summer,7.73,79.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1823,Maize,Chickpea,5,False,True,Bihar,Rabi,7.63,231.5,Moderate ecological ambiguity (Top-5 compatible)
+1825,Sorghum,Urad,7,False,False,Chhattisgarh,Kharif,6.37,1000.0,Severe pedological / environmental divergence
+1826,Finger Millet,Pigeonpea,10,False,False,Uttarakhand,Kharif,6.25,1147.4,Severe pedological / environmental divergence
+1828,Mustard,Wheat,3,True,True,Manipur,Rabi,7.6,159.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1829,Finger Millet,Chickpea,11,False,False,Tamil Nadu,Rabi,6.75,125.0,Severe pedological / environmental divergence
+1830,Sesamum,Cotton,4,False,True,West Bengal,Kharif,6.13,1725.9,Moderate ecological ambiguity (Top-5 compatible)
+1831,Moong,Rice,3,True,True,West Bengal,Summer,7.53,185.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1833,Maize,Mustard,5,False,True,Bihar,Rabi,7.1,187.8,Moderate ecological ambiguity (Top-5 compatible)
+1835,Groundnut,Rice,9,False,False,Bihar,Kharif,7.16,1129.0,Severe pedological / environmental divergence
+1836,Chickpea,Wheat,4,False,True,Andhra Pradesh,Rabi,7.53,132.8,Moderate ecological ambiguity (Top-5 compatible)
+1837,Sesamum,Maize,5,False,True,Uttar Pradesh,Kharif,7.63,414.9,Moderate ecological ambiguity (Top-5 compatible)
+1838,Sorghum,Rice,8,False,False,Nagaland,Kharif,7.55,1202.7,Severe pedological / environmental divergence
+1839,Mustard,Wheat,2,True,True,Bihar,Rabi,7.38,190.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1841,Pigeonpea,Maize,7,False,False,Tamil Nadu,Kharif,6.41,748.4,Severe pedological / environmental divergence
+1842,Moong,Sugarcane,6,False,False,Tripura,Whole Year,7.44,285.1,Severe pedological / environmental divergence
+1843,Groundnut,Maize,5,False,True,Himachal Pradesh,Kharif,5.96,873.7,Moderate ecological ambiguity (Top-5 compatible)
+1844,Rice,Sugarcane,8,False,False,Mizoram,Whole Year,7.57,221.9,Severe pedological / environmental divergence
+1845,Finger Millet,Pearl Millet,12,False,False,Karnataka,Kharif,7.47,851.1,Severe pedological / environmental divergence
+1847,Finger Millet,Wheat,13,False,False,Tamil Nadu,Rabi,6.87,65.1,Severe pedological / environmental divergence
+1848,Rice,Chickpea,6,False,False,Nagaland,Rabi,7.52,187.6,Severe pedological / environmental divergence
+1849,Rice,Wheat,5,False,True,Meghalaya,Rabi,7.53,350.6,Moderate ecological ambiguity (Top-5 compatible)
+1850,Maize,Rice,2,True,True,Nagaland,Kharif,7.25,921.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1851,Sesamum,Chickpea,12,False,False,Maharashtra,Rabi,7.57,241.1,Severe pedological / environmental divergence
+1852,Moong,Rice,6,False,False,Uttarakhand,Kharif,7.39,1068.1,Severe pedological / environmental divergence
+1853,Urad,Wheat,9,False,False,Madhya Pradesh,Rabi,7.98,217.4,Severe pedological / environmental divergence
+1854,Chickpea,Wheat,2,True,True,Gujarat,Rabi,5.91,166.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1857,Finger Millet,Pigeonpea,9,False,False,Uttarakhand,Kharif,5.84,972.1,Severe pedological / environmental divergence
+1858,Chickpea,Wheat,4,False,True,Assam,Rabi,7.19,317.2,Moderate ecological ambiguity (Top-5 compatible)
+1859,Sorghum,Chickpea,4,False,True,Gujarat,Rabi,5.89,162.8,Moderate ecological ambiguity (Top-5 compatible)
+1860,Urad,Rice,6,False,False,Tripura,Rabi,7.55,296.3,Severe pedological / environmental divergence
+1861,Finger Millet,Sugarcane,5,False,True,Kerala,Whole Year,5.45,314.4,Moderate ecological ambiguity (Top-5 compatible)
+1862,Cotton,Maize,10,False,False,Haryana,Kharif,7.36,300.1,Severe pedological / environmental divergence
+1863,Maize,Pearl Millet,8,False,False,Telangana,Kharif,7.84,700.9,Severe pedological / environmental divergence
+1864,Groundnut,Finger Millet,6,False,False,Karnataka,Kharif,7.89,905.2,Severe pedological / environmental divergence
+1866,Maize,Pearl Millet,3,True,True,Madhya Pradesh,Kharif,7.28,840.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1867,Maize,Finger Millet,11,False,False,Telangana,Kharif,6.76,987.6,Severe pedological / environmental divergence
+1868,Sorghum,Chickpea,5,False,True,Andhra Pradesh,Rabi,6.58,145.6,Moderate ecological ambiguity (Top-5 compatible)
+1869,Sesamum,Maize,4,False,True,Tripura,Kharif,7.46,2506.0,Moderate ecological ambiguity (Top-5 compatible)
+1870,Urad,Mustard,2,True,True,Andhra Pradesh,Rabi,6.48,140.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1871,Rice,Maize,2,True,True,Mizoram,Kharif,6.33,1243.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1872,Soybean,Rice,6,False,False,Madhya Pradesh,Kharif,6.64,1115.4,Severe pedological / environmental divergence
+1873,Pearl Millet,Sorghum,6,False,False,Tamil Nadu,Kharif,6.13,704.8,Severe pedological / environmental divergence
+1874,Sugarcane,Rice,13,False,False,Puducherry,Kharif,6.25,1245.3,Severe pedological / environmental divergence
+1875,Sorghum,Chickpea,5,False,True,Tamil Nadu,Rabi,6.16,140.8,Moderate ecological ambiguity (Top-5 compatible)
+1876,Urad,Rice,5,False,True,Mizoram,Rabi,6.52,376.9,Moderate ecological ambiguity (Top-5 compatible)
+1877,Mustard,Finger Millet,15,False,False,Karnataka,Kharif,7.93,898.2,Severe pedological / environmental divergence
+1878,Sorghum,Urad,9,False,False,Haryana,Kharif,7.05,420.5,Severe pedological / environmental divergence
+1879,Groundnut,Rice,9,False,False,Punjab,Kharif,7.47,379.6,Severe pedological / environmental divergence
+1881,Urad,Rice,4,False,True,Uttarakhand,Summer,7.82,128.6,Moderate ecological ambiguity (Top-5 compatible)
+1882,Sesamum,Chickpea,11,False,False,West Bengal,Rabi,6.06,253.6,Severe pedological / environmental divergence
+1883,Pearl Millet,Rice,6,False,False,Karnataka,Summer,6.68,131.2,Severe pedological / environmental divergence
+1884,Sesamum,Sorghum,5,False,True,Odisha,Kharif,6.58,1041.6,Moderate ecological ambiguity (Top-5 compatible)
+1885,Maize,Mustard,4,False,True,Uttar Pradesh,Rabi,7.52,99.1,Moderate ecological ambiguity (Top-5 compatible)
+1886,Cotton,Rice,11,False,False,Puducherry,Kharif,7.54,1093.5,Severe pedological / environmental divergence
+1887,Finger Millet,Rice,5,False,True,West Bengal,Kharif,6.7,1530.9,Moderate ecological ambiguity (Top-5 compatible)
+1888,Urad,Groundnut,10,False,False,Madhya Pradesh,Kharif,7.97,668.6,Severe pedological / environmental divergence
+1890,Sorghum,Wheat,9,False,False,Madhya Pradesh,Rabi,6.44,141.6,Severe pedological / environmental divergence
+1891,Finger Millet,Rice,10,False,False,Chhattisgarh,Kharif,6.47,978.8,Severe pedological / environmental divergence
+1892,Wheat,Chickpea,2,True,True,Jharkhand,Rabi,7.52,187.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1893,Pigeonpea,Rice,2,True,True,Uttarakhand,Kharif,7.36,640.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1894,Urad,Groundnut,2,True,True,Bihar,Kharif,6.66,809.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1895,Urad,Sorghum,5,False,True,Andhra Pradesh,Kharif,6.82,477.9,Moderate ecological ambiguity (Top-5 compatible)
+1896,Wheat,Chickpea,3,True,True,Jammu and Kashmir,Rabi,5.67,218.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1897,Cotton,Rice,11,False,False,Nagaland,Kharif,7.39,1111.6,Severe pedological / environmental divergence
+1899,Pearl Millet,Maize,10,False,False,West Bengal,Kharif,6.2,1438.3,Severe pedological / environmental divergence
+1900,Moong,Urad,9,False,False,Madhya Pradesh,Kharif,5.92,674.0,Legume/Pulse physiological similarity
+1901,Cotton,Pearl Millet,9,False,False,Karnataka,Kharif,7.95,890.9,Severe pedological / environmental divergence
+1902,Rice,Moong,6,False,False,Madhya Pradesh,Kharif,6.48,929.6,Severe pedological / environmental divergence
+1903,Pigeonpea,Pearl Millet,5,False,True,Maharashtra,Kharif,7.5,792.8,Moderate ecological ambiguity (Top-5 compatible)
+1905,Moong,Rice,11,False,False,Gujarat,Kharif,5.63,603.8,Severe pedological / environmental divergence
+1906,Maize,Rice,2,True,True,Uttarakhand,Kharif,7.42,1041.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1908,Mustard,Wheat,5,False,True,Tamil Nadu,Rabi,6.69,112.4,Moderate ecological ambiguity (Top-5 compatible)
+1910,Rice,Sorghum,4,False,True,Delhi,Kharif,7.85,383.8,Moderate ecological ambiguity (Top-5 compatible)
+1911,Soybean,Sesamum,9,False,False,Uttarakhand,Kharif,7.55,1274.1,Severe pedological / environmental divergence
+1912,Sorghum,Sugarcane,7,False,False,Tamil Nadu,Whole Year,6.21,87.4,Severe pedological / environmental divergence
+1916,Finger Millet,Rice,8,False,False,Odisha,Summer,6.7,121.9,Severe pedological / environmental divergence
+1917,Mustard,Chickpea,4,False,True,Gujarat,Rabi,5.73,149.8,Moderate ecological ambiguity (Top-5 compatible)
+1919,Chickpea,Wheat,3,True,True,Madhya Pradesh,Rabi,8.13,123.0,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1920,Maize,Rice,2,True,True,Jharkhand,Kharif,6.15,867.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1921,Urad,Sugarcane,9,False,False,Tamil Nadu,Whole Year,6.85,83.4,Severe pedological / environmental divergence
+1922,Soybean,Rice,5,False,True,Meghalaya,Kharif,7.8,2242.6,Moderate ecological ambiguity (Top-5 compatible)
+1923,Mustard,Chickpea,3,True,True,Haryana,Rabi,7.01,63.8,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1924,Maize,Wheat,5,False,True,Gujarat,Rabi,5.56,82.2,Moderate ecological ambiguity (Top-5 compatible)
+1925,Sorghum,Finger Millet,4,False,True,Maharashtra,Kharif,7.87,710.5,Moderate ecological ambiguity (Top-5 compatible)
+1926,Maize,Finger Millet,5,False,True,Karnataka,Kharif,8.0,711.5,Moderate ecological ambiguity (Top-5 compatible)
+1927,Sesamum,Maize,3,True,True,Puducherry,Summer,6.81,146.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1928,Rice,Sesamum,7,False,False,West Bengal,Summer,6.62,173.2,Severe pedological / environmental divergence
+1929,Pearl Millet,Rice,2,True,True,Chhattisgarh,Kharif,6.42,928.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1930,Pearl Millet,Sesamum,10,False,False,Karnataka,Kharif,8.01,852.5,Severe pedological / environmental divergence
+1932,Soybean,Maize,8,False,False,Nagaland,Kharif,7.22,1179.4,Severe pedological / environmental divergence
+1933,Soybean,Groundnut,12,False,False,Maharashtra,Kharif,7.74,802.3,Severe pedological / environmental divergence
+1934,Groundnut,Mustard,7,False,False,Goa,Rabi,7.58,505.1,Severe pedological / environmental divergence
+1935,Moong,Pearl Millet,4,False,True,Uttar Pradesh,Kharif,7.77,532.2,Moderate ecological ambiguity (Top-5 compatible)
+1936,Moong,Rice,4,False,True,Odisha,Kharif,6.75,1248.9,Moderate ecological ambiguity (Top-5 compatible)
+1937,Pigeonpea,Wheat,11,False,False,Jharkhand,Rabi,7.36,225.3,Severe pedological / environmental divergence
+1938,Rice,Groundnut,2,True,True,Madhya Pradesh,Kharif,6.34,708.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1939,Sesamum,Sugarcane,3,True,True,Kerala,Whole Year,6.82,283.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1940,Maize,Sugarcane,5,False,True,Tamil Nadu,Whole Year,6.52,110.7,Moderate ecological ambiguity (Top-5 compatible)
+1941,Urad,Rice,5,False,True,Uttarakhand,Kharif,6.22,987.5,Moderate ecological ambiguity (Top-5 compatible)
+1942,Moong,Maize,4,False,True,Madhya Pradesh,Summer,7.4,115.0,Moderate ecological ambiguity (Top-5 compatible)
+1943,Cotton,Rice,10,False,False,Jammu and Kashmir,Kharif,5.95,1333.0,Severe pedological / environmental divergence
+1944,Moong,Rice,2,True,True,Puducherry,Summer,8.09,157.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1945,Pigeonpea,Sesamum,9,False,False,Uttarakhand,Kharif,5.9,1044.8,Severe pedological / environmental divergence
+1946,Pigeonpea,Rice,2,True,True,Punjab,Kharif,7.25,443.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1947,Finger Millet,Rice,10,False,False,Uttarakhand,Kharif,5.85,1010.4,Severe pedological / environmental divergence
+1948,Wheat,Mustard,3,True,True,Andhra Pradesh,Rabi,6.69,186.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1949,Sesamum,Wheat,9,False,False,Maharashtra,Rabi,7.83,198.6,Severe pedological / environmental divergence
+1950,Groundnut,Sugarcane,3,True,True,Kerala,Whole Year,6.73,269.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1951,Pigeonpea,Pearl Millet,7,False,False,Delhi,Kharif,7.59,347.4,Severe pedological / environmental divergence
+1953,Maize,Moong,9,False,False,Maharashtra,Kharif,7.4,976.2,Severe pedological / environmental divergence
+1954,Rice,Maize,5,False,True,Tamil Nadu,Kharif,6.45,692.3,Moderate ecological ambiguity (Top-5 compatible)
+1955,Finger Millet,Rice,2,True,True,Kerala,Kharif,5.26,2330.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1957,Finger Millet,Maize,13,False,False,Nagaland,Kharif,7.47,1272.2,Severe pedological / environmental divergence
+1959,Rice,Sesamum,2,True,True,Uttarakhand,Kharif,5.68,1189.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1960,Moong,Urad,5,False,True,Odisha,Rabi,6.0,210.1,Moderate ecological ambiguity (Top-5 compatible)
+1961,Pearl Millet,Rice,11,False,False,West Bengal,Kharif,6.53,1474.9,Severe pedological / environmental divergence
+1962,Moong,Maize,7,False,False,West Bengal,Kharif,6.03,1505.5,Severe pedological / environmental divergence
+1963,Sorghum,Pearl Millet,6,False,False,Andhra Pradesh,Kharif,6.42,594.9,Severe pedological / environmental divergence
+1964,Mustard,Wheat,2,True,True,Meghalaya,Rabi,7.3,437.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1965,Cotton,Finger Millet,7,False,False,Andhra Pradesh,Kharif,6.67,902.4,Severe pedological / environmental divergence
+1966,Maize,Rice,8,False,False,Maharashtra,Kharif,7.72,1066.9,Severe pedological / environmental divergence
+1967,Maize,Mustard,5,False,True,Mizoram,Rabi,6.57,312.4,Moderate ecological ambiguity (Top-5 compatible)
+1969,Soybean,Rice,8,False,False,Meghalaya,Kharif,7.38,1830.1,Severe pedological / environmental divergence
+1970,Rice,Urad,5,False,True,Tamil Nadu,Kharif,6.12,719.2,Moderate ecological ambiguity (Top-5 compatible)
+1972,Cotton,Rice,4,False,True,Tripura,Kharif,6.51,1979.7,Moderate ecological ambiguity (Top-5 compatible)
+1973,Cotton,Finger Millet,7,False,False,Maharashtra,Kharif,8.0,784.6,Severe pedological / environmental divergence
+1974,Chickpea,Wheat,2,True,True,Gujarat,Rabi,5.38,89.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1975,Finger Millet,Moong,8,False,False,Himachal Pradesh,Kharif,5.78,959.3,Severe pedological / environmental divergence
+1977,Finger Millet,Maize,11,False,False,Nagaland,Kharif,7.15,1299.7,Severe pedological / environmental divergence
+1978,Wheat,Mustard,2,True,True,West Bengal,Rabi,6.95,264.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1979,Moong,Rice,7,False,False,Bihar,Kharif,7.72,794.8,Severe pedological / environmental divergence
+1980,Cotton,Maize,10,False,False,Chhattisgarh,Kharif,6.7,935.5,Severe pedological / environmental divergence
+1981,Maize,Mustard,2,True,True,Maharashtra,Rabi,7.61,187.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1982,Moong,Wheat,11,False,False,Karnataka,Rabi,8.22,151.0,Severe pedological / environmental divergence
+1983,Maize,Urad,2,True,True,Odisha,Kharif,6.29,771.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1984,Rice,Groundnut,3,True,True,Himachal Pradesh,Kharif,6.13,1020.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1985,Urad,Wheat,5,False,True,Tripura,Rabi,7.11,298.4,Moderate ecological ambiguity (Top-5 compatible)
+1986,Urad,Rice,2,True,True,Puducherry,Kharif,6.79,1047.3,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1987,Wheat,Chickpea,3,True,True,Punjab,Rabi,6.21,44.7,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1988,Sesamum,Rice,2,True,True,Puducherry,Summer,7.93,178.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1989,Moong,Rice,2,True,True,West Bengal,Summer,6.08,197.4,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1990,Pigeonpea,Rice,3,True,True,Tripura,Kharif,7.15,2462.2,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+1991,Moong,Urad,5,False,True,Uttar Pradesh,Kharif,7.49,304.3,Moderate ecological ambiguity (Top-5 compatible)
+1992,Groundnut,Maize,4,False,True,Tripura,Kharif,7.54,1318.9,Moderate ecological ambiguity (Top-5 compatible)
+1994,Urad,Finger Millet,5,False,True,Maharashtra,Kharif,8.04,976.7,Moderate ecological ambiguity (Top-5 compatible)
+1995,Wheat,Mustard,4,False,True,West Bengal,Rabi,6.61,332.0,Moderate ecological ambiguity (Top-5 compatible)
+1996,Pearl Millet,Rice,5,False,True,Jammu and Kashmir,Kharif,5.87,1004.8,Moderate ecological ambiguity (Top-5 compatible)
+1997,Urad,Rice,8,False,False,West Bengal,Kharif,6.99,951.6,Severe pedological / environmental divergence
+1998,Moong,Pearl Millet,8,False,False,Andhra Pradesh,Kharif,6.54,512.0,Severe pedological / environmental divergence
+1999,Sorghum,Urad,9,False,False,Madhya Pradesh,Kharif,6.35,792.2,Severe pedological / environmental divergence
+2000,Rice,Sorghum,2,True,True,Telangana,Kharif,7.73,994.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+2002,Sorghum,Wheat,5,False,True,Madhya Pradesh,Rabi,7.65,140.8,Moderate ecological ambiguity (Top-5 compatible)
+2003,Pigeonpea,Chickpea,12,False,False,Andhra Pradesh,Rabi,6.19,149.8,Severe pedological / environmental divergence
+2004,Sesamum,Rice,6,False,False,West Bengal,Summer,6.48,191.5,Severe pedological / environmental divergence
+2005,Rice,Wheat,2,True,True,Meghalaya,Rabi,7.99,505.6,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+2006,Urad,Rice,7,False,False,West Bengal,Kharif,6.02,1516.4,Severe pedological / environmental divergence
+2007,Moong,Rice,9,False,False,Arunachal Pradesh,Kharif,7.26,2198.2,Severe pedological / environmental divergence
+2010,Mustard,Wheat,2,True,True,Bihar,Rabi,7.22,153.1,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+2011,Rice,Maize,3,True,True,Maharashtra,Kharif,7.94,746.9,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+2012,Maize,Urad,7,False,False,Uttar Pradesh,Kharif,7.82,629.8,Severe pedological / environmental divergence
+2013,Chickpea,Wheat,2,True,True,Andhra Pradesh,Rabi,6.6,142.5,Near-boundary Top-3 tie (Agro-climatic niche overlap)
+2014,Sorghum,Maize,9,False,False,Bihar,Kharif,7.56,814.9,Severe pedological / environmental divergence
+2015,Groundnut,Rice,10,False,False,Tripura,Rabi,7.38,406.6,Severe pedological / environmental divergence
+2018,Pearl Millet,Maize,10,False,False,Andhra Pradesh,Kharif,6.29,738.9,Severe pedological / environmental divergence

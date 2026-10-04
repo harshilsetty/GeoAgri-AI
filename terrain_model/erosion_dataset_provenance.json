@@ -1,0 +1,26 @@
+{
+  "dataset_file": "terrain_model/erosion_dataset.csv",
+  "source_classification": "synthetic_generated_local",
+  "source_inference": "schema matches generate_dataset_v3 synthetic format",
+  "inferred_generator_script": "terrain_model/generate_dataset_v3.py",
+  "generated_at_utc": "2026-03-29T09:03:39.498250+00:00",
+  "row_count": 1000,
+  "column_count": 9,
+  "columns": [
+    "slope",
+    "vegetation",
+    "elevation",
+    "rainfall",
+    "soil",
+    "boulders",
+    "ruins",
+    "structures",
+    "erosion"
+  ],
+  "target_column": "erosion",
+  "class_distribution": {
+    "1": 500,
+    "0": 500
+  },
+  "sha256": "6547a836b049ab32a159b0b1e3c6fce9357b3bb42ec8934930e5cb2daf3f1cd6"
+}

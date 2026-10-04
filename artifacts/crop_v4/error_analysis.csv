@@ -1,0 +1,443 @@
+sample_idx,true_crop,predicted_crop,true_crop_rank,state,season,year,soil_ph,rainfall_season,temperature_mean,error_category
+0,Pigeonpea,Urad,12,Andhra Pradesh,Kharif,2019,6.3,702.2,28.8,Severe pedological divergence
+1,Pigeonpea,Wheat,13,Andhra Pradesh,Rabi,2019,6.45,132.2,15.4,Severe pedological divergence
+2,Pearl Millet,Maize,9,Andhra Pradesh,Kharif,2019,6.8,626.4,29.3,Severe pedological divergence
+3,Pearl Millet,Mustard,7,Andhra Pradesh,Rabi,2019,6.65,130.4,17.6,Severe pedological divergence
+5,Cotton,Wheat,14,Andhra Pradesh,Rabi,2019,6.55,163.7,25.2,Severe pedological divergence
+6,Chickpea,Mustard,2,Andhra Pradesh,Rabi,2019,6.86,152.0,20.4,Agro-climatic niche overlap (True crop in Top-3)
+7,Groundnut,Soybean,9,Andhra Pradesh,Kharif,2019,6.37,670.0,31.4,Severe pedological divergence
+8,Groundnut,Chickpea,9,Andhra Pradesh,Rabi,2019,6.34,140.9,21.2,Severe pedological divergence
+9,Sorghum,Sesamum,3,Andhra Pradesh,Kharif,2019,6.4,653.0,32.8,Agro-climatic niche overlap (True crop in Top-3)
+10,Sorghum,Chickpea,2,Andhra Pradesh,Rabi,2019,7.91,149.5,21.6,Agro-climatic niche overlap (True crop in Top-3)
+11,Maize,Rice,3,Andhra Pradesh,Kharif,2019,6.41,662.9,27.4,Agro-climatic niche overlap (True crop in Top-3)
+12,Maize,Chickpea,7,Andhra Pradesh,Rabi,2019,6.39,149.9,22.8,Severe pedological divergence
+13,Moong,Finger Millet,10,Andhra Pradesh,Kharif,2019,6.25,632.9,30.1,Severe pedological divergence
+14,Moong,Rice,12,Andhra Pradesh,Rabi,2019,6.87,135.5,23.9,Severe pedological divergence
+15,Finger Millet,Maize,10,Andhra Pradesh,Kharif,2019,6.49,658.9,29.7,Severe pedological divergence
+16,Finger Millet,Mustard,5,Andhra Pradesh,Rabi,2019,6.72,113.4,19.1,Broad ecological compatibility (True crop in Top-5)
+19,Rice,Mustard,9,Andhra Pradesh,Rabi,2019,6.49,170.7,21.5,Severe pedological divergence
+20,Sesamum,Maize,7,Andhra Pradesh,Kharif,2019,6.27,637.4,23.4,Severe pedological divergence
+21,Sesamum,Mustard,14,Andhra Pradesh,Rabi,2019,6.44,138.8,19.7,Severe pedological divergence
+22,Soybean,Groundnut,12,Andhra Pradesh,Kharif,2019,6.7,663.1,30.1,Severe pedological divergence
+23,Soybean,Mustard,15,Andhra Pradesh,Rabi,2019,6.61,159.6,17.5,Severe pedological divergence
+24,Sugarcane,Groundnut,13,Andhra Pradesh,Kharif,2019,6.77,639.2,29.8,Severe pedological divergence
+25,Urad,Sorghum,4,Andhra Pradesh,Kharif,2019,6.55,668.2,26.9,Broad ecological compatibility (True crop in Top-5)
+26,Urad,Chickpea,9,Andhra Pradesh,Rabi,2019,6.13,146.1,17.8,Legume/Pulse physiological similarity
+27,Wheat,Chickpea,5,Andhra Pradesh,Rabi,2019,6.49,150.9,23.5,Broad ecological compatibility (True crop in Top-5)
+28,Pearl Millet,Finger Millet,3,Puducherry,Kharif,2019,7.58,961.2,28.7,Agro-climatic niche overlap (True crop in Top-3)
+29,Pearl Millet,Chickpea,14,Puducherry,Rabi,2019,6.44,196.8,19.9,Severe pedological divergence
+30,Pearl Millet,Moong,8,Puducherry,Summer,2019,6.64,132.2,31.1,Severe pedological divergence
+31,Cotton,Rice,10,Puducherry,Kharif,2019,6.98,969.9,30.4,Severe pedological divergence
+32,Groundnut,Sorghum,10,Puducherry,Kharif,2019,7.79,923.2,30.4,Severe pedological divergence
+33,Groundnut,Mustard,7,Puducherry,Rabi,2019,6.87,196.9,24.4,Severe pedological divergence
+34,Groundnut,Rice,3,Puducherry,Summer,2019,7.8,126.0,36.3,Agro-climatic niche overlap (True crop in Top-3)
+35,Moong,Mustard,7,Puducherry,Rabi,2019,7.72,203.8,21.6,Severe pedological divergence
+36,Moong,Rice,5,Puducherry,Summer,2019,6.53,124.1,32.8,Broad ecological compatibility (True crop in Top-5)
+37,Finger Millet,Pearl Millet,11,Puducherry,Kharif,2019,7.83,970.1,28.3,Severe pedological divergence
+38,Finger Millet,Mustard,10,Puducherry,Rabi,2019,7.84,200.4,19.7,Severe pedological divergence
+39,Finger Millet,Rice,3,Puducherry,Summer,2019,7.87,141.3,30.7,Agro-climatic niche overlap (True crop in Top-3)
+40,Rice,Finger Millet,2,Puducherry,Kharif,2019,8.01,1012.4,24.1,Agro-climatic niche overlap (True crop in Top-3)
+41,Rice,Urad,2,Puducherry,Rabi,2019,6.31,206.3,25.2,Agro-climatic niche overlap (True crop in Top-3)
+44,Sesamum,Wheat,9,Puducherry,Rabi,2019,6.46,206.6,22.7,Severe pedological divergence
+45,Sesamum,Maize,4,Puducherry,Summer,2019,6.2,156.5,35.2,Broad ecological compatibility (True crop in Top-5)
+46,Sugarcane,Rice,13,Puducherry,Kharif,2019,6.57,973.4,29.4,Severe pedological divergence
+47,Urad,Rice,7,Puducherry,Kharif,2019,6.55,1069.5,26.8,Severe pedological divergence
+49,Urad,Moong,8,Puducherry,Summer,2019,7.88,150.6,29.6,Legume/Pulse physiological similarity
+50,Pigeonpea,Rice,4,Assam,Kharif,2019,7.46,1541.0,28.4,Broad ecological compatibility (True crop in Top-5)
+51,Cotton,Rice,6,Assam,Kharif,2019,7.47,1601.2,28.6,Severe pedological divergence
+52,Chickpea,Wheat,4,Assam,Rabi,2019,7.36,318.2,20.8,Broad ecological compatibility (True crop in Top-5)
+53,Maize,Rice,3,Assam,Kharif,2019,7.43,1593.2,26.6,Agro-climatic niche overlap (True crop in Top-3)
+54,Moong,Wheat,5,Assam,Rabi,2019,7.39,325.6,15.9,Broad ecological compatibility (True crop in Top-5)
+58,Rice,Mustard,4,Assam,Rabi,2019,6.98,307.3,18.2,Broad ecological compatibility (True crop in Top-5)
+59,Sesamum,Maize,4,Assam,Kharif,2019,7.61,1523.7,31.0,Broad ecological compatibility (True crop in Top-5)
+61,Urad,Mustard,5,Assam,Rabi,2019,7.38,321.0,20.9,Broad ecological compatibility (True crop in Top-5)
+63,Pigeonpea,Rice,3,Meghalaya,Kharif,2019,7.73,2870.5,27.4,Agro-climatic niche overlap (True crop in Top-3)
+64,Cotton,Rice,5,Meghalaya,Kharif,2019,7.33,2867.4,25.3,Broad ecological compatibility (True crop in Top-5)
+65,Chickpea,Wheat,4,Meghalaya,Rabi,2019,7.5,547.0,12.3,Broad ecological compatibility (True crop in Top-5)
+66,Maize,Soybean,4,Meghalaya,Kharif,2019,7.23,2868.3,30.3,Broad ecological compatibility (True crop in Top-5)
+67,Mustard,Wheat,5,Meghalaya,Rabi,2019,7.3,597.3,15.5,Broad ecological compatibility (True crop in Top-5)
+69,Rice,Mustard,3,Meghalaya,Rabi,2019,7.54,596.4,17.7,Agro-climatic niche overlap (True crop in Top-3)
+70,Rice,Mustard,4,Meghalaya,Rabi,2019,6.96,595.0,19.3,Broad ecological compatibility (True crop in Top-5)
+71,Sesamum,Wheat,9,Meghalaya,Rabi,2019,8.09,551.9,18.1,Severe pedological divergence
+72,Soybean,Rice,5,Meghalaya,Kharif,2019,7.23,2853.4,28.9,Broad ecological compatibility (True crop in Top-5)
+74,Wheat,Rice,3,Meghalaya,Rabi,2019,7.11,590.2,21.5,Agro-climatic niche overlap (True crop in Top-3)
+75,Groundnut,Rice,7,Goa,Kharif,2019,8.21,3337.7,28.2,Severe pedological divergence
+76,Groundnut,Rice,3,Goa,Rabi,2019,5.51,658.4,23.8,Agro-climatic niche overlap (True crop in Top-3)
+80,Pigeonpea,Groundnut,10,Karnataka,Kharif,2019,7.96,1077.6,28.3,Severe pedological divergence
+81,Pearl Millet,Rice,7,Karnataka,Kharif,2019,4.94,1077.6,27.0,Severe pedological divergence
+82,Pearl Millet,Groundnut,7,Karnataka,Summer,2019,5.41,147.1,34.3,Severe pedological divergence
+83,Cotton,Sorghum,6,Karnataka,Kharif,2019,5.35,1089.4,28.0,Severe pedological divergence
+84,Cotton,Maize,15,Karnataka,Rabi,2019,7.83,198.4,25.0,Severe pedological divergence
+85,Chickpea,Finger Millet,2,Karnataka,Rabi,2019,4.92,211.3,20.2,Agro-climatic niche overlap (True crop in Top-3)
+86,Groundnut,Pearl Millet,5,Karnataka,Kharif,2019,8.18,1034.5,30.8,Broad ecological compatibility (True crop in Top-5)
+87,Groundnut,Wheat,9,Karnataka,Rabi,2019,7.61,217.7,19.1,Severe pedological divergence
+88,Groundnut,Rice,2,Karnataka,Summer,2019,5.07,145.7,32.7,Agro-climatic niche overlap (True crop in Top-3)
+89,Sorghum,Rice,6,Karnataka,Kharif,2019,5.23,1049.9,30.1,Cereal grain seasonal co-occurrence
+90,Sorghum,Rice,6,Karnataka,Rabi,2019,8.11,223.4,19.1,Cereal grain seasonal co-occurrence
+91,Sorghum,Maize,7,Karnataka,Summer,2019,7.76,132.4,30.9,Cereal grain seasonal co-occurrence
+92,Maize,Groundnut,5,Karnataka,Kharif,2019,5.18,1045.9,29.7,Broad ecological compatibility (True crop in Top-5)
+93,Maize,Mustard,2,Karnataka,Rabi,2019,7.87,229.3,18.2,Agro-climatic niche overlap (True crop in Top-3)
+94,Maize,Groundnut,3,Karnataka,Summer,2019,5.5,164.3,35.3,Agro-climatic niche overlap (True crop in Top-3)
+95,Moong,Groundnut,5,Karnataka,Kharif,2019,5.78,1026.1,29.2,Broad ecological compatibility (True crop in Top-5)
+96,Moong,Chickpea,11,Karnataka,Rabi,2019,7.94,200.8,21.5,Legume/Pulse physiological similarity
+97,Moong,Rice,5,Karnataka,Summer,2019,8.11,143.2,35.2,Broad ecological compatibility (True crop in Top-5)
+98,Finger Millet,Pearl Millet,3,Karnataka,Kharif,2019,7.69,1101.1,28.5,Agro-climatic niche overlap (True crop in Top-3)
+99,Finger Millet,Rice,9,Karnataka,Rabi,2019,5.62,207.8,22.0,Severe pedological divergence
+100,Finger Millet,Urad,5,Karnataka,Summer,2019,6.66,142.6,31.3,Broad ecological compatibility (True crop in Top-5)
+101,Mustard,Rice,14,Karnataka,Kharif,2019,5.4,1007.0,26.5,Severe pedological divergence
+102,Rice,Groundnut,4,Karnataka,Kharif,2019,7.42,1117.9,23.9,Broad ecological compatibility (True crop in Top-5)
+103,Rice,Wheat,2,Karnataka,Rabi,2019,7.68,214.4,20.2,Agro-climatic niche overlap (True crop in Top-3)
+105,Sesamum,Rice,4,Karnataka,Kharif,2019,5.84,1034.1,28.1,Broad ecological compatibility (True crop in Top-5)
+106,Soybean,Finger Millet,12,Karnataka,Kharif,2019,7.75,1105.0,29.8,Severe pedological divergence
+108,Urad,Cotton,8,Karnataka,Kharif,2019,7.57,1045.4,33.4,Severe pedological divergence
+109,Urad,Moong,3,Karnataka,Rabi,2019,6.2,214.3,17.7,Agro-climatic niche overlap (True crop in Top-3)
+110,Urad,Rice,8,Karnataka,Summer,2019,7.99,142.2,29.7,Severe pedological divergence
+111,Wheat,Soybean,9,Karnataka,Rabi,2019,7.67,213.7,16.6,Severe pedological divergence
+112,Pigeonpea,Sugarcane,11,Kerala,Whole Year,2019,5.22,304.4,29.4,Severe pedological divergence
+113,Cotton,Sugarcane,13,Kerala,Whole Year,2019,6.48,299.6,35.7,Severe pedological divergence
+114,Chickpea,Sugarcane,15,Kerala,Whole Year,2019,5.66,326.8,30.4,Severe pedological divergence
+115,Groundnut,Sugarcane,6,Kerala,Whole Year,2019,6.72,313.6,30.4,Severe pedological divergence
+116,Sorghum,Sugarcane,5,Kerala,Whole Year,2019,5.65,319.3,32.1,Broad ecological compatibility (True crop in Top-5)
+117,Maize,Sugarcane,3,Kerala,Whole Year,2019,5.19,305.8,34.6,Agro-climatic niche overlap (True crop in Top-3)
+118,Finger Millet,Sugarcane,2,Kerala,Whole Year,2019,4.97,317.5,30.0,Agro-climatic niche overlap (True crop in Top-3)
+122,Sesamum,Sugarcane,3,Kerala,Whole Year,2019,5.53,320.4,31.6,Agro-climatic niche overlap (True crop in Top-3)
+124,Wheat,Sugarcane,11,Kerala,Whole Year,2019,6.59,330.1,35.0,Severe pedological divergence
+125,Pigeonpea,Rice,6,Tamil Nadu,Kharif,2019,6.87,724.6,24.8,Severe pedological divergence
+126,Pigeonpea,Finger Millet,12,Tamil Nadu,Rabi,2019,6.78,137.2,20.6,Severe pedological divergence
+127,Pearl Millet,Groundnut,3,Tamil Nadu,Kharif,2019,6.69,702.1,30.1,Agro-climatic niche overlap (True crop in Top-3)
+128,Pearl Millet,Mustard,13,Tamil Nadu,Rabi,2019,6.8,97.1,23.8,Severe pedological divergence
+129,Cotton,Rice,7,Tamil Nadu,Kharif,2019,6.53,665.1,27.8,Severe pedological divergence
+130,Cotton,Chickpea,14,Tamil Nadu,Rabi,2019,6.48,148.3,20.2,Severe pedological divergence
+132,Groundnut,Rice,3,Tamil Nadu,Kharif,2019,6.33,679.8,27.5,Agro-climatic niche overlap (True crop in Top-3)
+133,Groundnut,Chickpea,10,Tamil Nadu,Rabi,2019,6.91,132.1,22.7,Severe pedological divergence
+135,Sorghum,Pearl Millet,12,Tamil Nadu,Rabi,2019,6.11,130.2,20.7,Severe pedological divergence
+136,Maize,Pigeonpea,6,Tamil Nadu,Kharif,2019,6.73,650.2,33.0,Severe pedological divergence
+137,Maize,Chickpea,5,Tamil Nadu,Rabi,2019,6.26,128.7,23.7,Broad ecological compatibility (True crop in Top-5)
+138,Moong,Pigeonpea,7,Tamil Nadu,Kharif,2019,6.0,693.5,30.6,Severe pedological divergence
+139,Moong,Mustard,4,Tamil Nadu,Rabi,2019,7.13,143.1,18.6,Broad ecological compatibility (True crop in Top-5)
+140,Finger Millet,Maize,6,Tamil Nadu,Kharif,2019,6.82,644.0,28.9,Severe pedological divergence
+141,Finger Millet,Urad,6,Tamil Nadu,Rabi,2019,6.26,169.8,26.1,Severe pedological divergence
+142,Mustard,Chickpea,2,Tamil Nadu,Rabi,2019,6.24,137.4,21.9,Agro-climatic niche overlap (True crop in Top-3)
+143,Rice,Finger Millet,3,Tamil Nadu,Kharif,2019,6.9,727.9,28.1,Agro-climatic niche overlap (True crop in Top-3)
+144,Rice,Moong,2,Tamil Nadu,Summer,2019,6.51,99.1,32.1,Agro-climatic niche overlap (True crop in Top-3)
+145,Rice,Chickpea,4,Tamil Nadu,Rabi,2019,6.55,143.0,19.8,Broad ecological compatibility (True crop in Top-5)
+146,Sesamum,Urad,5,Tamil Nadu,Kharif,2019,6.38,627.5,28.0,Broad ecological compatibility (True crop in Top-5)
+147,Sesamum,Mustard,12,Tamil Nadu,Rabi,2019,6.41,122.6,20.7,Severe pedological divergence
+149,Urad,Finger Millet,3,Tamil Nadu,Kharif,2019,5.86,681.9,29.4,Agro-climatic niche overlap (True crop in Top-3)
+150,Urad,Mustard,2,Tamil Nadu,Rabi,2019,6.61,134.5,22.5,Agro-climatic niche overlap (True crop in Top-3)
+151,Pigeonpea,Rice,7,Arunachal Pradesh,Kharif,2019,7.35,1821.2,27.0,Severe pedological divergence
+152,Groundnut,Rice,9,Arunachal Pradesh,Kharif,2019,7.69,1834.3,29.0,Severe pedological divergence
+154,Moong,Rice,8,Arunachal Pradesh,Kharif,2019,7.12,1835.7,28.3,Severe pedological divergence
+155,Mustard,Wheat,2,Arunachal Pradesh,Rabi,2019,7.27,402.2,18.5,Agro-climatic niche overlap (True crop in Top-3)
+156,Rice,Maize,2,Arunachal Pradesh,Kharif,2019,7.4,1852.8,27.5,Agro-climatic niche overlap (True crop in Top-3)
+157,Sesamum,Rice,5,Arunachal Pradesh,Kharif,2019,7.37,1859.1,28.7,Broad ecological compatibility (True crop in Top-5)
+158,Soybean,Rice,5,Arunachal Pradesh,Kharif,2019,7.73,1854.8,25.7,Broad ecological compatibility (True crop in Top-5)
+160,Urad,Rice,5,Arunachal Pradesh,Kharif,2019,7.61,1813.6,25.9,Broad ecological compatibility (True crop in Top-5)
+161,Urad,Wheat,6,Arunachal Pradesh,Rabi,2019,7.21,364.9,23.2,Severe pedological divergence
+162,Wheat,Mustard,2,Arunachal Pradesh,Rabi,2019,7.2,344.3,22.1,Agro-climatic niche overlap (True crop in Top-3)
+163,Pigeonpea,Pearl Millet,3,Bihar,Kharif,2019,6.96,896.5,28.6,Agro-climatic niche overlap (True crop in Top-3)
+164,Pearl Millet,Groundnut,12,Bihar,Kharif,2019,7.56,944.4,24.0,Severe pedological divergence
+165,Chickpea,Mustard,3,Bihar,Rabi,2019,7.12,176.7,19.8,Agro-climatic niche overlap (True crop in Top-3)
+166,Groundnut,Rice,10,Bihar,Kharif,2019,7.14,817.8,28.0,Severe pedological divergence
+167,Sorghum,Rice,12,Bihar,Kharif,2019,6.71,895.0,27.4,Cereal grain seasonal co-occurrence
+168,Maize,Rice,2,Bihar,Kharif,2019,7.28,938.9,29.6,Agro-climatic niche overlap (True crop in Top-3)
+169,Maize,Mustard,3,Bihar,Rabi,2019,7.38,155.3,24.5,Agro-climatic niche overlap (True crop in Top-3)
+170,Maize,Rice,2,Bihar,Summer,2019,7.22,122.2,29.7,Agro-climatic niche overlap (True crop in Top-3)
+171,Moong,Rice,6,Bihar,Kharif,2019,7.04,917.7,27.3,Severe pedological divergence
+172,Moong,Rice,2,Bihar,Summer,2019,7.63,121.1,32.3,Agro-climatic niche overlap (True crop in Top-3)
+173,Finger Millet,Maize,12,Bihar,Kharif,2019,7.51,904.9,30.0,Severe pedological divergence
+174,Mustard,Wheat,2,Bihar,Rabi,2019,7.28,152.0,24.5,Agro-climatic niche overlap (True crop in Top-3)
+176,Rice,Maize,2,Bihar,Summer,2019,7.02,125.6,31.4,Agro-climatic niche overlap (True crop in Top-3)
+177,Rice,Mustard,5,Bihar,Rabi,2019,7.32,162.0,16.8,Broad ecological compatibility (True crop in Top-5)
+179,Soybean,Pigeonpea,11,Bihar,Kharif,2019,7.61,915.5,23.8,Severe pedological divergence
+181,Urad,Rice,2,Bihar,Kharif,2019,7.16,922.9,27.5,Agro-climatic niche overlap (True crop in Top-3)
+182,Wheat,Mustard,3,Bihar,Rabi,2019,7.3,152.6,18.0,Agro-climatic niche overlap (True crop in Top-3)
+183,Pigeonpea,Rice,9,Chhattisgarh,Kharif,2019,6.97,1126.3,30.0,Severe pedological divergence
+184,Pearl Millet,Maize,11,Chhattisgarh,Kharif,2019,7.31,949.6,29.5,Severe pedological divergence
+185,Pearl Millet,Sugarcane,3,Chhattisgarh,Whole Year,2019,6.41,141.7,32.9,Agro-climatic niche overlap (True crop in Top-3)
+186,Cotton,Sugarcane,12,Chhattisgarh,Whole Year,2019,6.47,136.6,34.4,Severe pedological divergence
+187,Chickpea,Wheat,4,Chhattisgarh,Rabi,2019,6.54,189.6,20.8,Broad ecological compatibility (True crop in Top-5)
+188,Groundnut,Rice,8,Chhattisgarh,Kharif,2019,6.48,1019.1,29.5,Severe pedological divergence
+189,Sorghum,Sugarcane,10,Chhattisgarh,Whole Year,2019,6.71,144.1,32.5,Severe pedological divergence
+190,Maize,Groundnut,2,Chhattisgarh,Kharif,2019,6.42,1061.7,28.1,Agro-climatic niche overlap (True crop in Top-3)
+191,Moong,Rice,5,Chhattisgarh,Kharif,2019,6.82,1039.6,26.2,Broad ecological compatibility (True crop in Top-5)
+192,Moong,Mustard,8,Chhattisgarh,Rabi,2019,6.82,219.5,19.0,Severe pedological divergence
+196,Rice,Groundnut,3,Chhattisgarh,Kharif,2019,6.59,1103.4,29.3,Agro-climatic niche overlap (True crop in Top-3)
+197,Sesamum,Maize,7,Chhattisgarh,Kharif,2019,6.48,1114.4,30.5,Severe pedological divergence
+198,Soybean,Rice,10,Chhattisgarh,Kharif,2019,6.84,1068.6,27.5,Severe pedological divergence
+200,Urad,Maize,11,Chhattisgarh,Kharif,2019,6.61,1066.1,27.1,Severe pedological divergence
+201,Urad,Moong,6,Chhattisgarh,Rabi,2019,6.56,226.3,14.8,Legume/Pulse physiological similarity
+202,Wheat,Chickpea,7,Chhattisgarh,Rabi,2019,6.58,236.9,14.2,Severe pedological divergence
+203,Pigeonpea,Groundnut,7,Gujarat,Kharif,2019,5.66,770.1,28.4,Severe pedological divergence
+204,Pearl Millet,Groundnut,8,Gujarat,Kharif,2019,5.6,821.4,30.3,Severe pedological divergence
+205,Pearl Millet,Rice,7,Gujarat,Summer,2019,5.46,105.3,27.8,Severe pedological divergence
+206,Cotton,Finger Millet,12,Gujarat,Kharif,2019,5.48,817.4,27.0,Severe pedological divergence
+207,Chickpea,Sorghum,2,Gujarat,Rabi,2019,5.23,158.7,20.0,Agro-climatic niche overlap (True crop in Top-3)
+208,Groundnut,Maize,4,Gujarat,Kharif,2019,5.73,770.6,25.2,Broad ecological compatibility (True crop in Top-5)
+210,Sorghum,Rice,3,Gujarat,Kharif,2019,5.5,765.6,28.9,Agro-climatic niche overlap (True crop in Top-3)
+211,Sorghum,Maize,4,Gujarat,Rabi,2019,5.29,144.6,22.1,Broad ecological compatibility (True crop in Top-5)
+212,Maize,Sorghum,5,Gujarat,Kharif,2019,5.74,781.4,28.2,Broad ecological compatibility (True crop in Top-5)
+213,Maize,Sorghum,7,Gujarat,Rabi,2019,4.91,166.7,21.0,Cereal grain seasonal co-occurrence
+214,Maize,Groundnut,4,Gujarat,Summer,2019,5.39,96.9,33.3,Broad ecological compatibility (True crop in Top-5)
+215,Moong,Groundnut,9,Gujarat,Kharif,2019,4.85,792.2,30.0,Severe pedological divergence
+216,Moong,Rice,5,Gujarat,Summer,2019,5.45,99.7,34.5,Broad ecological compatibility (True crop in Top-5)
+218,Mustard,Chickpea,6,Gujarat,Rabi,2019,5.36,178.6,21.0,Severe pedological divergence
+219,Rice,Sorghum,3,Gujarat,Kharif,2019,5.43,870.5,29.5,Agro-climatic niche overlap (True crop in Top-3)
+222,Sesamum,Rice,8,Gujarat,Summer,2019,5.54,105.2,35.2,Severe pedological divergence
+223,Soybean,Rice,9,Gujarat,Kharif,2019,5.46,772.8,25.1,Severe pedological divergence
+225,Urad,Maize,11,Gujarat,Kharif,2019,5.47,820.9,30.0,Severe pedological divergence
+226,Urad,Rice,9,Gujarat,Summer,2019,5.36,117.3,33.5,Severe pedological divergence
+227,Wheat,Chickpea,2,Gujarat,Rabi,2019,5.32,155.9,24.2,Agro-climatic niche overlap (True crop in Top-3)
+228,Pigeonpea,Rice,9,Haryana,Kharif,2019,7.24,259.6,29.7,Severe pedological divergence
+229,Pearl Millet,Pigeonpea,2,Haryana,Kharif,2019,7.91,257.3,30.1,Agro-climatic niche overlap (True crop in Top-3)
+230,Cotton,Maize,8,Haryana,Kharif,2019,7.36,300.1,29.9,Severe pedological divergence
+231,Chickpea,Wheat,2,Haryana,Rabi,2019,7.67,57.5,21.3,Agro-climatic niche overlap (True crop in Top-3)
+232,Groundnut,Cotton,7,Haryana,Kharif,2019,7.06,243.7,27.9,Severe pedological divergence
+233,Sorghum,Moong,10,Haryana,Kharif,2019,7.42,289.6,27.6,Severe pedological divergence
+234,Maize,Pigeonpea,2,Haryana,Kharif,2019,7.28,309.6,28.5,Agro-climatic niche overlap (True crop in Top-3)
+235,Moong,Pigeonpea,10,Haryana,Kharif,2019,7.2,230.0,28.5,Severe pedological divergence
+236,Mustard,Chickpea,8,Haryana,Rabi,2019,7.67,71.9,25.9,Severe pedological divergence
+237,Rice,Pigeonpea,5,Haryana,Kharif,2019,7.37,261.8,26.0,Broad ecological compatibility (True crop in Top-5)
+238,Sesamum,Rice,8,Haryana,Kharif,2019,7.25,262.2,27.6,Severe pedological divergence
+240,Urad,Moong,8,Haryana,Kharif,2019,7.81,279.7,30.6,Legume/Pulse physiological similarity
+242,Pigeonpea,Rice,4,Himachal Pradesh,Kharif,2019,7.43,949.5,27.1,Broad ecological compatibility (True crop in Top-5)
+243,Pearl Millet,Pigeonpea,5,Himachal Pradesh,Kharif,2019,6.29,905.6,28.5,Broad ecological compatibility (True crop in Top-5)
+244,Cotton,Urad,10,Himachal Pradesh,Kharif,2019,5.92,939.7,27.3,Severe pedological divergence
+246,Groundnut,Urad,3,Himachal Pradesh,Kharif,2019,5.9,924.3,23.4,Agro-climatic niche overlap (True crop in Top-3)
+247,Maize,Urad,5,Himachal Pradesh,Kharif,2019,6.36,902.4,28.0,Broad ecological compatibility (True crop in Top-5)
+248,Moong,Maize,8,Himachal Pradesh,Kharif,2019,7.45,949.7,26.7,Severe pedological divergence
+250,Mustard,Wheat,3,Himachal Pradesh,Rabi,2019,5.41,166.2,25.1,Agro-climatic niche overlap (True crop in Top-3)
+251,Rice,Maize,3,Himachal Pradesh,Kharif,2019,5.65,920.8,27.8,Agro-climatic niche overlap (True crop in Top-3)
+252,Sesamum,Rice,5,Himachal Pradesh,Kharif,2019,7.31,878.6,26.5,Broad ecological compatibility (True crop in Top-5)
+253,Soybean,Rice,11,Himachal Pradesh,Kharif,2019,7.47,941.4,32.6,Severe pedological divergence
+255,Urad,Maize,2,Himachal Pradesh,Kharif,2019,5.61,960.2,28.4,Agro-climatic niche overlap (True crop in Top-3)
+256,Wheat,Mustard,3,Himachal Pradesh,Rabi,2019,5.7,194.3,23.0,Agro-climatic niche overlap (True crop in Top-3)
+257,Pigeonpea,Rice,6,Jharkhand,Kharif,2019,7.36,819.9,28.3,Severe pedological divergence
+258,Pearl Millet,Groundnut,7,Jharkhand,Kharif,2019,7.66,828.6,30.2,Severe pedological divergence
+259,Chickpea,Wheat,3,Jharkhand,Rabi,2019,7.33,173.0,23.1,Agro-climatic niche overlap (True crop in Top-3)
+260,Groundnut,Maize,3,Jharkhand,Kharif,2019,7.95,879.7,28.1,Agro-climatic niche overlap (True crop in Top-3)
+261,Sorghum,Urad,11,Jharkhand,Kharif,2019,6.21,854.6,27.4,Severe pedological divergence
+262,Maize,Rice,2,Jharkhand,Kharif,2019,7.46,822.6,30.7,Agro-climatic niche overlap (True crop in Top-3)
+263,Maize,Wheat,5,Jharkhand,Rabi,2019,6.41,169.6,19.3,Broad ecological compatibility (True crop in Top-5)
+264,Moong,Rice,5,Jharkhand,Kharif,2019,7.25,899.0,30.3,Broad ecological compatibility (True crop in Top-5)
+265,Finger Millet,Pearl Millet,12,Jharkhand,Kharif,2019,7.25,826.6,30.3,Severe pedological divergence
+269,Soybean,Rice,11,Jharkhand,Kharif,2019,7.28,885.4,31.4,Severe pedological divergence
+270,Urad,Rice,3,Jharkhand,Kharif,2019,7.28,800.2,25.1,Agro-climatic niche overlap (True crop in Top-3)
+272,Pigeonpea,Sorghum,4,Madhya Pradesh,Kharif,2019,7.64,1090.3,29.1,Broad ecological compatibility (True crop in Top-5)
+273,Pearl Millet,Rice,4,Madhya Pradesh,Kharif,2019,7.64,1085.2,28.0,Broad ecological compatibility (True crop in Top-5)
+274,Cotton,Finger Millet,11,Madhya Pradesh,Kharif,2019,6.61,1049.4,28.8,Severe pedological divergence
+276,Groundnut,Rice,3,Madhya Pradesh,Kharif,2019,6.52,1114.8,28.5,Agro-climatic niche overlap (True crop in Top-3)
+277,Groundnut,Rice,6,Madhya Pradesh,Summer,2019,7.54,143.5,27.8,Severe pedological divergence
+278,Sorghum,Urad,12,Madhya Pradesh,Kharif,2019,6.15,1069.3,30.2,Severe pedological divergence
+279,Maize,Rice,2,Madhya Pradesh,Kharif,2019,7.78,1043.4,29.4,Agro-climatic niche overlap (True crop in Top-3)
+281,Moong,Rice,11,Madhya Pradesh,Kharif,2019,7.84,1094.5,27.0,Severe pedological divergence
+282,Moong,Rice,3,Madhya Pradesh,Summer,2019,7.98,136.3,30.5,Agro-climatic niche overlap (True crop in Top-3)
+283,Mustard,Wheat,8,Madhya Pradesh,Rabi,2019,8.05,199.8,24.9,Severe pedological divergence
+284,Rice,Maize,5,Madhya Pradesh,Kharif,2019,7.98,1112.3,30.7,Broad ecological compatibility (True crop in Top-5)
+286,Sesamum,Finger Millet,7,Madhya Pradesh,Kharif,2019,7.71,1143.6,25.9,Severe pedological divergence
+287,Soybean,Rice,11,Madhya Pradesh,Kharif,2019,6.6,1058.9,25.4,Severe pedological divergence
+289,Urad,Rice,11,Madhya Pradesh,Kharif,2019,7.94,1137.7,26.7,Severe pedological divergence
+290,Urad,Rice,4,Madhya Pradesh,Summer,2019,7.75,150.2,31.6,Broad ecological compatibility (True crop in Top-5)
+292,Pigeonpea,Finger Millet,4,Maharashtra,Kharif,2019,8.06,1197.2,30.6,Broad ecological compatibility (True crop in Top-5)
+294,Cotton,Groundnut,7,Maharashtra,Kharif,2019,5.28,1172.4,29.2,Severe pedological divergence
+295,Chickpea,Urad,5,Maharashtra,Rabi,2019,8.17,233.9,21.6,Broad ecological compatibility (True crop in Top-5)
+296,Groundnut,Finger Millet,11,Maharashtra,Kharif,2019,8.19,1157.4,29.2,Severe pedological divergence
+297,Groundnut,Rice,6,Maharashtra,Summer,2019,7.78,155.5,29.2,Severe pedological divergence
+298,Sorghum,Rice,7,Maharashtra,Kharif,2019,7.72,1205.0,29.0,Cereal grain seasonal co-occurrence
+299,Sorghum,Wheat,10,Maharashtra,Rabi,2019,7.63,232.2,21.0,Severe pedological divergence
+300,Maize,Sorghum,4,Maharashtra,Kharif,2019,7.65,1214.7,26.2,Broad ecological compatibility (True crop in Top-5)
+301,Maize,Chickpea,6,Maharashtra,Rabi,2019,8.07,232.3,20.4,Severe pedological divergence
+302,Maize,Rice,3,Maharashtra,Summer,2019,7.64,159.4,30.1,Agro-climatic niche overlap (True crop in Top-3)
+306,Rice,Groundnut,5,Maharashtra,Kharif,2019,7.99,1182.9,27.7,Broad ecological compatibility (True crop in Top-5)
+308,Sesamum,Finger Millet,5,Maharashtra,Kharif,2019,7.55,1102.7,30.9,Broad ecological compatibility (True crop in Top-5)
+309,Sesamum,Chickpea,11,Maharashtra,Rabi,2019,7.57,241.1,20.4,Severe pedological divergence
+310,Sesamum,Moong,9,Maharashtra,Summer,2019,7.79,174.0,31.9,Severe pedological divergence
+311,Soybean,Finger Millet,9,Maharashtra,Kharif,2019,7.71,1201.6,26.2,Severe pedological divergence
+313,Urad,Finger Millet,11,Maharashtra,Kharif,2019,7.9,1145.1,29.7,Severe pedological divergence
+315,Pigeonpea,Rice,7,Mizoram,Kharif,2019,6.63,1621.2,26.6,Severe pedological divergence
+316,Pigeonpea,Mustard,8,Mizoram,Rabi,2019,7.52,304.6,20.3,Severe pedological divergence
+317,Cotton,Maize,6,Mizoram,Kharif,2019,7.44,1638.9,25.5,Severe pedological divergence
+318,Maize,Rice,4,Mizoram,Kharif,2019,5.88,1663.9,28.8,Broad ecological compatibility (True crop in Top-5)
+319,Maize,Rice,8,Mizoram,Rabi,2019,6.47,337.2,20.0,Cereal grain seasonal co-occurrence
+320,Mustard,Maize,15,Mizoram,Kharif,2019,7.51,1673.0,26.4,Severe pedological divergence
+321,Mustard,Rice,8,Mizoram,Rabi,2019,6.59,329.1,26.8,Severe pedological divergence
+323,Rice,Cotton,2,Mizoram,Kharif,2019,6.53,1710.2,26.9,Agro-climatic niche overlap (True crop in Top-3)
+324,Rice,Groundnut,3,Mizoram,Rabi,2019,6.27,330.3,26.3,Agro-climatic niche overlap (True crop in Top-3)
+325,Sesamum,Rice,5,Mizoram,Kharif,2019,6.45,1622.1,28.5,Broad ecological compatibility (True crop in Top-5)
+326,Soybean,Maize,11,Mizoram,Kharif,2019,6.58,1630.0,26.1,Severe pedological divergence
+328,Pigeonpea,Rice,4,Nagaland,Kharif,2019,7.65,1250.9,28.3,Broad ecological compatibility (True crop in Top-5)
+329,Pearl Millet,Rice,8,Nagaland,Kharif,2019,7.43,1167.9,28.6,Severe pedological divergence
+330,Cotton,Rice,10,Nagaland,Kharif,2019,7.65,1221.8,25.0,Severe pedological divergence
+331,Chickpea,Wheat,4,Nagaland,Rabi,2019,7.55,243.4,18.3,Broad ecological compatibility (True crop in Top-5)
+333,Sorghum,Sesamum,11,Nagaland,Kharif,2019,7.71,1203.5,26.9,Severe pedological divergence
+335,Maize,Wheat,3,Nagaland,Rabi,2019,7.61,243.0,25.3,Agro-climatic niche overlap (True crop in Top-3)
+336,Moong,Rice,5,Nagaland,Kharif,2019,7.51,1202.6,28.8,Broad ecological compatibility (True crop in Top-5)
+337,Finger Millet,Rice,12,Nagaland,Kharif,2019,7.6,1206.9,28.0,Severe pedological divergence
+338,Mustard,Chickpea,2,Nagaland,Rabi,2019,7.73,246.7,19.5,Agro-climatic niche overlap (True crop in Top-3)
+340,Rice,Wheat,3,Nagaland,Rabi,2019,7.75,251.3,25.9,Agro-climatic niche overlap (True crop in Top-3)
+341,Sesamum,Maize,6,Nagaland,Kharif,2019,7.38,1175.9,28.7,Severe pedological divergence
+342,Soybean,Maize,7,Nagaland,Kharif,2019,7.77,1260.9,30.3,Severe pedological divergence
+343,Sugarcane,Pigeonpea,13,Nagaland,Kharif,2019,7.46,1185.8,28.6,Severe pedological divergence
+344,Urad,Mustard,5,Nagaland,Rabi,2019,7.04,244.3,19.5,Broad ecological compatibility (True crop in Top-5)
+346,Pigeonpea,Rice,11,Odisha,Kharif,2019,6.27,1190.1,32.7,Severe pedological divergence
+347,Pearl Millet,Rice,10,Odisha,Kharif,2019,6.61,1175.8,26.7,Severe pedological divergence
+348,Cotton,Rice,7,Odisha,Kharif,2019,6.23,1209.5,32.5,Severe pedological divergence
+349,Chickpea,Pigeonpea,2,Odisha,Rabi,2019,6.25,242.6,20.2,Agro-climatic niche overlap (True crop in Top-3)
+350,Groundnut,Sesamum,5,Odisha,Kharif,2019,6.68,1197.2,29.8,Broad ecological compatibility (True crop in Top-5)
+352,Groundnut,Wheat,8,Odisha,Rabi,2019,6.32,254.8,16.1,Severe pedological divergence
+353,Sorghum,Urad,11,Odisha,Kharif,2019,6.56,1166.6,26.1,Severe pedological divergence
+354,Maize,Rice,6,Odisha,Kharif,2019,6.56,1192.4,28.8,Cereal grain seasonal co-occurrence
+356,Maize,Urad,5,Odisha,Rabi,2019,6.55,248.7,29.4,Broad ecological compatibility (True crop in Top-5)
+357,Moong,Rice,4,Odisha,Kharif,2019,6.15,1197.4,28.9,Broad ecological compatibility (True crop in Top-5)
+358,Moong,Rice,3,Odisha,Summer,2019,6.4,148.0,33.2,Agro-climatic niche overlap (True crop in Top-3)
+359,Moong,Rice,6,Odisha,Rabi,2019,6.59,253.1,25.2,Severe pedological divergence
+361,Finger Millet,Moong,8,Odisha,Summer,2019,6.37,155.6,29.7,Severe pedological divergence
+362,Finger Millet,Rice,5,Odisha,Rabi,2019,6.3,251.7,20.8,Broad ecological compatibility (True crop in Top-5)
+364,Rice,Cotton,2,Odisha,Kharif,2019,6.27,1201.8,28.0,Agro-climatic niche overlap (True crop in Top-3)
+366,Rice,Chickpea,7,Odisha,Rabi,2019,6.3,251.1,22.5,Severe pedological divergence
+367,Sesamum,Rice,4,Odisha,Kharif,2019,6.21,1168.1,31.0,Broad ecological compatibility (True crop in Top-5)
+368,Sesamum,Moong,5,Odisha,Summer,2019,6.54,158.0,34.2,Broad ecological compatibility (True crop in Top-5)
+369,Sesamum,Urad,7,Odisha,Rabi,2019,6.43,245.5,26.6,Severe pedological divergence
+370,Sugarcane,Mustard,10,Odisha,Rabi,2019,6.37,239.3,20.9,Severe pedological divergence
+372,Urad,Rice,5,Odisha,Summer,2019,6.34,165.1,32.7,Broad ecological compatibility (True crop in Top-5)
+373,Urad,Mustard,3,Odisha,Rabi,2019,6.36,236.6,21.0,Agro-climatic niche overlap (True crop in Top-3)
+374,Wheat,Rice,14,Odisha,Summer,2019,6.43,144.8,31.5,Severe pedological divergence
+375,Pigeonpea,Pearl Millet,6,Punjab,Kharif,2019,5.96,484.0,31.1,Severe pedological divergence
+376,Pearl Millet,Rice,5,Punjab,Kharif,2019,5.83,430.6,28.8,Broad ecological compatibility (True crop in Top-5)
+377,Cotton,Pearl Millet,8,Punjab,Kharif,2019,6.03,489.4,27.5,Severe pedological divergence
+378,Chickpea,Mustard,3,Punjab,Rabi,2019,5.3,92.3,23.4,Agro-climatic niche overlap (True crop in Top-3)
+379,Groundnut,Pigeonpea,9,Punjab,Kharif,2019,5.91,481.1,25.3,Severe pedological divergence
+382,Moong,Chickpea,7,Punjab,Rabi,2019,5.65,97.7,18.7,Legume/Pulse physiological similarity
+383,Mustard,Chickpea,3,Punjab,Rabi,2019,6.07,115.9,23.3,Agro-climatic niche overlap (True crop in Top-3)
+384,Rice,Cotton,4,Punjab,Kharif,2019,5.52,521.6,31.0,Broad ecological compatibility (True crop in Top-5)
+385,Sesamum,Rice,8,Punjab,Kharif,2019,7.38,460.9,31.1,Severe pedological divergence
+388,Wheat,Mustard,3,Punjab,Rabi,2019,5.63,103.8,19.5,Agro-climatic niche overlap (True crop in Top-3)
+389,Pigeonpea,Rice,8,Telangana,Kharif,2019,7.7,750.5,27.2,Severe pedological divergence
+390,Pigeonpea,Chickpea,11,Telangana,Rabi,2019,6.52,165.9,19.4,Severe pedological divergence
+391,Pearl Millet,Moong,6,Telangana,Kharif,2019,6.56,729.4,25.7,Severe pedological divergence
+392,Pearl Millet,Pigeonpea,13,Telangana,Rabi,2019,6.83,179.7,23.4,Severe pedological divergence
+393,Cotton,Rice,12,Telangana,Kharif,2019,6.39,829.5,27.2,Severe pedological divergence
+394,Chickpea,Wheat,2,Telangana,Rabi,2019,6.49,147.7,17.0,Agro-climatic niche overlap (True crop in Top-3)
+395,Groundnut,Pigeonpea,10,Telangana,Kharif,2019,6.51,753.8,29.8,Severe pedological divergence
+396,Groundnut,Maize,8,Telangana,Rabi,2019,7.04,138.2,21.0,Severe pedological divergence
+397,Sorghum,Pearl Millet,3,Telangana,Kharif,2019,7.84,824.3,28.5,Agro-climatic niche overlap (True crop in Top-3)
+398,Sorghum,Wheat,10,Telangana,Rabi,2019,6.4,148.1,20.6,Severe pedological divergence
+399,Maize,Finger Millet,2,Telangana,Kharif,2019,7.83,734.7,24.9,Agro-climatic niche overlap (True crop in Top-3)
+400,Maize,Chickpea,4,Telangana,Rabi,2019,6.68,159.7,22.7,Broad ecological compatibility (True crop in Top-5)
+401,Moong,Cotton,3,Telangana,Kharif,2019,7.69,755.7,29.1,Agro-climatic niche overlap (True crop in Top-3)
+402,Moong,Chickpea,6,Telangana,Rabi,2019,6.62,179.1,22.1,Legume/Pulse physiological similarity
+403,Finger Millet,Maize,11,Telangana,Kharif,2019,5.93,761.8,30.8,Severe pedological divergence
+404,Finger Millet,Maize,2,Telangana,Rabi,2019,8.06,163.4,18.0,Agro-climatic niche overlap (True crop in Top-3)
+405,Rice,Maize,3,Telangana,Kharif,2019,6.35,776.6,28.6,Agro-climatic niche overlap (True crop in Top-3)
+406,Rice,Moong,7,Telangana,Rabi,2019,6.62,146.6,12.8,Severe pedological divergence
+407,Sesamum,Groundnut,6,Telangana,Kharif,2019,6.4,740.3,29.3,Severe pedological divergence
+408,Sesamum,Chickpea,13,Telangana,Rabi,2019,6.66,154.0,20.2,Severe pedological divergence
+409,Soybean,Maize,12,Telangana,Kharif,2019,6.5,780.7,29.1,Severe pedological divergence
+410,Sugarcane,Moong,13,Telangana,Kharif,2019,6.59,781.1,28.0,Severe pedological divergence
+412,Urad,Mustard,8,Telangana,Rabi,2019,6.9,140.8,20.2,Severe pedological divergence
+413,Wheat,Pearl Millet,16,Telangana,Kharif,2019,7.98,754.1,26.4,Severe pedological divergence
+414,Wheat,Moong,4,Telangana,Rabi,2019,5.91,199.9,16.2,Broad ecological compatibility (True crop in Top-5)
+415,Pigeonpea,Rice,4,Tripura,Kharif,2019,7.63,1656.1,30.5,Broad ecological compatibility (True crop in Top-5)
+416,Cotton,Rice,5,Tripura,Kharif,2019,7.31,1697.6,27.1,Broad ecological compatibility (True crop in Top-5)
+417,Chickpea,Wheat,3,Tripura,Rabi,2019,7.57,354.9,16.3,Agro-climatic niche overlap (True crop in Top-3)
+418,Groundnut,Rice,9,Tripura,Kharif,2019,7.27,1709.0,31.3,Severe pedological divergence
+419,Groundnut,Mustard,8,Tripura,Rabi,2019,7.65,327.6,19.4,Severe pedological divergence
+420,Sorghum,Rice,11,Tripura,Kharif,2019,6.84,1729.4,32.4,Cereal grain seasonal co-occurrence
+421,Sorghum,Wheat,10,Tripura,Rabi,2019,7.52,326.3,21.0,Severe pedological divergence
+422,Maize,Rice,3,Tripura,Kharif,2019,6.04,1737.2,28.1,Agro-climatic niche overlap (True crop in Top-3)
+423,Maize,Wheat,7,Tripura,Rabi,2019,6.95,350.2,18.7,Severe pedological divergence
+424,Moong,Rice,10,Tripura,Kharif,2019,6.59,1635.7,28.2,Severe pedological divergence
+425,Moong,Wheat,8,Tripura,Rabi,2019,7.53,315.0,21.0,Severe pedological divergence
+426,Mustard,Chickpea,3,Tripura,Rabi,2019,7.23,342.9,17.1,Agro-climatic niche overlap (True crop in Top-3)
+430,Rice,Mustard,4,Tripura,Rabi,2019,7.54,344.8,14.8,Broad ecological compatibility (True crop in Top-5)
+431,Sesamum,Rice,5,Tripura,Kharif,2019,7.02,1708.3,29.6,Broad ecological compatibility (True crop in Top-5)
+432,Soybean,Rice,6,Tripura,Kharif,2019,7.21,1659.9,27.8,Severe pedological divergence
+433,Soybean,Mustard,15,Tripura,Rabi,2019,7.57,339.0,20.3,Severe pedological divergence
+435,Urad,Cotton,6,Tripura,Kharif,2019,7.25,1732.0,31.8,Severe pedological divergence
+436,Urad,Rice,4,Tripura,Rabi,2019,6.57,355.9,21.7,Broad ecological compatibility (True crop in Top-5)
+438,Pigeonpea,Pearl Millet,11,Uttar Pradesh,Kharif,2019,8.12,556.8,27.0,Severe pedological divergence
+439,Pearl Millet,Rice,2,Uttar Pradesh,Kharif,2019,7.8,620.8,28.5,Agro-climatic niche overlap (True crop in Top-3)
+440,Cotton,Pearl Millet,5,Uttar Pradesh,Kharif,2019,7.78,592.8,26.1,Broad ecological compatibility (True crop in Top-5)
+442,Groundnut,Maize,4,Uttar Pradesh,Kharif,2019,7.5,650.1,25.7,Broad ecological compatibility (True crop in Top-5)
+443,Sorghum,Pigeonpea,3,Uttar Pradesh,Kharif,2019,7.78,635.6,27.7,Agro-climatic niche overlap (True crop in Top-3)
+444,Maize,Rice,2,Uttar Pradesh,Kharif,2019,7.65,583.3,28.4,Agro-climatic niche overlap (True crop in Top-3)
+445,Maize,Wheat,4,Uttar Pradesh,Rabi,2019,7.88,135.0,22.7,Broad ecological compatibility (True crop in Top-5)
+446,Maize,Rice,3,Uttar Pradesh,Summer,2019,7.97,77.3,33.2,Agro-climatic niche overlap (True crop in Top-3)
+447,Moong,Rice,4,Uttar Pradesh,Kharif,2019,7.56,595.4,27.6,Broad ecological compatibility (True crop in Top-5)
+448,Moong,Rice,7,Uttar Pradesh,Summer,2019,8.11,90.5,33.2,Severe pedological divergence
+449,Mustard,Chickpea,2,Uttar Pradesh,Rabi,2019,7.98,138.8,18.7,Agro-climatic niche overlap (True crop in Top-3)
+450,Rice,Cotton,5,Uttar Pradesh,Kharif,2019,7.96,616.8,27.1,Broad ecological compatibility (True crop in Top-5)
+452,Sesamum,Pigeonpea,7,Uttar Pradesh,Kharif,2019,7.26,620.6,29.9,Severe pedological divergence
+453,Soybean,Pigeonpea,12,Uttar Pradesh,Kharif,2019,7.2,674.8,26.5,Severe pedological divergence
+454,Sugarcane,Pearl Millet,13,Uttar Pradesh,Kharif,2019,7.87,621.4,28.7,Severe pedological divergence
+455,Urad,Maize,5,Uttar Pradesh,Kharif,2019,7.93,632.2,30.8,Broad ecological compatibility (True crop in Top-5)
+456,Urad,Rice,4,Uttar Pradesh,Summer,2019,7.79,75.8,33.7,Broad ecological compatibility (True crop in Top-5)
+458,Pigeonpea,Rice,3,Uttarakhand,Kharif,2019,7.33,1003.6,29.7,Agro-climatic niche overlap (True crop in Top-3)
+459,Chickpea,Mustard,3,Uttarakhand,Rabi,2019,5.66,186.0,18.5,Agro-climatic niche overlap (True crop in Top-3)
+460,Groundnut,Rice,2,Uttarakhand,Kharif,2019,5.81,1035.9,26.6,Agro-climatic niche overlap (True crop in Top-3)
+461,Maize,Sesamum,2,Uttarakhand,Kharif,2019,5.51,961.2,32.2,Agro-climatic niche overlap (True crop in Top-3)
+462,Maize,Rice,3,Uttarakhand,Summer,2019,6.29,141.7,32.3,Agro-climatic niche overlap (True crop in Top-3)
+463,Moong,Rice,8,Uttarakhand,Kharif,2019,7.87,1037.9,26.3,Severe pedological divergence
+464,Moong,Rice,3,Uttarakhand,Summer,2019,7.61,137.2,28.6,Agro-climatic niche overlap (True crop in Top-3)
+465,Finger Millet,Sesamum,10,Uttarakhand,Kharif,2019,5.97,1038.1,31.3,Severe pedological divergence
+466,Mustard,Chickpea,2,Uttarakhand,Rabi,2019,5.81,206.5,19.5,Agro-climatic niche overlap (True crop in Top-3)
+467,Rice,Sesamum,2,Uttarakhand,Kharif,2019,5.31,1060.0,27.6,Agro-climatic niche overlap (True crop in Top-3)
+468,Rice,Maize,3,Uttarakhand,Summer,2019,5.99,145.5,32.1,Agro-climatic niche overlap (True crop in Top-3)
+469,Sesamum,Rice,4,Uttarakhand,Kharif,2019,7.68,1023.5,27.1,Broad ecological compatibility (True crop in Top-5)
+470,Soybean,Rice,9,Uttarakhand,Kharif,2019,5.92,1032.6,28.8,Severe pedological divergence
+473,Urad,Rice,4,Uttarakhand,Summer,2019,7.66,139.5,28.6,Broad ecological compatibility (True crop in Top-5)
+474,Wheat,Chickpea,4,Uttarakhand,Rabi,2019,7.25,186.5,18.1,Broad ecological compatibility (True crop in Top-5)
+475,Pigeonpea,Urad,10,West Bengal,Rabi,2019,6.36,238.0,22.2,Severe pedological divergence
+476,Pearl Millet,Rice,11,West Bengal,Kharif,2019,6.42,1289.7,31.0,Severe pedological divergence
+477,Cotton,Urad,12,West Bengal,Kharif,2019,6.38,1285.1,24.0,Severe pedological divergence
+478,Chickpea,Rice,4,West Bengal,Rabi,2019,6.51,248.6,16.8,Broad ecological compatibility (True crop in Top-5)
+479,Groundnut,Rice,2,West Bengal,Kharif,2019,6.38,1329.7,28.1,Agro-climatic niche overlap (True crop in Top-3)
+480,Groundnut,Urad,10,West Bengal,Rabi,2019,6.3,263.9,20.8,Severe pedological divergence
+481,Groundnut,Moong,3,West Bengal,Summer,2019,6.7,174.6,32.9,Agro-climatic niche overlap (True crop in Top-3)
+482,Sorghum,Maize,11,West Bengal,Kharif,2019,7.39,1241.3,28.0,Cereal grain seasonal co-occurrence
+483,Maize,Rice,6,West Bengal,Kharif,2019,6.52,1311.5,28.9,Cereal grain seasonal co-occurrence
+484,Maize,Urad,3,West Bengal,Rabi,2019,6.11,253.1,20.1,Agro-climatic niche overlap (True crop in Top-3)
+485,Maize,Rice,3,West Bengal,Summer,2019,7.62,173.1,30.5,Agro-climatic niche overlap (True crop in Top-3)
+486,Moong,Soybean,5,West Bengal,Kharif,2019,6.33,1320.4,30.0,Broad ecological compatibility (True crop in Top-5)
+487,Moong,Rice,8,West Bengal,Rabi,2019,6.74,247.6,23.3,Severe pedological divergence
+488,Moong,Maize,2,West Bengal,Summer,2019,6.87,179.9,33.5,Agro-climatic niche overlap (True crop in Top-3)
+489,Finger Millet,Urad,8,West Bengal,Kharif,2019,5.92,1250.6,33.1,Severe pedological divergence
+490,Mustard,Groundnut,8,West Bengal,Rabi,2019,6.51,263.4,23.4,Severe pedological divergence
+494,Sesamum,Maize,4,West Bengal,Kharif,2019,6.59,1238.6,30.7,Broad ecological compatibility (True crop in Top-5)
+495,Sesamum,Rice,5,West Bengal,Summer,2019,6.54,188.0,33.8,Broad ecological compatibility (True crop in Top-5)
+496,Sesamum,Mustard,9,West Bengal,Rabi,2019,7.44,270.4,21.4,Severe pedological divergence
+497,Soybean,Cotton,9,West Bengal,Kharif,2019,6.7,1332.7,32.0,Severe pedological divergence
+500,Urad,Mustard,5,West Bengal,Rabi,2019,6.59,268.3,21.7,Broad ecological compatibility (True crop in Top-5)
+501,Wheat,Mustard,2,West Bengal,Rabi,2019,6.43,270.2,23.6,Agro-climatic niche overlap (True crop in Top-3)
+502,Pigeonpea,Rice,10,Uttarakhand,Kharif,2020,7.28,998.4,30.3,Severe pedological divergence
+503,Chickpea,Wheat,2,Uttarakhand,Rabi,2020,7.56,208.8,18.4,Agro-climatic niche overlap (True crop in Top-3)
+504,Groundnut,Urad,11,Uttarakhand,Kharif,2020,5.7,991.8,29.2,Severe pedological divergence
+505,Maize,Rice,5,Uttarakhand,Kharif,2020,5.49,969.8,29.6,Broad ecological compatibility (True crop in Top-5)
+507,Moong,Sesamum,6,Uttarakhand,Kharif,2020,5.74,982.5,32.7,Severe pedological divergence
+508,Moong,Rice,2,Uttarakhand,Summer,2020,5.48,135.1,30.7,Agro-climatic niche overlap (True crop in Top-3)
+509,Finger Millet,Pearl Millet,5,Uttarakhand,Kharif,2020,7.99,1019.6,26.6,Broad ecological compatibility (True crop in Top-5)
+513,Sesamum,Rice,4,Uttarakhand,Kharif,2020,7.37,1028.8,29.0,Broad ecological compatibility (True crop in Top-5)
+514,Soybean,Rice,10,Uttarakhand,Kharif,2020,7.71,1003.2,29.6,Severe pedological divergence
+516,Urad,Sesamum,8,Uttarakhand,Kharif,2020,8.32,1002.2,26.1,Severe pedological divergence
+517,Urad,Maize,4,Uttarakhand,Summer,2020,7.85,125.4,31.3,Broad ecological compatibility (True crop in Top-5)
+518,Wheat,Chickpea,3,Uttarakhand,Rabi,2020,5.97,208.8,16.3,Agro-climatic niche overlap (True crop in Top-3)
+519,Pearl Millet,Sorghum,2,Delhi,Kharif,2019,7.89,418.4,28.9,Agro-climatic niche overlap (True crop in Top-3)
+522,Maize,Cotton,6,Delhi,Kharif,2019,7.35,439.4,30.9,Severe pedological divergence
+523,Mustard,Wheat,3,Delhi,Rabi,2019,7.96,114.2,24.0,Agro-climatic niche overlap (True crop in Top-3)
+524,Rice,Sorghum,4,Delhi,Kharif,2019,6.79,462.9,30.8,Broad ecological compatibility (True crop in Top-5)
+525,Wheat,Chickpea,2,Delhi,Rabi,2019,7.95,53.6,20.2,Agro-climatic niche overlap (True crop in Top-3)
+526,Pearl Millet,Rice,8,Jammu and Kashmir,Kharif,2019,5.66,1005.9,28.1,Severe pedological divergence
+527,Pearl Millet,Wheat,12,Jammu and Kashmir,Rabi,2019,5.92,178.8,19.3,Severe pedological divergence
+528,Chickpea,Rice,15,Jammu and Kashmir,Kharif,2019,6.08,999.9,28.6,Severe pedological divergence
+529,Maize,Pearl Millet,5,Jammu and Kashmir,Kharif,2019,5.58,994.9,27.5,Broad ecological compatibility (True crop in Top-5)
+530,Moong,Rice,5,Jammu and Kashmir,Kharif,2019,5.58,961.3,29.6,Broad ecological compatibility (True crop in Top-5)
+531,Finger Millet,Sesamum,10,Jammu and Kashmir,Kharif,2019,5.7,960.2,31.4,Severe pedological divergence
+532,Mustard,Rice,15,Jammu and Kashmir,Kharif,2019,5.43,1029.9,27.5,Severe pedological divergence
+534,Rice,Maize,2,Jammu and Kashmir,Kharif,2019,6.03,984.6,25.9,Agro-climatic niche overlap (True crop in Top-3)
+535,Sesamum,Rice,5,Jammu and Kashmir,Kharif,2019,5.87,995.4,29.1,Broad ecological compatibility (True crop in Top-5)
+537,Urad,Sesamum,8,Jammu and Kashmir,Kharif,2019,5.79,1025.6,26.5,Severe pedological divergence
+538,Urad,Mustard,4,Jammu and Kashmir,Rabi,2019,6.28,217.1,20.3,Broad ecological compatibility (True crop in Top-5)
+539,Wheat,Mustard,2,Jammu and Kashmir,Rabi,2019,5.14,220.0,22.0,Agro-climatic niche overlap (True crop in Top-3)
+543,Soybean,Rice,7,Sikkim,Kharif,2019,7.39,2012.2,29.7,Severe pedological divergence
+544,Urad,Maize,5,Sikkim,Kharif,2019,7.35,1992.3,27.0,Broad ecological compatibility (True crop in Top-5)
+545,Wheat,Mustard,2,Sikkim,Rabi,2019,7.04,410.8,19.5,Agro-climatic niche overlap (True crop in Top-3)

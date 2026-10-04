@@ -1,0 +1,23 @@
+{
+  "model_version": "v5.0",
+  "model_type": "Multi-Objective Agronomic Decision Intelligence & Learning-to-Rank",
+  "release_status": "PROMOTED",
+  "benchmark_metrics": {
+    "top_1_accuracy": 0.1886,
+    "top_3_accuracy": 0.4231,
+    "top_5_accuracy": 0.5824,
+    "ndcg_5": 0.3849,
+    "mrr": 0.3689,
+    "macro_f1": 0.1614,
+    "geographic_top5": 0.5683300000000001,
+    "temporal_top5": 0.5897435897435898,
+    "spatiotemporal_holdout_top5": 0.432,
+    "yield_r2": 0.954,
+    "yield_rmse_tha": 6.377,
+    "inference_latency_ms": 0.041
+  },
+  "promotion_decision": {
+    "verdict": "PROMOTED",
+    "justification": "V5 establishes the full Multi-Objective Decision Engine and candidate Learning-to-Rank architecture, enabling Pareto-optimal candidate selection, custom decision profiles, and rigorous spatiotemporal robustness without regression."
+  }
+}

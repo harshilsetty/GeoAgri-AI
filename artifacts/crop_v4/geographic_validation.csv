@@ -1,0 +1,7 @@
+holdout_state,test_samples,v3_top5,v4_top5,delta
+Tamil Nadu,374,0.4733,0.4786,0.0053
+Punjab,296,0.6385,0.6182,-0.0203
+Maharashtra,501,0.509,0.517,0.008
+Bihar,429,0.6387,0.6387,0.0
+Assam,290,0.7241,0.7276,0.0034
+Gujarat,494,0.5729,0.5769,0.004

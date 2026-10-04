@@ -1,0 +1,7 @@
+holdout_region,test_samples,top1,top5
+North,1948,0.1935,0.5965
+South,2067,0.1277,0.4625
+West,1119,0.202,0.5836
+Central,773,0.163,0.4968
+East,1705,0.1484,0.5496
+Northeast,1955,0.2205,0.5079

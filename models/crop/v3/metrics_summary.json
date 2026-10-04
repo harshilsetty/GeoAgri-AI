@@ -1,0 +1,25 @@
+{
+  "model_version": "v3.0",
+  "release_status": "PROMOTED",
+  "promotion_date": "2026-10-01",
+  "benchmark_metrics": {
+    "top_1_accuracy": 0.1902,
+    "top_3_accuracy": 0.4359,
+    "top_5_accuracy": 0.6132,
+    "ndcg_3": 0.3307,
+    "ndcg_5": 0.4032,
+    "mrr": 0.3801,
+    "macro_f1": 0.1475,
+    "weighted_f1": 0.156,
+    "brier_score": 0.9279,
+    "ece": 0.118,
+    "inference_latency_ms": 0.0362,
+    "yield_model_rmse_tha": 7.357,
+    "yield_model_mae_tha": 1.855,
+    "yield_model_r2": 0.745
+  },
+  "generalization": {
+    "geographic_cross_state_top5": "59.09% \u00b1 0.71%",
+    "temporal_future_top5": 0.5638397017707363
+  }
+}

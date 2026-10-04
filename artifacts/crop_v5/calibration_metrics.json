@@ -1,0 +1,11 @@
+{
+  "uncalibrated_multiclass": {
+    "brier_score": 1.0945,
+    "ece": 0.1323
+  },
+  "temperature_scaling_T1.25": {
+    "brier_score": 1.1164,
+    "ece": 0.2381
+  },
+  "selected_calibration_method": "native_regularized_softprob"
+}

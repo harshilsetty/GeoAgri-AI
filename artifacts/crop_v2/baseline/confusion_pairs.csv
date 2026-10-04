@@ -1,0 +1,217 @@
+true_crop,predicted_crop,error_count,error_rate_in_true_class
+Maize,Rice,53,0.2718
+Moong,Rice,41,0.277
+Wheat,Mustard,32,0.2936
+Groundnut,Rice,30,0.2069
+Mustard,Wheat,29,0.2736
+Chickpea,Wheat,29,0.2959
+Sesamum,Rice,28,0.2044
+Urad,Rice,28,0.1905
+Cotton,Rice,27,0.2842
+Rice,Maize,26,0.1088
+Wheat,Chickpea,24,0.2202
+Soybean,Rice,23,0.3286
+Sesamum,Maize,23,0.1679
+Moong,Maize,23,0.1554
+Mustard,Chickpea,23,0.217
+Pigeonpea,Rice,22,0.2157
+Chickpea,Mustard,22,0.2245
+Groundnut,Maize,21,0.1448
+Rice,Groundnut,21,0.0879
+Finger Millet,Rice,20,0.202
+Urad,Maize,19,0.1293
+Rice,Wheat,18,0.0753
+Rice,Moong,18,0.0753
+Pearl Millet,Rice,17,0.1619
+Sorghum,Rice,16,0.1553
+Moong,Urad,15,0.1014
+Maize,Groundnut,15,0.0769
+Urad,Groundnut,14,0.0952
+Urad,Wheat,14,0.0952
+Maize,Moong,13,0.0667
+Pigeonpea,Maize,13,0.1275
+Maize,Pearl Millet,12,0.0615
+Rice,Urad,12,0.0502
+Pearl Millet,Groundnut,12,0.1143
+Sorghum,Maize,12,0.1165
+Pearl Millet,Maize,12,0.1143
+Groundnut,Moong,12,0.0828
+Cotton,Maize,12,0.1263
+Soybean,Maize,11,0.1571
+Urad,Pearl Millet,11,0.0748
+Finger Millet,Maize,11,0.1111
+Maize,Urad,11,0.0564
+Groundnut,Pearl Millet,11,0.0759
+Sorghum,Groundnut,11,0.1068
+Sesamum,Sorghum,11,0.0803
+Sesamum,Urad,11,0.0803
+Rice,Mustard,10,0.0418
+Rice,Finger Millet,10,0.0418
+Sesamum,Groundnut,10,0.073
+Rice,Pearl Millet,10,0.0418
+Rice,Sesamum,10,0.0418
+Groundnut,Urad,10,0.069
+Urad,Mustard,10,0.068
+Sesamum,Sugarcane,9,0.0657
+Pearl Millet,Sesamum,9,0.0857
+Urad,Sesamum,9,0.0612
+Finger Millet,Pearl Millet,9,0.0909
+Maize,Wheat,9,0.0462
+Moong,Wheat,9,0.0608
+Pigeonpea,Groundnut,9,0.0882
+Maize,Chickpea,9,0.0462
+Maize,Mustard,8,0.041
+Moong,Groundnut,8,0.0541
+Finger Millet,Groundnut,8,0.0808
+Pigeonpea,Urad,8,0.0784
+Sorghum,Pearl Millet,8,0.0777
+Urad,Moong,8,0.0544
+Cotton,Finger Millet,7,0.0737
+Maize,Sorghum,7,0.0359
+Moong,Mustard,7,0.0473
+Groundnut,Soybean,7,0.0483
+Maize,Pigeonpea,7,0.0359
+Soybean,Groundnut,7,0.1
+Wheat,Moong,7,0.0642
+Rice,Cotton,7,0.0293
+Sesamum,Cotton,7,0.0511
+Sesamum,Mustard,7,0.0511
+Pigeonpea,Moong,7,0.0686
+Pearl Millet,Moong,7,0.0667
+Pearl Millet,Sugarcane,7,0.0667
+Groundnut,Chickpea,7,0.0483
+Finger Millet,Sesamum,7,0.0707
+Groundnut,Finger Millet,7,0.0483
+Moong,Sesamum,6,0.0405
+Moong,Sugarcane,6,0.0405
+Maize,Sugarcane,6,0.0308
+Finger Millet,Moong,6,0.0606
+Finger Millet,Urad,6,0.0606
+Mustard,Rice,6,0.0566
+Sorghum,Cotton,6,0.0583
+Sorghum,Urad,6,0.0583
+Urad,Sorghum,6,0.0408
+Urad,Chickpea,6,0.0408
+Sugarcane,Moong,6,0.0496
+Pearl Millet,Cotton,6,0.0571
+Pigeonpea,Mustard,6,0.0588
+Sorghum,Wheat,6,0.0583
+Cotton,Sesamum,6,0.0632
+Cotton,Moong,6,0.0632
+Groundnut,Sorghum,6,0.0414
+Moong,Pearl Millet,6,0.0405
+Moong,Sorghum,5,0.0338
+Moong,Finger Millet,5,0.0338
+Cotton,Soybean,5,0.0526
+Sorghum,Finger Millet,5,0.0485
+Sesamum,Wheat,5,0.0365
+Wheat,Rice,5,0.0459
+Soybean,Pearl Millet,5,0.0714
+Finger Millet,Sugarcane,5,0.0505
+Groundnut,Mustard,5,0.0345
+Groundnut,Pigeonpea,5,0.0345
+Finger Millet,Wheat,5,0.0505
+Mustard,Maize,5,0.0472
+Pearl Millet,Finger Millet,5,0.0476
+Pigeonpea,Cotton,5,0.049
+Sesamum,Moong,5,0.0365
+Rice,Soybean,5,0.0209
+Rice,Chickpea,5,0.0209
+Sesamum,Pearl Millet,5,0.0365
+Pigeonpea,Sorghum,5,0.049
+Cotton,Urad,4,0.0421
+Cotton,Sugarcane,4,0.0421
+Cotton,Groundnut,4,0.0421
+Cotton,Pearl Millet,4,0.0421
+Sugarcane,Rice,4,0.0331
+Rice,Pigeonpea,4,0.0167
+Sesamum,Chickpea,4,0.0292
+Sesamum,Pigeonpea,4,0.0292
+Sorghum,Soybean,4,0.0388
+Sorghum,Sesamum,4,0.0388
+Soybean,Finger Millet,4,0.0571
+Soybean,Urad,4,0.0571
+Sorghum,Mustard,4,0.0388
+Soybean,Cotton,4,0.0571
+Sorghum,Chickpea,4,0.0388
+Rice,Sorghum,4,0.0167
+Pigeonpea,Sugarcane,4,0.0392
+Pearl Millet,Urad,4,0.0381
+Pigeonpea,Finger Millet,4,0.0392
+Pigeonpea,Soybean,4,0.0392
+Pearl Millet,Pigeonpea,4,0.0381
+Sorghum,Sugarcane,4,0.0388
+Moong,Chickpea,4,0.027
+Chickpea,Urad,4,0.0408
+Maize,Sesamum,4,0.0205
+Groundnut,Wheat,4,0.0276
+Maize,Finger Millet,4,0.0205
+Groundnut,Sugarcane,4,0.0276
+Chickpea,Rice,4,0.0408
+Mustard,Moong,4,0.0377
+Maize,Soybean,4,0.0205
+Chickpea,Sugarcane,3,0.0306
+Urad,Finger Millet,3,0.0204
+Finger Millet,Pigeonpea,3,0.0303
+Finger Millet,Sorghum,3,0.0303
+Moong,Pigeonpea,3,0.0203
+Mustard,Finger Millet,3,0.0283
+Cotton,Pigeonpea,3,0.0316
+Wheat,Urad,3,0.0275
+Urad,Cotton,3,0.0204
+Sorghum,Pigeonpea,3,0.0291
+Sugarcane,Groundnut,3,0.0248
+Soybean,Pigeonpea,3,0.0429
+Sesamum,Finger Millet,3,0.0219
+Pigeonpea,Pearl Millet,3,0.0294
+Pigeonpea,Sesamum,3,0.0294
+Pigeonpea,Chickpea,3,0.0294
+Soybean,Sesamum,3,0.0429
+Cotton,Sorghum,3,0.0316
+Sugarcane,Sorghum,2,0.0165
+Urad,Sugarcane,2,0.0136
+Sugarcane,Mustard,2,0.0165
+Wheat,Groundnut,2,0.0183
+Sorghum,Moong,2,0.0194
+Pigeonpea,Wheat,2,0.0196
+Pearl Millet,Sorghum,2,0.019
+Groundnut,Sesamum,2,0.0138
+Cotton,Chickpea,2,0.0211
+Chickpea,Sorghum,2,0.0204
+Chickpea,Moong,2,0.0204
+Finger Millet,Chickpea,2,0.0202
+Mustard,Groundnut,2,0.0189
+Moong,Soybean,2,0.0135
+Finger Millet,Soybean,2,0.0202
+Pearl Millet,Chickpea,2,0.019
+Pearl Millet,Mustard,2,0.019
+Pearl Millet,Wheat,2,0.019
+Wheat,Maize,2,0.0183
+Soybean,Moong,2,0.0286
+Sugarcane,Finger Millet,2,0.0165
+Soybean,Sorghum,2,0.0286
+Cotton,Mustard,1,0.0105
+Moong,Cotton,1,0.0068
+Finger Millet,Mustard,1,0.0101
+Finger Millet,Cotton,1,0.0101
+Maize,Cotton,1,0.0051
+Groundnut,Cotton,1,0.0069
+Chickpea,Groundnut,1,0.0102
+Chickpea,Maize,1,0.0102
+Mustard,Urad,1,0.0094
+Sesamum,Soybean,1,0.0073
+Rice,Sugarcane,1,0.0042
+Mustard,Sugarcane,1,0.0094
+Pearl Millet,Soybean,1,0.0095
+Mustard,Sesamum,1,0.0094
+Soybean,Sugarcane,1,0.0143
+Soybean,Wheat,1,0.0143
+Sugarcane,Sesamum,1,0.0083
+Urad,Pigeonpea,1,0.0068
+Sugarcane,Pearl Millet,1,0.0083
+Sugarcane,Soybean,1,0.0083
+Sugarcane,Urad,1,0.0083
+Urad,Soybean,1,0.0068
+Wheat,Sesamum,1,0.0092
+Wheat,Sorghum,1,0.0092
+Wheat,Sugarcane,1,0.0092

@@ -1,0 +1,12 @@
+configuration,top1,top5,ndcg5,mrr
+1. ML Multiclass Only,0.1886,0.5934,0.3899,0.3705
+2. Agronomic Knowledge Only,0.0751,0.3919,0.234,0.2461
+3. ML + Season Encodings,0.1886,0.5934,0.3899,0.3705
+4. ML + KB (0.90 / 0.10),0.1905,0.5842,0.3865,0.3704
+5. ML + KB Optimal (0.85 / 0.15),0.1886,0.5824,0.3849,0.3689
+6. ML + KB + Risk Annotation,0.1886,0.5824,0.3849,0.3689
+7. ML + KB + Yield Normalized,0.1886,0.5769,0.3824,0.3682
+8. Learning-to-Rank (LambdaMART),0.1685,0.5513,0.358,0.3471
+9. Learning-to-Rank + KB (0.85 / 0.15),0.1447,0.5165,0.3327,0.3278
+10. Learning-to-Rank + Hard Constraint,0.1447,0.5165,0.3327,0.3278
+11. Multi-Objective Decision Engine (V5 Final),0.1886,0.5824,0.3849,0.3689

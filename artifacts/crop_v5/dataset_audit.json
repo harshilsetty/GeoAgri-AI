@@ -1,0 +1,73 @@
+{
+  "audit_version": "v5.0",
+  "dataset_path": "data/agriculture/v1.0/processed/crop_suitability_dataset.csv",
+  "decision_contexts_count": 10091,
+  "candidate_crop_count": 16,
+  "total_candidate_samples": 161456,
+  "total_columns": 31,
+  "columns": [
+    "latitude",
+    "longitude",
+    "state",
+    "year",
+    "season",
+    "crop",
+    "soil_ph",
+    "nitrogen",
+    "phosphorus",
+    "potassium",
+    "organic_carbon",
+    "electrical_conductivity",
+    "clay",
+    "sand",
+    "silt",
+    "soil_texture_class",
+    "temperature_mean",
+    "temperature_min",
+    "temperature_max",
+    "humidity_mean",
+    "rainfall_annual",
+    "rainfall_season",
+    "rainfall_7d",
+    "rainfall_30d",
+    "rainfall_90d",
+    "soil_moisture",
+    "et0",
+    "elevation",
+    "slope",
+    "erosion_risk_score",
+    "yield"
+  ],
+  "crops": [
+    "Chickpea",
+    "Cotton",
+    "Finger Millet",
+    "Groundnut",
+    "Maize",
+    "Moong",
+    "Mustard",
+    "Pearl Millet",
+    "Pigeonpea",
+    "Rice",
+    "Sesamum",
+    "Sorghum",
+    "Soybean",
+    "Sugarcane",
+    "Urad",
+    "Wheat"
+  ],
+  "missing_values": {
+    "total_missing": 0,
+    "columns_with_missing": []
+  },
+  "duplicates": {
+    "exact_duplicate_rows": 0,
+    "unique_coordinates": 10091
+  },
+  "grouped_ranking_integrity": {
+    "candidates_per_query": 16,
+    "queries_with_missing_candidates": 0,
+    "target_leakage_status": "PASS - Yield excluded from ranking predictors",
+    "group_leakage_status": "PASS - Query groups strictly segregated by split boundary"
+  }
+}

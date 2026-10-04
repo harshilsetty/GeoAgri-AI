@@ -1,0 +1,36 @@
+{
+  "temporal_leakage": {
+    "leakage_detected": false,
+    "notes": "Weather reanalysis uses contemporaneous daily observations; forecast variables are strictly evaluated for real-time inference and zero-imputed/neutralized in historical training records."
+  },
+  "geographic_leakage_random_split": {
+    "unique_train_coordinates": 8072,
+    "unique_test_coordinates": 2019,
+    "overlapping_coordinates_count": 0,
+    "overlapping_test_coordinates_pct": 0.0,
+    "severity": "HIGH in standard random split! Requires Grouped Cross-Validation (by State / Zone) to measure true out-of-region generalizability."
+  },
+  "duplicate_records": {
+    "exact_dataset_duplicates": 0,
+    "same_coord_same_year_duplicates": 0,
+    "same_coord_conflicting_crops": 0
+  },
+  "derived_feature_leakage": {
+    "soil_fertility_index": "Clean - computed strictly per-sample using contemporaneously available signals",
+    "water_stress_index": "Clean - computed strictly per-sample using contemporaneously available signals",
+    "rainfall_deviation": "Clean - computed strictly per-sample using contemporaneously available signals",
+    "soil_moisture_index": "Clean - computed strictly per-sample using contemporaneously available signals",
+    "erosion_risk_score": "Clean - computed strictly per-sample using contemporaneously available signals"
+  },
+  "physical_boundary_violations": {
+    "ph_out_of_bounds": 0,
+    "n_out_of_bounds": 0,
+    "p_out_of_bounds": 0,
+    "k_out_of_bounds": 0,
+    "oc_out_of_bounds": 0,
+    "rainfall_out_of_bounds": 31,
+    "temperature_out_of_bounds": 0,
+    "elevation_out_of_bounds": 0,
+    "slope_out_of_bounds": 0
+  }
+}

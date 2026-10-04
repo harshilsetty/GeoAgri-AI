@@ -1,0 +1,10 @@
+{
+  "raw_xgboost": {
+    "brier_score": 0.8676,
+    "ece": 0.0223
+  },
+  "sigmoid_calibrated": {
+    "brier_score": 0.9372,
+    "ece": 0.2017
+  }
+}

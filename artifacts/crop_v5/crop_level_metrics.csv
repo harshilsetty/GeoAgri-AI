@@ -1,0 +1,17 @@
+crop,test_sample_count,top1_accuracy,top3_presence,top5_presence,mean_ranking_position,minority_status
+Rice,63,0.4444,0.7619,0.9206,2.41,Minority
+Maize,52,0.1346,0.5769,0.8846,3.42,Minority
+Urad,44,0.1136,0.2727,0.5682,5.41,Minority
+Moong,44,0.0682,0.25,0.4091,6.18,Minority
+Groundnut,40,0.025,0.325,0.45,6.1,Minority
+Sesamum,39,0.1026,0.2308,0.5385,5.97,Minority
+Pigeonpea,29,0.0,0.1379,0.2759,7.41,Minority
+Pearl Millet,29,0.0345,0.2069,0.3103,7.79,Minority
+Mustard,28,0.3571,0.6786,0.75,4.32,Minority
+Wheat,27,0.2963,0.7407,0.7778,4.04,Minority
+Finger Millet,27,0.1481,0.3333,0.3704,6.33,Minority
+Sugarcane,27,0.7778,0.7778,0.7778,3.56,Minority
+Sorghum,26,0.1538,0.3077,0.4615,6.65,Minority
+Chickpea,25,0.28,0.84,0.92,3.2,Minority
+Cotton,24,0.0,0.0,0.2083,8.83,Minority
+Soybean,22,0.0,0.0,0.0909,9.59,Minority

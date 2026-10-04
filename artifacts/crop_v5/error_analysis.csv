@@ -1,0 +1,444 @@
+query_id,true_crop,predicted_crop,true_crop_rank,error_category,predicted_score,true_crop_score
+0,Pigeonpea,Urad,12,Pedological Divergence,0.29,0.1761
+1,Pigeonpea,Wheat,13,Pedological Divergence,0.2286,0.1365
+2,Pearl Millet,Maize,10,Pedological Divergence,0.2458,0.1923
+3,Pearl Millet,Mustard,10,Pedological Divergence,0.2475,0.1634
+4,Cotton,Urad,5,Ecological Compatibility (True in Top-5),0.2394,0.2187
+5,Cotton,Maize,14,Pedological Divergence,0.2341,0.1405
+7,Groundnut,Sesamum,10,Pedological Divergence,0.2429,0.1956
+8,Groundnut,Chickpea,8,Pedological Divergence,0.2297,0.1707
+9,Sorghum,Sesamum,2,Agro-climatic Overlap (True in Top-3),0.2408,0.2396
+10,Sorghum,Chickpea,2,Agro-climatic Overlap (True in Top-3),0.2722,0.2228
+11,Maize,Urad,3,Agro-climatic Overlap (True in Top-3),0.2326,0.2255
+12,Maize,Chickpea,6,Pedological Divergence,0.3246,0.1807
+13,Moong,Urad,10,Pedological Divergence,0.2574,0.1921
+14,Moong,Pigeonpea,12,Pedological Divergence,0.2262,0.1682
+15,Finger Millet,Maize,11,Pedological Divergence,0.2372,0.201
+16,Finger Millet,Mustard,8,Pedological Divergence,0.2976,0.1777
+19,Rice,Mustard,7,Pedological Divergence,0.2682,0.1786
+20,Sesamum,Maize,6,Pedological Divergence,0.2524,0.2082
+21,Sesamum,Chickpea,14,Pedological Divergence,0.2596,0.1225
+22,Soybean,Rice,9,Pedological Divergence,0.2362,0.2078
+23,Soybean,Mustard,15,Pedological Divergence,0.2227,0.1103
+24,Sugarcane,Maize,13,Pedological Divergence,0.2296,0.1368
+25,Urad,Sorghum,2,Agro-climatic Overlap (True in Top-3),0.2427,0.236
+26,Urad,Chickpea,7,Pedological Divergence,0.349,0.16
+27,Wheat,Chickpea,8,Pedological Divergence,0.2764,0.1856
+28,Pearl Millet,Finger Millet,3,Agro-climatic Overlap (True in Top-3),0.2461,0.2149
+29,Pearl Millet,Mustard,14,Pedological Divergence,0.2584,0.1282
+30,Pearl Millet,Moong,8,Pedological Divergence,0.339,0.171
+31,Cotton,Rice,7,Pedological Divergence,0.2438,0.207
+32,Groundnut,Finger Millet,12,Pedological Divergence,0.2628,0.1753
+33,Groundnut,Mustard,2,Agro-climatic Overlap (True in Top-3),0.2537,0.2235
+34,Groundnut,Rice,3,Agro-climatic Overlap (True in Top-3),0.3076,0.2078
+35,Moong,Mustard,8,Pedological Divergence,0.3483,0.1637
+36,Moong,Rice,4,Ecological Compatibility (True in Top-5),0.2601,0.2257
+37,Finger Millet,Pearl Millet,12,Pedological Divergence,0.2157,0.1808
+38,Finger Millet,Sorghum,10,Pedological Divergence,0.2213,0.159
+39,Finger Millet,Maize,6,Pedological Divergence,0.2601,0.1931
+40,Rice,Finger Millet,3,Agro-climatic Overlap (True in Top-3),0.2865,0.2174
+41,Rice,Urad,3,Agro-climatic Overlap (True in Top-3),0.2435,0.2262
+44,Sesamum,Chickpea,9,Pedological Divergence,0.2277,0.1765
+45,Sesamum,Maize,4,Ecological Compatibility (True in Top-5),0.3137,0.2263
+46,Sugarcane,Rice,13,Pedological Divergence,0.2547,0.1499
+47,Urad,Rice,7,Pedological Divergence,0.2518,0.206
+49,Urad,Moong,9,Pedological Divergence,0.2776,0.1563
+50,Pigeonpea,Rice,4,Ecological Compatibility (True in Top-5),0.2876,0.2164
+51,Cotton,Rice,6,Pedological Divergence,0.3336,0.1899
+52,Chickpea,Wheat,3,Agro-climatic Overlap (True in Top-3),0.3472,0.2575
+53,Maize,Rice,2,Agro-climatic Overlap (True in Top-3),0.3378,0.2564
+54,Moong,Wheat,7,Pedological Divergence,0.364,0.164
+58,Rice,Mustard,4,Ecological Compatibility (True in Top-5),0.3102,0.2147
+59,Sesamum,Rice,5,Ecological Compatibility (True in Top-5),0.2749,0.2123
+61,Urad,Mustard,6,Pedological Divergence,0.3623,0.1757
+63,Pigeonpea,Rice,3,Agro-climatic Overlap (True in Top-3),0.3238,0.2582
+64,Cotton,Rice,5,Ecological Compatibility (True in Top-5),0.3552,0.2013
+65,Chickpea,Mustard,3,Agro-climatic Overlap (True in Top-3),0.3367,0.2328
+66,Maize,Rice,5,Ecological Compatibility (True in Top-5),0.2966,0.2213
+67,Mustard,Wheat,4,Ecological Compatibility (True in Top-5),0.3484,0.2083
+69,Rice,Mustard,3,Agro-climatic Overlap (True in Top-3),0.3378,0.2479
+70,Rice,Chickpea,4,Ecological Compatibility (True in Top-5),0.3293,0.225
+71,Sesamum,Wheat,11,Pedological Divergence,0.3995,0.1237
+72,Soybean,Rice,5,Ecological Compatibility (True in Top-5),0.3912,0.2102
+74,Wheat,Rice,3,Agro-climatic Overlap (True in Top-3),0.3376,0.2407
+75,Groundnut,Rice,7,Pedological Divergence,0.3321,0.1585
+76,Groundnut,Rice,2,Agro-climatic Overlap (True in Top-3),0.4288,0.2189
+80,Pigeonpea,Groundnut,8,Pedological Divergence,0.2793,0.1766
+81,Pearl Millet,Sorghum,8,Pedological Divergence,0.2448,0.1823
+82,Pearl Millet,Groundnut,5,Ecological Compatibility (True in Top-5),0.3543,0.1745
+83,Cotton,Sorghum,5,Ecological Compatibility (True in Top-5),0.2763,0.1964
+84,Cotton,Maize,15,Pedological Divergence,0.2248,0.1293
+85,Chickpea,Finger Millet,2,Agro-climatic Overlap (True in Top-3),0.261,0.2314
+86,Groundnut,Pearl Millet,3,Agro-climatic Overlap (True in Top-3),0.2485,0.2009
+87,Groundnut,Wheat,9,Pedological Divergence,0.2905,0.15
+88,Groundnut,Rice,2,Agro-climatic Overlap (True in Top-3),0.2724,0.2449
+89,Sorghum,Rice,5,Ecological Compatibility (True in Top-5),0.345,0.1942
+90,Sorghum,Chickpea,5,Ecological Compatibility (True in Top-5),0.2278,0.1915
+91,Sorghum,Maize,9,Pedological Divergence,0.2999,0.1525
+92,Maize,Rice,6,Pedological Divergence,0.262,0.1937
+93,Maize,Mustard,2,Agro-climatic Overlap (True in Top-3),0.2526,0.2268
+94,Maize,Rice,3,Agro-climatic Overlap (True in Top-3),0.2805,0.2008
+95,Moong,Finger Millet,6,Pedological Divergence,0.285,0.1873
+96,Moong,Chickpea,12,Pedological Divergence,0.2312,0.1427
+97,Moong,Rice,5,Ecological Compatibility (True in Top-5),0.3305,0.2007
+98,Finger Millet,Pearl Millet,2,Agro-climatic Overlap (True in Top-3),0.2361,0.2359
+99,Finger Millet,Rice,9,Pedological Divergence,0.2812,0.1608
+100,Finger Millet,Urad,6,Pedological Divergence,0.2722,0.2076
+101,Mustard,Rice,15,Pedological Divergence,0.2649,0.1102
+102,Rice,Finger Millet,4,Ecological Compatibility (True in Top-5),0.2524,0.2085
+103,Rice,Wheat,2,Agro-climatic Overlap (True in Top-3),0.2647,0.2175
+105,Sesamum,Rice,3,Agro-climatic Overlap (True in Top-3),0.2462,0.2197
+106,Soybean,Finger Millet,12,Pedological Divergence,0.2824,0.1632
+108,Urad,Sesamum,5,Ecological Compatibility (True in Top-5),0.2378,0.1981
+109,Urad,Moong,5,Ecological Compatibility (True in Top-5),0.2518,0.2006
+110,Urad,Rice,9,Pedological Divergence,0.2799,0.153
+111,Wheat,Mustard,9,Pedological Divergence,0.2246,0.1773
+112,Pigeonpea,Sugarcane,10,Pedological Divergence,0.4104,0.15
+113,Cotton,Sugarcane,13,Pedological Divergence,0.3262,0.1318
+114,Chickpea,Sugarcane,13,Pedological Divergence,0.5848,0.1332
+115,Groundnut,Sugarcane,7,Pedological Divergence,0.5119,0.1768
+116,Sorghum,Sugarcane,5,Ecological Compatibility (True in Top-5),0.3946,0.1693
+117,Maize,Groundnut,3,Agro-climatic Overlap (True in Top-3),0.2801,0.2198
+118,Finger Millet,Sugarcane,2,Agro-climatic Overlap (True in Top-3),0.4117,0.2706
+122,Sesamum,Sugarcane,3,Agro-climatic Overlap (True in Top-3),0.6742,0.1722
+124,Wheat,Sugarcane,13,Pedological Divergence,0.6055,0.1331
+125,Pigeonpea,Sesamum,5,Ecological Compatibility (True in Top-5),0.2379,0.224
+126,Pigeonpea,Mustard,12,Pedological Divergence,0.218,0.1523
+127,Pearl Millet,Groundnut,7,Pedological Divergence,0.2662,0.209
+128,Pearl Millet,Wheat,12,Pedological Divergence,0.2728,0.14
+129,Cotton,Rice,7,Pedological Divergence,0.2628,0.2114
+130,Cotton,Chickpea,15,Pedological Divergence,0.2878,0.1142
+133,Groundnut,Chickpea,9,Pedological Divergence,0.2941,0.1805
+135,Sorghum,Mustard,9,Pedological Divergence,0.2092,0.1784
+136,Maize,Moong,5,Ecological Compatibility (True in Top-5),0.2406,0.2198
+137,Maize,Mustard,5,Ecological Compatibility (True in Top-5),0.2653,0.203
+138,Moong,Pigeonpea,8,Pedological Divergence,0.2805,0.1914
+139,Moong,Mustard,7,Pedological Divergence,0.2715,0.1735
+140,Finger Millet,Maize,5,Ecological Compatibility (True in Top-5),0.232,0.2171
+141,Finger Millet,Urad,7,Pedological Divergence,0.2177,0.2047
+143,Rice,Finger Millet,4,Ecological Compatibility (True in Top-5),0.3127,0.2198
+145,Rice,Chickpea,3,Agro-climatic Overlap (True in Top-3),0.2652,0.2188
+146,Sesamum,Urad,3,Agro-climatic Overlap (True in Top-3),0.3022,0.2437
+147,Sesamum,Mustard,12,Pedological Divergence,0.262,0.1445
+150,Urad,Chickpea,3,Agro-climatic Overlap (True in Top-3),0.2378,0.2162
+151,Pigeonpea,Rice,7,Pedological Divergence,0.309,0.174
+152,Groundnut,Rice,10,Pedological Divergence,0.3135,0.1641
+154,Moong,Rice,8,Pedological Divergence,0.3956,0.1656
+155,Mustard,Wheat,2,Agro-climatic Overlap (True in Top-3),0.4474,0.3092
+156,Rice,Maize,2,Agro-climatic Overlap (True in Top-3),0.2905,0.2868
+157,Sesamum,Rice,5,Ecological Compatibility (True in Top-5),0.3514,0.1976
+158,Soybean,Rice,5,Ecological Compatibility (True in Top-5),0.3558,0.1846
+160,Urad,Rice,5,Ecological Compatibility (True in Top-5),0.3339,0.1938
+161,Urad,Wheat,6,Pedological Divergence,0.3586,0.1781
+162,Wheat,Mustard,2,Agro-climatic Overlap (True in Top-3),0.361,0.3258
+163,Pigeonpea,Maize,3,Agro-climatic Overlap (True in Top-3),0.2593,0.2369
+164,Pearl Millet,Groundnut,12,Pedological Divergence,0.2631,0.1611
+165,Chickpea,Mustard,3,Agro-climatic Overlap (True in Top-3),0.374,0.2562
+166,Groundnut,Maize,11,Pedological Divergence,0.2746,0.193
+167,Sorghum,Rice,12,Pedological Divergence,0.2749,0.1796
+168,Maize,Rice,2,Agro-climatic Overlap (True in Top-3),0.271,0.2407
+169,Maize,Mustard,3,Agro-climatic Overlap (True in Top-3),0.3571,0.2203
+170,Maize,Rice,2,Agro-climatic Overlap (True in Top-3),0.3606,0.3279
+171,Moong,Rice,7,Pedological Divergence,0.2695,0.204
+172,Moong,Rice,2,Agro-climatic Overlap (True in Top-3),0.3713,0.2888
+173,Finger Millet,Maize,12,Pedological Divergence,0.2482,0.1776
+174,Mustard,Wheat,2,Agro-climatic Overlap (True in Top-3),0.3631,0.3341
+176,Rice,Maize,2,Agro-climatic Overlap (True in Top-3),0.5504,0.2633
+177,Rice,Mustard,5,Ecological Compatibility (True in Top-5),0.3372,0.1644
+179,Soybean,Pigeonpea,9,Pedological Divergence,0.2436,0.1879
+181,Urad,Rice,4,Ecological Compatibility (True in Top-5),0.2591,0.2216
+182,Wheat,Mustard,2,Agro-climatic Overlap (True in Top-3),0.3549,0.3033
+183,Pigeonpea,Rice,8,Pedological Divergence,0.26,0.2017
+184,Pearl Millet,Rice,10,Pedological Divergence,0.2617,0.1779
+185,Pearl Millet,Sugarcane,3,Agro-climatic Overlap (True in Top-3),0.7321,0.1686
+186,Cotton,Sugarcane,11,Pedological Divergence,0.5745,0.1369
+187,Chickpea,Wheat,3,Agro-climatic Overlap (True in Top-3),0.2853,0.229
+188,Groundnut,Rice,8,Pedological Divergence,0.2435,0.1929
+189,Sorghum,Sugarcane,9,Pedological Divergence,0.6225,0.1464
+190,Maize,Groundnut,2,Agro-climatic Overlap (True in Top-3),0.2522,0.237
+191,Moong,Finger Millet,5,Ecological Compatibility (True in Top-5),0.2649,0.2063
+192,Moong,Mustard,9,Pedological Divergence,0.2723,0.1717
+193,Moong,Rice,2,Agro-climatic Overlap (True in Top-3),0.2729,0.2673
+196,Rice,Groundnut,2,Agro-climatic Overlap (True in Top-3),0.2718,0.2526
+197,Sesamum,Maize,7,Pedological Divergence,0.2473,0.2029
+198,Soybean,Rice,9,Pedological Divergence,0.245,0.193
+200,Urad,Maize,11,Pedological Divergence,0.2702,0.1793
+201,Urad,Mustard,4,Ecological Compatibility (True in Top-5),0.2503,0.1949
+202,Wheat,Chickpea,6,Pedological Divergence,0.2779,0.1861
+203,Pigeonpea,Groundnut,7,Pedological Divergence,0.2659,0.2045
+204,Pearl Millet,Groundnut,9,Pedological Divergence,0.2494,0.1888
+205,Pearl Millet,Rice,7,Pedological Divergence,0.2935,0.1835
+206,Cotton,Finger Millet,11,Pedological Divergence,0.2979,0.1659
+207,Chickpea,Sorghum,2,Agro-climatic Overlap (True in Top-3),0.3055,0.2214
+208,Groundnut,Sorghum,2,Agro-climatic Overlap (True in Top-3),0.2459,0.2452
+209,Groundnut,Rice,2,Agro-climatic Overlap (True in Top-3),0.2928,0.2726
+210,Sorghum,Rice,5,Ecological Compatibility (True in Top-5),0.2521,0.2185
+212,Maize,Sorghum,5,Ecological Compatibility (True in Top-5),0.2373,0.2055
+213,Maize,Sorghum,5,Ecological Compatibility (True in Top-5),0.2437,0.1848
+214,Maize,Groundnut,3,Agro-climatic Overlap (True in Top-3),0.3107,0.2178
+215,Moong,Groundnut,11,Pedological Divergence,0.255,0.1761
+216,Moong,Rice,5,Ecological Compatibility (True in Top-5),0.3209,0.2186
+218,Mustard,Chickpea,4,Ecological Compatibility (True in Top-5),0.2487,0.1912
+219,Rice,Cotton,3,Agro-climatic Overlap (True in Top-3),0.2448,0.2176
+220,Rice,Groundnut,2,Agro-climatic Overlap (True in Top-3),0.2844,0.2801
+222,Sesamum,Rice,8,Pedological Divergence,0.2527,0.1498
+223,Soybean,Rice,11,Pedological Divergence,0.2515,0.1752
+225,Urad,Maize,11,Pedological Divergence,0.2794,0.1619
+226,Urad,Groundnut,9,Pedological Divergence,0.2703,0.1237
+227,Wheat,Chickpea,2,Agro-climatic Overlap (True in Top-3),0.3624,0.2576
+228,Pigeonpea,Sorghum,10,Pedological Divergence,0.2364,0.192
+229,Pearl Millet,Sorghum,2,Agro-climatic Overlap (True in Top-3),0.2414,0.2328
+230,Cotton,Maize,8,Pedological Divergence,0.2582,0.1798
+231,Chickpea,Wheat,2,Agro-climatic Overlap (True in Top-3),0.496,0.356
+232,Groundnut,Cotton,8,Pedological Divergence,0.2558,0.1918
+233,Sorghum,Moong,10,Pedological Divergence,0.2437,0.1786
+234,Maize,Pigeonpea,2,Agro-climatic Overlap (True in Top-3),0.3256,0.2555
+235,Moong,Pigeonpea,8,Pedological Divergence,0.2792,0.187
+236,Mustard,Chickpea,11,Pedological Divergence,0.3123,0.1512
+237,Rice,Pigeonpea,6,Pedological Divergence,0.2856,0.2028
+238,Sesamum,Rice,7,Pedological Divergence,0.255,0.2023
+240,Urad,Sorghum,8,Pedological Divergence,0.2394,0.2006
+242,Pigeonpea,Sesamum,4,Ecological Compatibility (True in Top-5),0.2492,0.2225
+243,Pearl Millet,Pigeonpea,8,Pedological Divergence,0.2787,0.1985
+244,Cotton,Urad,11,Pedological Divergence,0.2517,0.1786
+246,Groundnut,Rice,4,Ecological Compatibility (True in Top-5),0.2355,0.2103
+247,Maize,Urad,4,Ecological Compatibility (True in Top-5),0.2664,0.2258
+248,Moong,Maize,7,Pedological Divergence,0.2463,0.2
+250,Mustard,Wheat,3,Agro-climatic Overlap (True in Top-3),0.3923,0.185
+251,Rice,Maize,2,Agro-climatic Overlap (True in Top-3),0.269,0.2298
+252,Sesamum,Maize,4,Ecological Compatibility (True in Top-5),0.2509,0.208
+253,Soybean,Rice,10,Pedological Divergence,0.2523,0.1914
+255,Urad,Maize,2,Agro-climatic Overlap (True in Top-3),0.244,0.2276
+256,Wheat,Mustard,3,Agro-climatic Overlap (True in Top-3),0.3865,0.2703
+257,Pigeonpea,Rice,6,Pedological Divergence,0.2645,0.2052
+258,Pearl Millet,Maize,3,Agro-climatic Overlap (True in Top-3),0.2361,0.219
+259,Chickpea,Mustard,3,Agro-climatic Overlap (True in Top-3),0.3517,0.2628
+260,Groundnut,Maize,3,Agro-climatic Overlap (True in Top-3),0.2543,0.2181
+261,Sorghum,Urad,9,Pedological Divergence,0.2471,0.1935
+262,Maize,Rice,3,Agro-climatic Overlap (True in Top-3),0.2348,0.2321
+263,Maize,Wheat,4,Ecological Compatibility (True in Top-5),0.2946,0.206
+264,Moong,Rice,3,Agro-climatic Overlap (True in Top-3),0.2506,0.2289
+265,Finger Millet,Pearl Millet,12,Pedological Divergence,0.2833,0.1762
+267,Rice,Maize,2,Agro-climatic Overlap (True in Top-3),0.2328,0.2316
+269,Soybean,Rice,11,Pedological Divergence,0.2385,0.1856
+270,Urad,Maize,3,Agro-climatic Overlap (True in Top-3),0.2387,0.2313
+272,Pigeonpea,Sorghum,7,Pedological Divergence,0.2304,0.2
+273,Pearl Millet,Rice,4,Ecological Compatibility (True in Top-5),0.2404,0.2105
+274,Cotton,Finger Millet,11,Pedological Divergence,0.274,0.1813
+276,Groundnut,Rice,4,Ecological Compatibility (True in Top-5),0.2418,0.2175
+277,Groundnut,Rice,3,Agro-climatic Overlap (True in Top-3),0.2843,0.2237
+278,Sorghum,Urad,12,Pedological Divergence,0.2915,0.1686
+279,Maize,Rice,2,Agro-climatic Overlap (True in Top-3),0.2359,0.2249
+281,Moong,Rice,10,Pedological Divergence,0.2338,0.1838
+282,Moong,Maize,3,Agro-climatic Overlap (True in Top-3),0.2772,0.2297
+283,Mustard,Wheat,7,Pedological Divergence,0.244,0.1795
+284,Rice,Maize,3,Agro-climatic Overlap (True in Top-3),0.2433,0.2064
+286,Sesamum,Finger Millet,6,Pedological Divergence,0.2402,0.2005
+287,Soybean,Finger Millet,10,Pedological Divergence,0.2584,0.1864
+289,Urad,Rice,11,Pedological Divergence,0.2936,0.1614
+290,Urad,Rice,5,Ecological Compatibility (True in Top-5),0.3329,0.1971
+292,Pigeonpea,Finger Millet,7,Pedological Divergence,0.226,0.1937
+293,Pearl Millet,Rice,9,Pedological Divergence,0.2172,0.1958
+294,Cotton,Rice,6,Pedological Divergence,0.2526,0.1853
+295,Chickpea,Urad,5,Ecological Compatibility (True in Top-5),0.2407,0.2035
+296,Groundnut,Cotton,11,Pedological Divergence,0.2496,0.172
+297,Groundnut,Rice,6,Pedological Divergence,0.3154,0.187
+298,Sorghum,Rice,3,Agro-climatic Overlap (True in Top-3),0.3015,0.2094
+299,Sorghum,Wheat,6,Pedological Divergence,0.28,0.1833
+300,Maize,Finger Millet,6,Pedological Divergence,0.2457,0.1969
+301,Maize,Chickpea,5,Ecological Compatibility (True in Top-5),0.2953,0.1817
+302,Maize,Rice,3,Agro-climatic Overlap (True in Top-3),0.3064,0.2249
+306,Rice,Groundnut,5,Ecological Compatibility (True in Top-5),0.2467,0.1953
+308,Sesamum,Groundnut,5,Ecological Compatibility (True in Top-5),0.2371,0.2045
+309,Sesamum,Chickpea,14,Pedological Divergence,0.27,0.1352
+310,Sesamum,Moong,9,Pedological Divergence,0.2815,0.1507
+311,Soybean,Finger Millet,11,Pedological Divergence,0.2845,0.1717
+313,Urad,Finger Millet,11,Pedological Divergence,0.2862,0.1734
+315,Pigeonpea,Rice,7,Pedological Divergence,0.2674,0.1959
+316,Pigeonpea,Mustard,7,Pedological Divergence,0.47,0.147
+317,Cotton,Maize,6,Pedological Divergence,0.3128,0.1935
+318,Maize,Rice,4,Ecological Compatibility (True in Top-5),0.3164,0.2089
+319,Maize,Rice,8,Pedological Divergence,0.2847,0.1802
+320,Mustard,Maize,15,Pedological Divergence,0.381,0.1145
+321,Mustard,Rice,9,Pedological Divergence,0.2917,0.1611
+323,Rice,Cotton,2,Agro-climatic Overlap (True in Top-3),0.2828,0.277
+324,Rice,Moong,2,Agro-climatic Overlap (True in Top-3),0.2304,0.224
+325,Sesamum,Rice,5,Ecological Compatibility (True in Top-5),0.314,0.2142
+326,Soybean,Maize,10,Pedological Divergence,0.3501,0.1547
+328,Pigeonpea,Rice,6,Pedological Divergence,0.2956,0.1988
+329,Pearl Millet,Rice,9,Pedological Divergence,0.2785,0.184
+330,Cotton,Finger Millet,11,Pedological Divergence,0.258,0.1757
+331,Chickpea,Wheat,3,Agro-climatic Overlap (True in Top-3),0.3094,0.2363
+332,Groundnut,Rice,4,Ecological Compatibility (True in Top-5),0.2328,0.2223
+333,Sorghum,Rice,11,Pedological Divergence,0.251,0.1782
+335,Maize,Wheat,4,Ecological Compatibility (True in Top-5),0.3044,0.2329
+336,Moong,Rice,5,Ecological Compatibility (True in Top-5),0.31,0.193
+337,Finger Millet,Rice,11,Pedological Divergence,0.2888,0.1635
+338,Mustard,Chickpea,3,Agro-climatic Overlap (True in Top-3),0.3055,0.2706
+340,Rice,Wheat,4,Ecological Compatibility (True in Top-5),0.4973,0.1784
+341,Sesamum,Maize,4,Ecological Compatibility (True in Top-5),0.3141,0.2039
+342,Soybean,Rice,7,Pedological Divergence,0.2504,0.1827
+343,Sugarcane,Pigeonpea,13,Pedological Divergence,0.2457,0.1592
+344,Urad,Mustard,6,Pedological Divergence,0.3432,0.1754
+346,Pigeonpea,Rice,10,Pedological Divergence,0.2509,0.176
+347,Pearl Millet,Rice,10,Pedological Divergence,0.2698,0.1815
+348,Cotton,Rice,7,Pedological Divergence,0.2415,0.2046
+349,Chickpea,Pigeonpea,2,Agro-climatic Overlap (True in Top-3),0.3296,0.2934
+350,Groundnut,Rice,6,Pedological Divergence,0.257,0.1998
+351,Groundnut,Maize,3,Agro-climatic Overlap (True in Top-3),0.2579,0.2548
+352,Groundnut,Wheat,8,Pedological Divergence,0.2547,0.1712
+353,Sorghum,Sesamum,11,Pedological Divergence,0.257,0.1802
+354,Maize,Rice,7,Pedological Divergence,0.277,0.2016
+355,Maize,Moong,2,Agro-climatic Overlap (True in Top-3),0.3044,0.3014
+356,Maize,Moong,5,Ecological Compatibility (True in Top-5),0.2748,0.2118
+357,Moong,Rice,7,Pedological Divergence,0.2719,0.1959
+358,Moong,Rice,2,Agro-climatic Overlap (True in Top-3),0.3427,0.2518
+359,Moong,Urad,6,Pedological Divergence,0.2668,0.2014
+360,Finger Millet,Rice,3,Agro-climatic Overlap (True in Top-3),0.2387,0.2347
+361,Finger Millet,Moong,8,Pedological Divergence,0.3257,0.1556
+362,Finger Millet,Mustard,6,Pedological Divergence,0.2557,0.1919
+364,Rice,Cotton,2,Agro-climatic Overlap (True in Top-3),0.2365,0.2319
+366,Rice,Mustard,7,Pedological Divergence,0.2662,0.1901
+367,Sesamum,Rice,4,Ecological Compatibility (True in Top-5),0.2632,0.2197
+368,Sesamum,Moong,5,Ecological Compatibility (True in Top-5),0.2995,0.2109
+369,Sesamum,Urad,7,Pedological Divergence,0.2698,0.1739
+370,Sugarcane,Mustard,10,Pedological Divergence,0.3022,0.1532
+372,Urad,Rice,6,Pedological Divergence,0.289,0.1859
+373,Urad,Mustard,2,Agro-climatic Overlap (True in Top-3),0.2776,0.2262
+374,Wheat,Rice,16,Pedological Divergence,0.2946,0.1014
+375,Pigeonpea,Pearl Millet,2,Agro-climatic Overlap (True in Top-3),0.2986,0.2267
+376,Pearl Millet,Rice,4,Ecological Compatibility (True in Top-5),0.2466,0.2299
+377,Cotton,Pearl Millet,8,Pedological Divergence,0.2821,0.1688
+378,Chickpea,Mustard,3,Agro-climatic Overlap (True in Top-3),0.4008,0.2974
+379,Groundnut,Pigeonpea,9,Pedological Divergence,0.2923,0.1756
+380,Maize,Cotton,2,Agro-climatic Overlap (True in Top-3),0.2954,0.2842
+382,Moong,Mustard,9,Pedological Divergence,0.4088,0.1193
+383,Mustard,Chickpea,3,Agro-climatic Overlap (True in Top-3),0.5349,0.2792
+384,Rice,Cotton,4,Ecological Compatibility (True in Top-5),0.3243,0.2126
+385,Sesamum,Rice,6,Pedological Divergence,0.2603,0.2136
+388,Wheat,Mustard,3,Agro-climatic Overlap (True in Top-3),0.4778,0.2514
+389,Pigeonpea,Sesamum,9,Pedological Divergence,0.2432,0.1895
+390,Pigeonpea,Chickpea,11,Pedological Divergence,0.2379,0.1644
+391,Pearl Millet,Maize,11,Pedological Divergence,0.2266,0.1985
+392,Pearl Millet,Urad,14,Pedological Divergence,0.2451,0.1296
+393,Cotton,Rice,12,Pedological Divergence,0.248,0.1817
+395,Groundnut,Pigeonpea,10,Pedological Divergence,0.2449,0.1972
+396,Groundnut,Chickpea,9,Pedological Divergence,0.2311,0.1733
+398,Sorghum,Wheat,8,Pedological Divergence,0.2406,0.1734
+399,Maize,Finger Millet,3,Agro-climatic Overlap (True in Top-3),0.2395,0.2217
+400,Maize,Mustard,4,Ecological Compatibility (True in Top-5),0.266,0.2166
+401,Moong,Cotton,3,Agro-climatic Overlap (True in Top-3),0.261,0.2185
+402,Moong,Chickpea,6,Pedological Divergence,0.2734,0.1812
+403,Finger Millet,Maize,7,Pedological Divergence,0.2429,0.1971
+404,Finger Millet,Wheat,3,Agro-climatic Overlap (True in Top-3),0.2359,0.2098
+405,Rice,Maize,6,Pedological Divergence,0.2568,0.2095
+406,Rice,Moong,7,Pedological Divergence,0.2657,0.175
+407,Sesamum,Maize,7,Pedological Divergence,0.2645,0.2047
+408,Sesamum,Chickpea,13,Pedological Divergence,0.231,0.1312
+409,Soybean,Maize,12,Pedological Divergence,0.2409,0.1909
+410,Sugarcane,Moong,13,Pedological Divergence,0.2402,0.1442
+411,Urad,Rice,2,Agro-climatic Overlap (True in Top-3),0.2491,0.2397
+412,Urad,Mustard,8,Pedological Divergence,0.2472,0.1828
+413,Wheat,Pearl Millet,16,Pedological Divergence,0.3125,0.1106
+414,Wheat,Moong,4,Ecological Compatibility (True in Top-5),0.2731,0.1887
+415,Pigeonpea,Rice,4,Ecological Compatibility (True in Top-5),0.3186,0.2122
+416,Cotton,Rice,4,Ecological Compatibility (True in Top-5),0.3399,0.2007
+417,Chickpea,Mustard,3,Agro-climatic Overlap (True in Top-3),0.3834,0.2418
+418,Groundnut,Rice,9,Pedological Divergence,0.3034,0.1676
+419,Groundnut,Mustard,8,Pedological Divergence,0.3187,0.1543
+420,Sorghum,Rice,12,Pedological Divergence,0.3475,0.1469
+421,Sorghum,Wheat,9,Pedological Divergence,0.2997,0.145
+422,Maize,Rice,3,Agro-climatic Overlap (True in Top-3),0.3423,0.2187
+423,Maize,Wheat,5,Ecological Compatibility (True in Top-5),0.4225,0.1804
+424,Moong,Rice,10,Pedological Divergence,0.3192,0.161
+425,Moong,Wheat,8,Pedological Divergence,0.3392,0.1525
+426,Mustard,Wheat,2,Agro-climatic Overlap (True in Top-3),0.317,0.3138
+430,Rice,Wheat,4,Ecological Compatibility (True in Top-5),0.3119,0.1965
+431,Sesamum,Rice,6,Pedological Divergence,0.3865,0.1885
+432,Soybean,Rice,7,Pedological Divergence,0.3306,0.1837
+433,Soybean,Mustard,16,Pedological Divergence,0.3323,0.1198
+435,Urad,Cotton,5,Ecological Compatibility (True in Top-5),0.3619,0.1847
+436,Urad,Mustard,5,Ecological Compatibility (True in Top-5),0.2839,0.2109
+438,Pigeonpea,Pearl Millet,12,Pedological Divergence,0.2632,0.162
+440,Cotton,Pearl Millet,4,Ecological Compatibility (True in Top-5),0.2574,0.2096
+442,Groundnut,Sorghum,5,Ecological Compatibility (True in Top-5),0.2352,0.209
+443,Sorghum,Moong,3,Agro-climatic Overlap (True in Top-3),0.2332,0.2286
+445,Maize,Chickpea,5,Ecological Compatibility (True in Top-5),0.3529,0.1954
+446,Maize,Rice,4,Ecological Compatibility (True in Top-5),0.3188,0.2227
+447,Moong,Rice,4,Ecological Compatibility (True in Top-5),0.246,0.2261
+448,Moong,Rice,8,Pedological Divergence,0.3638,0.1648
+449,Mustard,Chickpea,3,Agro-climatic Overlap (True in Top-3),0.3677,0.2562
+450,Rice,Cotton,5,Ecological Compatibility (True in Top-5),0.2283,0.2116
+452,Sesamum,Pigeonpea,5,Ecological Compatibility (True in Top-5),0.2679,0.2165
+453,Soybean,Pigeonpea,9,Pedological Divergence,0.2553,0.196
+454,Sugarcane,Maize,13,Pedological Divergence,0.2249,0.1484
+455,Urad,Rice,8,Pedological Divergence,0.2422,0.1989
+456,Urad,Rice,4,Ecological Compatibility (True in Top-5),0.4096,0.1691
+457,Wheat,Mustard,2,Agro-climatic Overlap (True in Top-3),0.2689,0.2667
+458,Pigeonpea,Soybean,3,Agro-climatic Overlap (True in Top-3),0.2671,0.2218
+459,Chickpea,Mustard,3,Agro-climatic Overlap (True in Top-3),0.4015,0.2475
+460,Groundnut,Rice,2,Agro-climatic Overlap (True in Top-3),0.2996,0.2468
+462,Maize,Rice,3,Agro-climatic Overlap (True in Top-3),0.3557,0.2285
+463,Moong,Rice,9,Pedological Divergence,0.2653,0.1868
+464,Moong,Maize,3,Agro-climatic Overlap (True in Top-3),0.3472,0.2324
+465,Finger Millet,Sesamum,8,Pedological Divergence,0.2383,0.1969
+466,Mustard,Chickpea,3,Agro-climatic Overlap (True in Top-3),0.3682,0.2498
+468,Rice,Maize,3,Agro-climatic Overlap (True in Top-3),0.4068,0.2142
+469,Sesamum,Cotton,3,Agro-climatic Overlap (True in Top-3),0.255,0.2275
+470,Soybean,Rice,11,Pedological Divergence,0.2618,0.1811
+473,Urad,Rice,4,Ecological Compatibility (True in Top-5),0.3685,0.192
+474,Wheat,Chickpea,3,Agro-climatic Overlap (True in Top-3),0.3439,0.2295
+475,Pigeonpea,Urad,10,Pedological Divergence,0.257,0.1696
+476,Pearl Millet,Maize,12,Pedological Divergence,0.2498,0.1699
+477,Cotton,Rice,10,Pedological Divergence,0.24,0.1841
+478,Chickpea,Mustard,4,Ecological Compatibility (True in Top-5),0.263,0.2099
+479,Groundnut,Rice,3,Agro-climatic Overlap (True in Top-3),0.2437,0.2322
+480,Groundnut,Urad,8,Pedological Divergence,0.3227,0.165
+481,Groundnut,Moong,4,Ecological Compatibility (True in Top-5),0.4214,0.1927
+482,Sorghum,Rice,12,Pedological Divergence,0.2401,0.172
+483,Maize,Rice,5,Ecological Compatibility (True in Top-5),0.2945,0.2128
+484,Maize,Urad,2,Agro-climatic Overlap (True in Top-3),0.2793,0.2185
+485,Maize,Rice,3,Agro-climatic Overlap (True in Top-3),0.4994,0.2284
+486,Moong,Rice,7,Pedological Divergence,0.2688,0.1978
+487,Moong,Rice,8,Pedological Divergence,0.2544,0.1829
+489,Finger Millet,Rice,6,Pedological Divergence,0.2485,0.1949
+490,Mustard,Chickpea,7,Pedological Divergence,0.2282,0.2027
+493,Rice,Maize,2,Agro-climatic Overlap (True in Top-3),0.2496,0.233
+494,Sesamum,Maize,6,Pedological Divergence,0.2424,0.1973
+495,Sesamum,Rice,3,Agro-climatic Overlap (True in Top-3),0.3132,0.2515
+496,Sesamum,Wheat,12,Pedological Divergence,0.333,0.1261
+497,Soybean,Cotton,9,Pedological Divergence,0.2646,0.1886
+499,Urad,Rice,2,Agro-climatic Overlap (True in Top-3),0.233,0.2267
+500,Urad,Chickpea,5,Ecological Compatibility (True in Top-5),0.2669,0.2144
+501,Wheat,Mustard,2,Agro-climatic Overlap (True in Top-3),0.3271,0.2709
+502,Pigeonpea,Soybean,8,Pedological Divergence,0.234,0.2033
+503,Chickpea,Wheat,2,Agro-climatic Overlap (True in Top-3),0.3036,0.2763
+504,Groundnut,Sesamum,9,Pedological Divergence,0.2386,0.1917
+505,Maize,Rice,2,Agro-climatic Overlap (True in Top-3),0.2543,0.2364
+507,Moong,Sesamum,5,Ecological Compatibility (True in Top-5),0.3006,0.1949
+508,Moong,Rice,3,Agro-climatic Overlap (True in Top-3),0.3519,0.2566
+509,Finger Millet,Pearl Millet,3,Agro-climatic Overlap (True in Top-3),0.2376,0.2078
+512,Rice,Moong,2,Agro-climatic Overlap (True in Top-3),0.3602,0.3164
+513,Sesamum,Rice,4,Ecological Compatibility (True in Top-5),0.2441,0.2187
+514,Soybean,Rice,7,Pedological Divergence,0.2525,0.1938
+516,Urad,Sesamum,10,Pedological Divergence,0.2287,0.1864
+517,Urad,Maize,6,Pedological Divergence,0.3597,0.1547
+518,Wheat,Chickpea,3,Agro-climatic Overlap (True in Top-3),0.3917,0.2579
+519,Pearl Millet,Sorghum,2,Agro-climatic Overlap (True in Top-3),0.2869,0.2584
+522,Maize,Cotton,6,Pedological Divergence,0.2692,0.2155
+523,Mustard,Wheat,3,Agro-climatic Overlap (True in Top-3),0.3199,0.2473
+524,Rice,Sorghum,3,Agro-climatic Overlap (True in Top-3),0.2531,0.226
+525,Wheat,Chickpea,2,Agro-climatic Overlap (True in Top-3),0.3947,0.2782
+526,Pearl Millet,Rice,7,Pedological Divergence,0.2788,0.1902
+527,Pearl Millet,Wheat,12,Pedological Divergence,0.4207,0.1102
+528,Chickpea,Maize,14,Pedological Divergence,0.2435,0.1092
+529,Maize,Rice,3,Agro-climatic Overlap (True in Top-3),0.2344,0.2264
+530,Moong,Groundnut,7,Pedological Divergence,0.2495,0.1979
+531,Finger Millet,Sesamum,10,Pedological Divergence,0.2467,0.1781
+532,Mustard,Rice,15,Pedological Divergence,0.2445,0.1089
+535,Sesamum,Rice,4,Ecological Compatibility (True in Top-5),0.2531,0.2144
+537,Urad,Sesamum,8,Pedological Divergence,0.2704,0.1787
+538,Urad,Mustard,4,Ecological Compatibility (True in Top-5),0.5218,0.1714
+543,Soybean,Rice,6,Pedological Divergence,0.3342,0.1879
+544,Urad,Rice,5,Ecological Compatibility (True in Top-5),0.3301,0.2043
+545,Wheat,Mustard,2,Agro-climatic Overlap (True in Top-3),0.3549,0.3312

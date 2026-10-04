@@ -1,0 +1,6 @@
+perturbation_scenario,ranking_stability_index,kendall_tau,top3_overlap
+Drought Stress (-30% Rainfall),Sensitive,0.492,0.847
+Precipitation Shock (+40% Rainfall),Sensitive,0.496,0.858
+Heat Wave Anomaly (+4 deg C Temp),Sensitive,0.45,0.805
+Soil Acidification (-1.5 pH),Sensitive,0.43,0.825
+Nutrient Depletion (-40% NPK),Sensitive,0.355,0.722

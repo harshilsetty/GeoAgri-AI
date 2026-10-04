@@ -1,0 +1,6 @@
+scenario,sample_count,top1_tipping_rate,top3_overlap_ratio,kendall_tau,spearman_rho
+Drought Stress (-30% Rainfall),200,0.31,0.702,0.086,0.108
+Precipitation Shock (+40% Rainfall),200,0.33,0.687,0.084,0.11
+Heat Wave Anomaly (+4 deg C Temp),200,0.225,0.755,0.123,0.155
+Soil Acidification (-1.5 pH),200,0.225,0.755,0.123,0.155
+Nutrient Depletion (-40% NPK),200,0.33,0.687,0.084,0.11

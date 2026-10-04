@@ -1,0 +1,4 @@
+system,top_1,top_3,top_5,ndcg_3,ndcg_5,mrr,map_5,macro_f1
+V4_Baseline (Multiclass Fused),0.1886,0.4231,0.5824,0.32,0.3849,0.3689,0.3204,0.1614
+V5_Candidate_Learning_to_Rank (LambdaMART),0.1685,0.3773,0.5513,0.2873,0.358,0.3471,0.2951,0.1293
+V5_Multi_Objective_Fused (LTR + KB),0.1447,0.3718,0.5165,0.2738,0.3327,0.3278,0.2725,0.1177

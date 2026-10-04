@@ -1,0 +1,12 @@
+{
+  "model_version": "v1.0",
+  "test_samples": 2019,
+  "accuracy_top1": 0.1872,
+  "top3_accuracy": 0.418,
+  "top5_accuracy": 0.5889,
+  "macro_precision": 0.1593,
+  "macro_recall": 0.1779,
+  "macro_f1": 0.1632,
+  "weighted_f1": 0.1685,
+  "log_loss": 2.3914
+}

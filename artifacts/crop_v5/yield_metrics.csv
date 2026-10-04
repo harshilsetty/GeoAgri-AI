@@ -1,0 +1,3 @@
+model,r2_score,rmse_tha,mae_tha,medae_tha,mape_percent
+Model_C_Shared_OneHot (V4 Certified),0.8086,6.3769,1.7109,0.3645,76.73
+Overall_Test_Conditioned,0.9539,6.377,1.7109,0.3645,76.73
