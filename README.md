@@ -137,20 +137,22 @@ Learn
 
 ```mermaid
 flowchart TD
-    A[Soil Data] --> E[Context & Feature Engine]
-    B[Weather Data] --> E
-    C[Terrain Data] --> E
-    D[Crop Data] --> E
+    A[Geospatial & Environmental Data] --> B[Data Ingestion]
+    B --> C[26D Agronomic Feature Engine]
+    C --> D[XGBoost Crop Models]
+    C --> E[Yield Regressors]
+    D --> F[FAO EcoCrop & ICAR Constraints]
+    E --> F
+    F --> G[Multi-Objective Decision Engine]
+    G --> H[TreeSHAP Explainability]
+    H --> I[LLM / Local Rule-Based Explanation]
+    I --> J[FastAPI Backend]
+    J --> K[Next.js Dashboard]
 
-    E --> F[ML Models]
-    F --> G[Domain Constraints]
-    G --> H[Multi-Objective Decision Engine]
-    H --> I[Explainability]
-    I --> J[Agricultural Recommendation]
-
-    K[Future Remote Sensing] -.-> E
-    J -.-> L[Future Irrigation Advisory]
-    L -.-> M[Future Adaptive Feedback]
+    L[Planned: Sentinel-2 Remote Sensing] -.-> C
+    M[Planned: Moisture Stress Detection] -.-> G
+    N[Planned: FAO-56 Irrigation Intelligence] -.-> G
+    O[Planned: Adaptive Feedback] -.-> G
 ```
 
 ---
@@ -268,7 +270,7 @@ A critical differentiator of GeoAgri AI is its rejection of opaque black-box rec
 
 ## 🖥️ Application
 
-GeoAgri AI delivers its intelligence through two production-ready interfaces:
+GeoAgri AI delivers its intelligence through two implemented interfaces:
 
 ### 1. FastAPI REST Backend (`src/api/backend_api.py`)
 * Fully typed with Pydantic validation and asynchronous request handling.
@@ -291,46 +293,46 @@ GeoAgri AI delivers its intelligence through two production-ready interfaces:
 
 ```text
 GeoAgri-AI/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── requirements.txt
-├── pyproject.toml
-├── agri_features.py
-├── agri_inference.py
-├── geo_features.py
-├── backend_api.py
-│
-├── docs/
-│   ├── problem-statement.md
-│   ├── solution-overview.md
-│   ├── architecture.md
-│   ├── methodology.md
-│   └── migration-notes.md
-│
-├── src/
-│   ├── preprocessing/
-│   ├── geospatial/
-│   ├── models/
-│   ├── explainability/
-│   ├── vision/
-│   ├── utils/
-│   └── api/
-│
-├── models/
-│   ├── crop/
-│   └── erosion_model.pkl
-│
-├── data/
-│   ├── README.md
-│   └── agriculture/
-│
-├── artifacts/
-├── scripts/
-├── tests/
-├── ui/
-├── notebooks/
-└── assets/
+|-- README.md
+|-- LICENSE
+|-- .gitignore
+|-- requirements.txt
+|-- pyproject.toml
+|-- agri_features.py
+|-- agri_inference.py
+|-- geo_features.py
+|-- backend_api.py
+|
+|-- docs/
+|   |-- problem-statement.md
+|   |-- solution-overview.md
+|   |-- architecture.md
+|   |-- methodology.md
+|   `-- migration-notes.md
+|
+|-- src/
+|   |-- preprocessing/
+|   |-- geospatial/
+|   |-- models/
+|   |-- explainability/
+|   |-- vision/
+|   |-- utils/
+|   `-- api/
+|
+|-- models/
+|   |-- crop/
+|   `-- erosion_model.pkl
+|
+|-- data/
+|   |-- README.md
+|   `-- agriculture/
+|
+|-- artifacts/
+|-- scripts/
+|-- tests/
+|-- ui/
+|-- notebooks/
+`-- assets/
 ```
 
 ---
