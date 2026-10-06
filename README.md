@@ -10,7 +10,38 @@
 [![Target: KPIT Sparkle 2027](https://img.shields.io/badge/KPIT_Sparkle-2027-red.svg)](https://www.kpit.com/sparkle/)
 [![Tests Passing](https://img.shields.io/badge/Tests-79%2F79%20Passed-brightgreen.svg)](tests/)
 
-**GeoAgri AI** is an intelligent geospatial agricultural decision-support system designed to transform heterogeneous spatial, environmental, and crop-related observations into actionable agricultural insights. Developed as an advanced engineering foundation for the **KPIT Sparkle 2027** competition, GeoAgri AI assists agronomists and farmers with evidence-based crop suitability selection, environmental risk assessment, and explainable decision guidance, progressing systematically toward early moisture-stress detection and predictive irrigation advisory.
+![GeoAgri AI System Overview](assets/geoagri-ai-overview.png)
+
+*From geospatial data to explainable agricultural decisions.*
+
+**GeoAgri AI** is an intelligent geospatial agricultural decision-support system designed to transform heterogeneous spatial, environmental, and crop-related observations into actionable agricultural guidance. Developed as an engineering foundation for the **KPIT Sparkle 2027** competition (*AI for Crop Monitoring, Moisture Stress Detection & Irrigation Advisory*), GeoAgri AI assists agronomists and farmers with evidence-based crop suitability selection, environmental risk assessment, and transparent decision attribution, progressing systematically toward satellite-derived moisture-stress detection and predictive irrigation scheduling.
+
+> [!NOTE]
+> **Engineering Scope Notice**: Multi-source data ingestion, the 26-dimensional agronomic feature engine, calibrated XGBoost crop suitability models, yield regressors, and TreeSHAP explainability layers are **fully implemented and verified (79/79 tests passing)**. Satellite remote sensing (Sentinel-2) and closed-loop volumetric irrigation scheduling (FAO-56) are currently in active development as part of the competition roadmap. GeoAgri AI is a decision-support research system and does not claim autonomous farming or guaranteed yields.
+
+---
+
+## 📑 Table of Contents
+
+- [Problem](#problem)
+- [Solution](#solution)
+- [The Idea in 30 Seconds](#the-idea-in-30-seconds)
+- [Why This Is Different](#why-this-is-different)
+- [The Core Decision](#the-core-decision)
+- [System Architecture](#system-architecture)
+- [Current Capabilities vs. Roadmap](#current-capabilities-vs-roadmap)
+- [KPIT Sparkle 2027 Roadmap](#kpit-sparkle-2027-roadmap)
+- [AI / ML Stack](#ai--ml-stack)
+- [Data Sources](#data-sources)
+- [Explainability & Decision Intelligence](#explainability--decision-intelligence)
+- [Application & Interfaces](#application--interfaces)
+- [Demo & Interface Previews](#demo--interface-previews)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Validation](#validation)
+- [Research & References](#research--references)
+- [Team & License](#team)
 
 ---
 
@@ -102,34 +133,89 @@ PREDICTIVE IRRIGATION ADVISORY
 
 ---
 
-## 🧠 How GeoAgri AI Works
+## ⏱️ The Idea in 30 Seconds
 
-GeoAgri AI operates under a continuous six-stage operational doctrine:
+A concise walkthrough of how GeoAgri AI transforms spatial data into explainable field decisions:
 
 ```text
-Observe
+🌾 FIELD
    ↓
-Understand
+🛰️ Observe
+   Satellite / weather / soil / terrain data
    ↓
-Reason
+🌱 Understand
+   Crop health + moisture stress
    ↓
-Decide
+🧠 Reason
+   ML + agronomic knowledge + constraints
    ↓
-Recommend
+💡 Explain
+   Why this recommendation?
    ↓
-Learn
+💧 Decide
+   WHEN + WHERE + HOW MUCH
+   ↓
+🔄 Learn
+   Field outcomes → future calibration
 ```
 
-1. **Observe (Data Ingestion)**: Ingests coordinates (latitude, longitude) and agricultural season (Kharif, Rabi, Summer, Whole Year), retrieving depth-stratified physical soil properties (ISRIC SoilGrids), ICAR zonal chemical fertility baselines, Open-Meteo live weather & forecasts, and Open-Elevation DEM data.
-2. **Understand (Feature Engine)**: Synthesizes a certified 26-dimensional agronomic feature vector containing derived indicators:
-   * **Soil Fertility Index (SFI)**: Composite macronutrient sufficiency ($N, P, K, OC, pH$) normalized to $[0, 100]$.
-   * **Water Stress Index (WSI)**: Atmospheric evaporative demand ($ET_0$) relative to available rootzone moisture and recent precipitation.
-   * **Rainfall Deviation (RD)**: 90-day precipitation anomaly relative to long-term seasonal baselines.
-   * **Soil Moisture Index (SMI)**: Surface and shallow rootzone moisture scaled between field capacity and permanent wilting point.
-3. **Reason (Models & Domain Rules)**: Evaluates candidate crops using calibrated multi-class XGBoost models and secondary yield regressors, simultaneously filtering candidates through FAO EcoCrop physiological boundary matrices.
-4. **Decide (Multi-Objective Optimization)**: Combines model probability ($w=0.45$), soil compatibility ($w=0.20$), seasonal alignment ($w=0.15$), climate envelope safety ($w=0.10$), and terrain erosion safety ($w=0.10$) into a composite score, auditing decision margins and ranking stability.
-5. **Recommend (Advisory Delivery)**: Formulates top-$K$ crop recommendations, predicted productivity ($t/ha$), risk profiles, and audit-ready reports delivered via FastAPI and an interactive Next.js dashboard.
-6. **Learn / Explain (Attribution & Feedback)**: Deconstructs predictions into exact TreeSHAP attribution drivers and limiting barriers, feeding verifiable evidence into grounded LLM narratives with certified local fallbacks.
+* **🌾 Field**: The real agricultural parcel under consideration, defined by coordinates and seasonal cropping cycle.
+* **🛰️ Observe**: Automatically collects depth-stratified soil physics, local chemical benchmarks, live weather, and elevation slope without requiring custom sensor hardware.
+* **🌱 Understand**: Translates raw points into 26 certified agronomic metrics (e.g., Soil Fertility Index, Water Stress Index, Rainfall Deviation) and planned spectral vegetation indices.
+* **🧠 Reason**: Evaluates candidate crops using calibrated XGBoost models and secondary yield regressors, filtered through biological FAO EcoCrop lethal threshold matrices.
+* **💡 Explain**: Provides exact TreeSHAP signed attributions showing agronomists the primary positive drivers and limiting barriers behind every recommendation.
+* **💧 Decide**: Synthesizes multi-objective priorities to answer the three core irrigation dilemmas: **When? Where? How much?**
+* **🔄 Learn**: Ingests post-harvest outcome data to continuously calibrate regional model weights for future seasons.
+
+---
+
+## ⚖️ Why This Is Different
+
+Understanding the distinction between conventional decision-support workflows and GeoAgri AI's multi-layered decision intelligence:
+
+### Typical Decision-Support Workflow
+```text
+Data  ──▶  Human Interpretation  ──▶  Irrigation / Crop Decision
+```
+* Environmental data streams (soil tests, rainfall records) are typically siloed, non-standardized, and retrospective.
+* Growers and field advisors must manually reconcile contradictory variables without quantitative feature attribution.
+* Recommendations often rely on single-factor heuristics, calendar schedules, or seasonal habit rather than micro-climate suitability.
+
+### GeoAgri AI Decision Architecture
+```text
+Multi-Source Data
+       ↓
+Crop Understanding
+       ↓
+Moisture / Stress Analysis
+       ↓
+Domain Constraints (FAO / ICAR)
+       ↓
+AI Reasoning (XGBoost + Regressors)
+       ↓
+Explainable Recommendation (TreeSHAP)
+       ↓
+Outcome Feedback
+```
+* **Unified Feature Engine**: Ingests soil physics, chemical fertility, elevation slope, and live weather into a synchronized 26D agronomic vector.
+* **Separation of Concerns**: Strictly separates statistical classification certainty (**Model Confidence**) from agro-ecological suitability (**Agronomic Suitability**), preventing overconfidence in marginal soil conditions.
+* **Biological Domain Guardrails**: Enforces hard physiological envelopes (FAO EcoCrop) to prevent statistically high-probability recommendations in lethal temperature or moisture regimes.
+* **Audit-Ready Attribution**: Provides exact signed TreeSHAP values explaining *why* a crop is recommended and *what* specific limiting factors exist.
+
+---
+
+## 💧 The Core Decision
+
+GeoAgri AI is ultimately designed to transform complex agricultural data into three actionable answers for field management:
+
+| Dimension | Question | What Drives the Decision? | Status |
+| :--- | :--- | :--- | :---: |
+| **WHEN?** | When should the farmer irrigate? | Evapotranspiration ($ET_0$) demand, 7-day precipitation forecasts, and rootzone depletion rate | 🔜 *Roadmap (Phase 4)* |
+| **WHERE?** | Which field zone requires attention first? | Topographic slope, soil infiltration capacity, and satellite canopy moisture stress zonation | 🔜 *Roadmap (Phase 3 & 4)* |
+| **HOW MUCH?** | How much water should be applied? | Dynamic FAO-56 dual crop coefficient ($K_c$) soil-water balance and field capacity ($m^3/ha$) | 🔜 *Roadmap (Phase 4)* |
+
+> [!NOTE]
+> *Implementation Note*: While the foundational geospatial ingestion, 26D feature engine, XGBoost crop suitability classifiers, and TreeSHAP explainability layers are **fully implemented and verified**, spatial moisture stress zonation and closed-loop volumetric irrigation scheduling are part of the **active development roadmap** for KPIT Sparkle 2027.
 
 ---
 
@@ -137,51 +223,49 @@ Learn
 
 ```mermaid
 flowchart TD
-    A[Geospatial & Environmental Data] --> B[Data Ingestion]
-    B --> C[26D Agronomic Feature Engine]
-    C --> D[XGBoost Crop Models]
-    C --> E[Yield Regressors]
-    D --> F[FAO EcoCrop & ICAR Constraints]
+    A["Geospatial & Environmental Data"] --> B["Data Ingestion"]
+    B --> C["26D Agronomic Feature Engine"]
+    C --> D["XGBoost Crop Models"]
+    C --> E["Yield Regressors"]
+    D --> F["FAO EcoCrop & ICAR Constraints"]
     E --> F
-    F --> G[Multi-Objective Decision Engine]
-    G --> H[TreeSHAP Explainability]
-    H --> I[LLM / Local Rule-Based Explanation]
-    I --> J[FastAPI Backend]
-    J --> K[Next.js Dashboard]
+    F --> G["Multi-Objective Decision Engine"]
+    G --> H["TreeSHAP Explainability"]
+    H --> I["LLM / Local Rule-Based Explanation"]
+    I --> J["FastAPI Backend"]
+    J --> K["Next.js Dashboard"]
 
-    L[Planned: Sentinel-2 Remote Sensing] -.-> C
-    M[Planned: Moisture Stress Detection] -.-> G
-    N[Planned: FAO-56 Irrigation Intelligence] -.-> G
-    O[Planned: Adaptive Feedback] -.-> G
+    L["Planned: Sentinel-2 Remote Sensing"] -.-> C
+    M["Planned: Moisture Stress Detection"] -.-> G
+    N["Planned: FAO-56 Irrigation Intelligence"] -.-> G
+    O["Planned: Adaptive Feedback"] -.-> G
 ```
 
 ---
 
-## ✨ Current Capabilities
-
-The following capabilities are **verified and actively implemented** in the repository:
+## 📊 Current Capabilities vs. Roadmap
 
 | Capability | Status | Technology | Description |
 | :--- | :---: | :--- | :--- |
-| **Geospatial Data Ingestion** | ✅ Implemented | SoilGrids, Open-Meteo, Open-Elevation | Ingests soil physics/chemistry, live weather, forecasts, elevation, and terrain slope. |
-| **Agronomic Feature Engineering** | ✅ Implemented | 26D Feature Pipeline (`src/preprocessing/`) | Mathematically grounded computation of SFI, WSI, RD, and SMI. |
-| **Crop Suitability Prediction** | ✅ Implemented | XGBoost 2.0+ (`models/crop/v1`–`v5`) | Calibrated multi-class gradient boosted trees classifying suitability across 16–22 crop varieties. |
-| **Harvest Yield Estimation** | ✅ Implemented | Secondary XGBoost Regressors | Predicts expected crop productivity in metric tons per hectare ($t/ha$). |
-| **Crop Ranking & Optimization** | ✅ Implemented | Learning-to-Rank / Multi-Objective Scoring | Ranks candidate crops across model probability, soil, season, climate, and erosion safety. |
-| **Physiological Domain Constraints** | ✅ Implemented | FAO EcoCrop & ICAR Rule Base | Hard and soft constraint boundary filters evaluating lethal temperature, pH, and water envelopes. |
-| **Explainable AI & Attribution** | ✅ Implemented | TreeSHAP + Groq LLaMA-3.1 / Local Fallback | Local feature attribution isolating top positive drivers and limiting factors; zero-hallucination narratives. |
-| **Application Backend API** | ✅ Implemented | FastAPI, Uvicorn, Pydantic | Asynchronous REST service serving `/health`, `/debug/model`, and `/api/agriculture/recommend`. |
-| **Web Dashboard** | ✅ Implemented | Next.js 14, React 18, Leaflet, TailwindCSS | Interactive farm dashboard with coordinate map picker, suitability rankings, and PDF report generation. |
-| **Automated Test Suite** | ✅ Implemented | Pytest, Pytest-Asyncio, HTTPX | 16 test suites covering calibration, inference, registry, ranking, regression, and API contracts (**79/79 passed**). |
-| **Sentinel-2 Remote Sensing** | 🚧 Roadmap | Multispectral Satellite Ingestion | Automated ingestion of 10m–20m bands with scene classification cloud masking. |
-| **Moisture Stress Detection** | 🚧 Roadmap | Remote Sensing + Machine Learning | Calculation of CWSI, NDWI, NDRE, and canopy vigor segmentation to detect pre-visual water deficit. |
-| **Predictive Irrigation Advisory** | 🚧 Roadmap | FAO-56 + Contextual Reasoning | Forecast-driven daily irrigation scheduling ($m³/ha$) optimizing water retention and crop growth stages. |
+| **Soil/weather/topography ingestion** | ✅ Implemented | SoilGrids v2, Open-Meteo, Open-Elevation | Ingests soil physics/chemistry, live weather, forecasts, elevation, and terrain slope. |
+| **26D agronomic feature engine** | ✅ Implemented | 26D Feature Pipeline (`src/preprocessing/`) | Mathematically grounded computation of SFI, WSI, RD, and SMI. |
+| **XGBoost crop models** | ✅ Implemented | XGBoost 2.0+ (`models/crop/v1`–`v5`) | Calibrated multi-class gradient boosted trees classifying suitability across 16–22 crop varieties. |
+| **Yield estimation** | ✅ Implemented | Secondary XGBoost Regressors | Predicts expected crop productivity in metric tons per hectare ($t/ha$). |
+| **FAO EcoCrop / ICAR constraints** | ✅ Implemented | FAO EcoCrop & ICAR Rule Base | Hard and soft constraint boundary filters evaluating lethal temperature, pH, and water envelopes. |
+| **TreeSHAP explainability** | ✅ Implemented | TreeSHAP + Groq LLaMA-3.1 / Local Fallback | Local feature attribution isolating top positive drivers and limiting factors; zero-hallucination narratives. |
+| **FastAPI backend** | ✅ Implemented | FastAPI, Uvicorn, Pydantic | Asynchronous REST service serving `/health`, `/debug/model`, and `/api/agriculture/recommend`. |
+| **Next.js dashboard** | ✅ Implemented | Next.js 14, React 18, Leaflet, TailwindCSS | Interactive farm dashboard with coordinate map picker, suitability rankings, and PDF report generation. |
+| **Sentinel-2 integration** | 🚧 In Development | Multispectral Satellite Ingestion | Automated ingestion of 10m–20m bands with scene classification cloud masking. |
+| **NDVI / NDRE / EVI / NDWI** | 🚧 In Development | Remote Sensing Indices Engine | Calculation of spectral vegetation indices to track vegetative vigor and water absorption anomalies. |
+| **Moisture stress zoning** | 🔜 Planned | Remote Sensing + Machine Learning | Spatial field zonation classifying crops into No Stress, Moderate Deficit, and Critical Stress. |
+| **FAO-56 irrigation scheduling** | 🔜 Planned | FAO-56 + Contextual Reasoning | Forecast-driven daily irrigation scheduling ($m³/ha$) optimizing water retention and crop growth stages. |
+| **Adaptive feedback loop** | 🔜 Planned | Post-Harvest Feedback Pipeline | Post-harvest outcome collection to continuously calibrate regional model weights. |
 
 ---
 
 ## 🚧 KPIT Sparkle 2027 Roadmap
 
-GeoAgri AI is developed to address the **KPIT Sparkle 2027** competition challenge:
+GeoAgri AI is developed against the **KPIT Sparkle 2027** competition challenge:
 
 > **AI for Crop Monitoring, Moisture Stress Detection & Irrigation Advisory**
 
@@ -205,7 +289,7 @@ Irrigation Advisory
 Adaptive Feedback
 ```
 
-### Development Phases
+### Phased Development Milestones
 
 * **Phase 1 — Foundation (Completed & Verified)**:
   * Multi-source geospatial data ingestion (SoilGrids, Open-Meteo, Open-Elevation, ICAR baselines).
@@ -268,9 +352,9 @@ A critical differentiator of GeoAgri AI is its rejection of opaque black-box rec
 
 ---
 
-## 🖥️ Application
+## 🖥️ Application & Interfaces
 
-GeoAgri AI delivers its intelligence through two implemented interfaces:
+GeoAgri AI delivers its intelligence through two primary interfaces:
 
 ### 1. FastAPI REST Backend (`src/api/backend_api.py`)
 * Fully typed with Pydantic validation and asynchronous request handling.
@@ -289,6 +373,40 @@ GeoAgri AI delivers its intelligence through two implemented interfaces:
 
 ---
 
+## 📸 Demo & Interface Previews
+
+To maintain complete engineering integrity, actual screenshots are accompanied by development milestone previews reflecting currently active integration tracks:
+
+### 1. Interactive Web Dashboard (GIS & Agronomic Telemetry)
+
+![Interactive Web Dashboard Preview](assets/dashboard-preview.png)
+*Dashboard preview — coming in the next development milestone.*
+
+* **Status**: Next.js 14 frontend with Leaflet GIS map picker implemented; live API integration and visual capture scheduled for Milestone 2.
+* **Core Views**: Coordinate picker map, top-$K$ crop suitability rankings, real-time SFI/WSI risk telemetry cards, and audit-ready PDF export.
+
+---
+
+### 2. Canopy Moisture Stress & Spatial Zonation
+
+![Canopy Moisture Stress Map Preview](assets/stress-map-preview.png)
+*Moisture stress map preview — coming in the next development milestone.*
+
+* **Status**: Scheduled for Phase 3 implementation.
+* **Core Views**: Copernicus Sentinel-2 Level-2A surface reflectance ingestion, pre-visual moisture stress indices (CWSI, NDWI, NDRE), and 3-tier parcel zonation (*No Stress*, *Moderate Deficit*, *Critical Stress*).
+
+---
+
+### 3. FAO-56 Predictive Irrigation Advisory
+
+![Predictive Irrigation Advisory Preview](assets/irrigation-advisory-preview.png)
+*Irrigation advisory preview — coming in the next development milestone.*
+
+* **Status**: Scheduled for Phase 4 implementation.
+* **Core Views**: Dynamic soil-water balance tracking, dual crop coefficient ($K_c$) growth-stage curves, 7-day forecast deficit alerts, and volumetric watering schedules ($m^3/ha$).
+
+---
+
 ## 📁 Project Structure
 
 ```text
@@ -302,6 +420,13 @@ GeoAgri-AI/
 |-- agri_inference.py
 |-- geo_features.py
 |-- backend_api.py
+|
+|-- assets/
+|   |-- README.md
+|   |-- geoagri-ai-overview.png
+|   |-- dashboard-preview.png
+|   |-- stress-map-preview.png
+|   `-- irrigation-advisory-preview.png
 |
 |-- docs/
 |   |-- problem-statement.md
@@ -331,8 +456,7 @@ GeoAgri-AI/
 |-- scripts/
 |-- tests/
 |-- ui/
-|-- notebooks/
-`-- assets/
+`-- notebooks/
 ```
 
 ---
@@ -408,7 +532,7 @@ uvicorn src.api.backend_api:app --host 0.0.0.0 --port 8000 --reload
 
 #### Sample Inference Request via `curl`:
 ```bash
-curl -X 'GET'   'http://localhost:8000/api/agriculture/recommend?lat=15.335&lon=76.46&season=Kharif&topK=5'   -H 'accept: application/json'
+curl -X 'GET' 'http://localhost:8000/api/agriculture/recommend?lat=15.335&lon=76.46&season=Kharif&topK=5' -H 'accept: application/json'
 ```
 
 ### 2. Python Programmatic Inference
@@ -460,68 +584,6 @@ To execute the test suite locally:
 ```bash
 python -m pytest tests -v
 ```
-
----
-
-## 🗺️ Roadmap
-
-The technical milestones guiding GeoAgri AI's evolution toward KPIT Sparkle 2027 are structured as follows:
-
-### Phase 1 — Foundation (Current)
-* Multi-source geospatial data ingestion (SoilGrids, Open-Meteo, Open-Elevation, ICAR).
-* 26D agronomic feature engine (SFI, WSI, RD, SMI).
-* Calibrated XGBoost crop suitability and yield regression models.
-* TreeSHAP feature attributions and hybrid LLM/local explainability.
-* Production FastAPI service and Next.js 14 interactive GIS dashboard.
-
-### Phase 2 — Remote Sensing (In Development)
-* Automated Sentinel-2 Level-2A surface reflectance ingestion via Copernicus API.
-* Scene classification (SCL) cloud and cloud-shadow masking.
-* Computation of spectral vegetation indices (NDVI, NDRE, EVI, NDWI).
-
-### Phase 3 — Crop Stress Intelligence (Planned)
-* Deep learning canopy segmentation using DeepLabV3+.
-* Shortwave Infrared (SWIR) and thermal water-absorption band anomaly analysis.
-* Pre-visual crop moisture stress classification and spatial stress zoning.
-
-### Phase 4 — Irrigation Intelligence (Planned)
-* FAO-56 dual crop coefficient ($K_c$) daily soil-water balance modeling.
-* Meteorological forecast integration to predict impending moisture deficit.
-* Actionable volumetric irrigation scheduling ($m³/ha$) and timing guidance.
-
-### Phase 5 — Adaptive Intelligence (Planned)
-* Post-harvest ground-truth outcome ingestion.
-* Regional model weight calibration based on realized harvest yields and farmer feedback.
-
----
-
-## 🎯 KPIT Sparkle 2027
-
-GeoAgri AI is being developed against the **KPIT Sparkle 2027** competition challenge under the Smart Agriculture & Resource Sustainability domain:
-
-> **AI for Crop Monitoring, Moisture Stress Detection & Irrigation Advisory**
-
-### Evolution Toward Competition Scope
-
-```text
-Current Foundation
-        ↓
-Geospatial + Agronomic Intelligence
-        ↓
-Remote Sensing
-        ↓
-Crop State Understanding
-        ↓
-Moisture Stress Detection
-        ↓
-Contextual Reasoning
-        ↓
-Irrigation Advisory
-        ↓
-Adaptive Feedback
-```
-
-By combining established geospatial and agronomic intelligence with upcoming satellite remote sensing and FAO-56 water balance modeling, GeoAgri AI aims to provide a rigorous, transparent, and scalable decision-support solution for climate-resilient agriculture.
 
 ---
 
